@@ -1,0 +1,4 @@
+[submodule "languages"]
+	path = languages
+	url = https://github.com/drlechk/smartrosary-language.git
+	branch = main

@@ -6,6 +6,7 @@ audio LittleFS partition.
 ## Layout
 
 - `text.json` defines prayer texts and available TTS voice variants.
+- `languages/` is the `smartrosary-language` Git submodule with canonical device language definitions.
 - `generate_audio.py` generates MP3 files through the local Chatterbox API.
 - `pl-zofia/` contains generated Polish MP3s using `Zofia-PL.wav`.
 - `pl-marek/` contains generated Polish MP3s using `Marek-PL.wav`.
@@ -113,7 +114,9 @@ example, `./generate_audio.py pl` generates every `pl-*` voice.
 ## Add A Language
 
 Add a new text set under `texts`, then add one or more voice variants that point
-to it. Planned language keys include `en`, `de`, `pl`, `fr`, `es`, and `pt`.
+to it. Use the `languages/` submodule for the matching canonical device
+language definitions. Planned language keys include `en`, `de`, `pl`, `fr`, `es`,
+and `pt`.
 
 The `language` field is sent to Chatterbox. Common language names such as
 `polish`, `german`, `english`, `french`, `spanish`, and `portuguese` are mapped
