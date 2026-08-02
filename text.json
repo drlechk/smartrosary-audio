@@ -1,0 +1,44 @@
+{
+  "texts": {
+    "pl": {
+      "010": "Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, i w Jezusa Chrystusa, Syna Jego jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Ponckim Piłatem, ukrzyżowan, umarł i pogrzebion.\nZstąpił do piekieł, trzeciego dnia zmartwychwstał. Wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego.\nStamtąd przyjdzie sądzić żywych i umarłych.\nWierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny.\nAmen.",
+      "020": "Ojcze nasz,\nktóryś jest w niebie:\nświęć się imię Twoje,\nprzyjdź Królestwo Twoje,\nbądź wola Twoja jako w niebie,\ntak i na ziemi.",
+      "021": "Chleba naszego powszedniego\ndaj nam dzisiaj.\nI odpuść nam nasze winy,\njako i my odpuszczamy naszym winowajcom.\nI nie wódź nas na pokuszenie,\nale nas zbaw od złego, Amen.",
+      "030": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego Jezus.",
+      "031": "Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej, Amen.",
+      "040": "Chwała Ojcu i Synowi, i Duchowi Świętemu, jak była na początku, teraz i zawsze, i na wieki wiekó, Amen.",
+      "050": "O mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
+      "060": "Ojcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.",
+      "070": "Dla Jego bolesnej męki.",
+      "071": "Miej miłosierdzie dla nas i całego świata.",
+      "080": "Święty Boże, Święty Mocny, Święty Nieśmiertelny, zmiłuj się nad nami i nad całym światem.",
+      "090": "Jezu ufam Tobie. Jezu ufam Tobie. Jezu ufam Tobie"
+    }
+  },
+  "voices": {
+    "pl-zofia": {
+      "texts": "pl",
+      "language": "polish",
+      "voice": "Zofia PL",
+      "predefined_voice_id": "Zofia-PL.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "pl-marek": {
+      "texts": "pl",
+      "language": "polish",
+      "voice": "Marek PL",
+      "predefined_voice_id": "Marek-PL.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    }
+  }
+}
