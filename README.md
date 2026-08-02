@@ -54,6 +54,15 @@ Use a different Chatterbox endpoint:
 
 ## Chatterbox Settings
 
+Audio generation requires a running
+[Chatterbox TTS](https://github.com/resemble-ai/chatterbox) service. This repo
+uses the local Chatterbox HTTP API at `http://192.168.3.201:8004`; its API docs
+are available at `http://192.168.3.201:8004/docs`.
+
+The predefined voice reference files come from
+[yaph/tts-samples](https://github.com/yaph/tts-samples). Current Polish voice
+variants use `Zofia-PL.wav` and `Marek-PL.wav`.
+
 `generate_audio.py` calls the Chatterbox `/tts` endpoint and writes the returned
 MP3 bytes to the selected voice directory.
 
@@ -128,3 +137,39 @@ Build the ESP32-S3 filesystem image from the firmware repo:
 
 This creates `audio.bin` from the selected voice directory and flashes it to the
 S3 `audio` partition when using `uploadfs`.
+
+## Standalone Audio Partition Image
+
+`build_audiofs.py` creates the same kind of LittleFS image directly from this
+audio repo. By default it packages `pl-marek` using the ESP32-S3 audio partition
+size, `0x2C1000` bytes.
+
+Build the default image:
+
+```sh
+./build_audiofs.py
+```
+
+Build a specific voice variant:
+
+```sh
+./build_audiofs.py pl-zofia
+./build_audiofs.py pl-marek
+```
+
+Write to a custom output path:
+
+```sh
+./build_audiofs.py pl-marek -o audio.bin
+```
+
+The default output is:
+
+```text
+build/<voice-variant>/audio.bin
+```
+
+The script uses the Python `littlefs` package. If the system Python does not
+have it installed, the script automatically re-runs with PlatformIO's Python at
+`~/.platformio/penv/bin/python`, which is the same environment used by the
+firmware build.
