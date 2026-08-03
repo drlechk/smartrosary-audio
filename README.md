@@ -5,8 +5,11 @@ audio LittleFS partition.
 
 ## Layout
 
-- `text.json` defines prayer texts and available TTS voice variants.
+- `basic-prayer-texts.json` defines prayer texts and available TTS voice variants.
 - `languages/` is the `smartrosary-language` Git submodule with canonical device language definitions.
+- `audio-languages/` contains audio-only normalized language text derived from the canonical submodule.
+- `mystery-prefix.json` contains language-specific text used to prefix mystery title audio.
+- `replace-for-audio.json` contains language-specific text replacements applied before TTS.
 - `generate_audio.py` generates MP3 files through the local Chatterbox API.
 - `pl-zofia/` contains generated Polish MP3s using `Zofia-PL.wav`.
 - `pl-marek/` contains generated Polish MP3s using `Marek-PL.wav`.
@@ -45,12 +48,37 @@ Regenerate selected clip IDs only:
 ```sh
 ./generate_audio.py pl-zofia --only 090
 ./generate_audio.py pl --only 030 031
+./generate_audio.py pl --only mT1 m11
 ```
 
 Use a different Chatterbox endpoint:
 
 ```sh
 ./generate_audio.py pl-marek --api-url http://192.168.3.201:8004
+```
+
+Use a different audio-only language text directory:
+
+```sh
+./generate_audio.py pl --audio-languages-dir ./audio-languages
+```
+
+Use a different replacement file:
+
+```sh
+./generate_audio.py pl --replace-for-audio ./replace-for-audio.json
+```
+
+Use a different mystery prefix file:
+
+```sh
+./generate_audio.py pl --mystery-prefix ./mystery-prefix.json
+```
+
+Disable generated-MP3 trailing silence trimming:
+
+```sh
+./generate_audio.py pl --no-trim-trailing-silence
 ```
 
 ## Chatterbox Settings
@@ -65,7 +93,37 @@ The predefined voice reference files come from
 variants use `Zofia-PL.wav` and `Marek-PL.wav`.
 
 `generate_audio.py` calls the Chatterbox `/tts` endpoint and writes the returned
-MP3 bytes to the selected voice directory.
+MP3 bytes to the selected voice directory. For Polish voices, it also reads
+non-empty `mT1`..`mT5` and `m11`..`m55` mystery strings from
+`audio-languages/pl.json` and generates matching MP3 files such as `mT1.mp3`
+and `m11.mp3`. That audio-only file is derived from the canonical `languages/`
+submodule, but it strips display-only leading Roman numbering such as `I.` and
+trailing whitespace or `-` characters before TTS. The canonical language
+submodule remains unchanged for firmware and editor use.
+
+For mystery title clips such as `m11.mp3`, `mystery-prefix.json` adds spoken
+prefixes before TTS. Polish currently uses phrases such as `pierwsza tajemnica
+radosna` and `pierwsza tajemnica światła`.
+
+After language text is loaded and mystery prefixes are applied,
+`replace-for-audio.json` applies ordered string replacements before the text is
+sent to TTS. The file is scoped by language:
+
+```json
+{
+  "pl": [
+    { "from": "NMP", "to": "Najświętszej Maryi Panny" }
+  ]
+}
+```
+
+Every generated MP3 is postprocessed with `ffmpeg` to trim trailing low-level
+audio once the tail is at least `0.5` seconds long. The default trim keeps
+`0.15` seconds at the end and treats audio below `-30dB` as silence/noise floor.
+It also trims when that low-level tail is followed by up to `0.75` seconds of
+generated ramp/noise. Tune this with `--trim-silence-duration`,
+`--trim-silence-keep`, `--trim-silence-threshold`, and
+`--trim-trailing-noise-window`.
 
 The request uses these fixed generation options:
 
@@ -74,7 +132,7 @@ The request uses these fixed generation options:
 - `split_text`: `true`
 - `stream`: `false`
 
-Per-voice settings live in `text.json`. Current Polish voices use slow,
+Per-voice settings live in `basic-prayer-texts.json`. Current Polish voices use slow,
 neutral speech parameters:
 
 - `temperature`: `0.25`
@@ -88,7 +146,7 @@ Each voice variant selects its Chatterbox voice file through
 
 ## Add A Voice Variant
 
-Add a new entry under `voices` in `text.json`. The key should be
+Add a new entry under `voices` in `basic-prayer-texts.json`. The key should be
 `language-voice`, for example `pl-marek`, `de-anna`, or `en-john`.
 
 Example:
@@ -115,8 +173,9 @@ example, `./generate_audio.py pl` generates every `pl-*` voice.
 
 Add a new text set under `texts`, then add one or more voice variants that point
 to it. Use the `languages/` submodule for the matching canonical device
-language definitions. Planned language keys include `en`, `de`, `pl`, `fr`, `es`,
-and `pt`.
+language definitions, and put any spoken-only normalized strings in
+`audio-languages/` so firmware language text remains unchanged. Planned language
+keys include `en`, `de`, `pl`, `fr`, `es`, and `pt`.
 
 The `language` field is sent to Chatterbox. Common language names such as
 `polish`, `german`, `english`, `french`, `spanish`, and `portuguese` are mapped
@@ -138,14 +197,22 @@ Build the ESP32-S3 filesystem image from the firmware repo:
 /Users/lech/.platformio/penv/bin/pio run -e esp32-s3-touch-amoled-1-75 -t buildfs
 ```
 
-This creates `audio.bin` from the selected voice directory and flashes it to the
-S3 `audio` partition when using `uploadfs`.
+This creates `audio-rosary.bin` from the selected voice directory and flashes it
+to the S3 `audio-rosary` partition when using `uploadfs`. Firmware build outputs keep
+the image under the selected voice subdirectory, for example
+`.pio/build/esp32-s3-touch-amoled-1-75/pl-marek/audio-rosary.bin`.
+The image also contains a generated `/audio-manifest.json` file with MP3
+durations in milliseconds so firmware auto-play countdowns do not need to scan
+MP3 frames at runtime.
 
 ## Standalone Audio Partition Image
 
 `build_audiofs.py` creates the same kind of LittleFS image directly from this
-audio repo. By default it packages `pl-marek` using the ESP32-S3 audio partition
-size, `0x2C1000` bytes.
+audio repo. By default it packages `pl-marek` using the ESP32-S3 `audio-rosary`
+partition size, `0x134000` bytes. The separate S3 `audio-contemplation` space is
+reserved for future content.
+The standalone builder also embeds `/audio-manifest.json` with per-file MP3
+durations in milliseconds.
 
 Build the default image:
 
@@ -163,13 +230,13 @@ Build a specific voice variant:
 Write to a custom output path:
 
 ```sh
-./build_audiofs.py pl-marek -o audio.bin
+./build_audiofs.py pl-marek -o audio-rosary.bin
 ```
 
 The default output is:
 
 ```text
-build/<voice-variant>/audio.bin
+build/<voice-variant>/audio-rosary.bin
 ```
 
 The script uses the Python `littlefs` package. If the system Python does not

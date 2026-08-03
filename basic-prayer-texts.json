@@ -39,6 +39,30 @@
       "speed_factor": 1.0,
       "chunk_size": 240,
       "output_format": "mp3"
+    },
+    "pl-florian": {
+      "texts": "pl",
+      "language": "polish",
+      "voice": "Florian Multilingual",
+      "predefined_voice_id": "de-DE-FlorianMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "pl-seraphina": {
+      "texts": "pl",
+      "language": "polish",
+      "voice": "Seraphina Multilingual",
+      "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
     }
   }
 }

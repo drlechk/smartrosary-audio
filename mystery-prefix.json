@@ -1,0 +1,20 @@
+{
+  "pl": {
+    "template": "{ordinal} {noun} {set}. {title}",
+    "noun": "tajemnica",
+    "ordinals": {
+      "1": "pierwsza",
+      "2": "druga",
+      "3": "trzecia",
+      "4": "czwarta",
+      "5": "piąta"
+    },
+    "sets": {
+      "1": "radosna",
+      "2": "światła",
+      "3": "bolesna",
+      "4": "chwalebna",
+      "5": "koronki"
+    }
+  }
+}

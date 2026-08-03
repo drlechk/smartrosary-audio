@@ -1,0 +1,36 @@
+{
+  "language": "pl",
+  "source": "languages/fixtures/pl.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "Zwiastowanie NMP",
+    "m12": "Chrzest Pana Jezusa w Jordanie",
+    "m13": "Modlitwa w Ogrójcu",
+    "m14": "Zmartwychwstanie Pana Jezusa",
+    "m21": "Nawiedzenie św. Elżbiety",
+    "m22": "Objawienie siebie na weselu w Kanie Galilejskiej",
+    "m23": "Biczowanie",
+    "m24": "Wniebowstąpienie",
+    "m31": "Narodzenie Jezusa",
+    "m32": "Głoszenie Królestwa Bożego i wzywanie do nawrócenia",
+    "m33": "Cierniem ukoronowanie",
+    "m34": "Zesłanie Ducha Świętego",
+    "m41": "Ofiarowanie w świątyni",
+    "m42": "Przemienienie na górze Tabor",
+    "m43": "Droga krzyżowa",
+    "m44": "Wniebowzięcie Maryi",
+    "m51": "Znalezienie w świątyni",
+    "m52": "Ustanowienie Eucharystii",
+    "m53": "Śmierć na Krzyżu",
+    "m54": "Ukoronowanie Matki Bożej na Królową nieba i ziemi",
+    "mT1": "Tajemnice radosne",
+    "mT2": "Tajemnice światła",
+    "mT3": "Tajemnice bolesne",
+    "mT4": "Tajemnice chwalebne",
+    "mT5": "Koronka"
+  }
+}
