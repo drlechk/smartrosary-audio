@@ -1,0 +1,36 @@
+{
+  "language": "en",
+  "source": "languages/fixtures/en.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "The Annunciation of the Blessed Virgin Mary",
+    "m12": "The Baptism of the Lord Jesus in the Jordan",
+    "m13": "The Prayer in the Garden of Gethsemane",
+    "m14": "The Resurrection of the Lord Jesus",
+    "m21": "The Visitation of Saint Elizabeth",
+    "m22": "The Wedding at Cana",
+    "m23": "The Scourging of the Lord",
+    "m24": "The Ascension of the Lord",
+    "m31": "The Nativity of the Lord",
+    "m32": "The Proclamation of the Kingdom of God",
+    "m33": "The Crowning with Thorns",
+    "m34": "The Descent of the Holy Spirit",
+    "m41": "The Presentation in the Temple",
+    "m42": "The Transfiguration on Mount Tabor",
+    "m43": "The Way of the Cross",
+    "m44": "The Assumption of Mary",
+    "m51": "The Finding of the Child Jesus in the Temple",
+    "m52": "The Institution of the Eucharist",
+    "m53": "The Death of the Lord on the Cross",
+    "m54": "The Coronation of the Blessed Virgin Mary as Queen of Heaven and Earth",
+    "mT1": "Joyful Mysteries",
+    "mT2": "Luminous Mysteries",
+    "mT3": "Sorrowful Mysteries",
+    "mT4": "Glorious Mysteries",
+    "mT5": "Chaplet of Divine Mercy"
+  }
+}

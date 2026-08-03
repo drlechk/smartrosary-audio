@@ -1,4 +1,40 @@
 {
+  "de": {
+    "template": "{ordinal} {set} {noun}. {title}",
+    "noun": "Geheimnis",
+    "ordinals": {
+      "1": "erstes",
+      "2": "zweites",
+      "3": "drittes",
+      "4": "viertes",
+      "5": "fünftes"
+    },
+    "sets": {
+      "1": "freudenreiches",
+      "2": "lichtreiches",
+      "3": "schmerzhaftes",
+      "4": "glorreiches",
+      "5": "Barmherzigkeits"
+    }
+  },
+  "en": {
+    "template": "{ordinal} {set} {noun}. {title}",
+    "noun": "Mystery",
+    "ordinals": {
+      "1": "First",
+      "2": "Second",
+      "3": "Third",
+      "4": "Fourth",
+      "5": "Fifth"
+    },
+    "sets": {
+      "1": "Joyful",
+      "2": "Luminous",
+      "3": "Sorrowful",
+      "4": "Glorious",
+      "5": "Divine Mercy"
+    }
+  },
   "pl": {
     "template": "{ordinal} {noun} {set}. {title}",
     "noun": "tajemnica",

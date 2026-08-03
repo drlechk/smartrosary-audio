@@ -1,0 +1,36 @@
+{
+  "language": "de",
+  "source": "languages/fixtures/de.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "Die Verkündigung der seligen Jungfrau Maria",
+    "m12": "Die Taufe des Herrn Jesus im Jordan",
+    "m13": "Das Gebet im Garten Gethsemane",
+    "m14": "Die Auferstehung des Herrn Jesus",
+    "m21": "Die Heimsuchung der heiligen Elisabeth",
+    "m22": "Die Hochzeit zu Kana",
+    "m23": "Die Geißelung des Herrn",
+    "m24": "Die Himmelfahrt des Herrn",
+    "m31": "Die Geburt des Herrn",
+    "m32": "Die Verkündigung des Reiches Gottes",
+    "m33": "Die Dornenkrönung",
+    "m34": "Das Pfingstereignis",
+    "m41": "Die Darstellung im Tempel",
+    "m42": "Die Verklärung auf dem Berg Tabor",
+    "m43": "Der Kreuzweg",
+    "m44": "Die Aufnahme Marias in den Himmel",
+    "m51": "Die Findung des Kindes Jesus im Tempel",
+    "m52": "Die Einsetzung der Eucharistie",
+    "m53": "Der Tod des Herrn am Kreuz",
+    "m54": "Die Krönung der seligen Jungfrau Maria zur Königin des Himmels und der Erde",
+    "mT1": "Freudenreiche Geheimnisse",
+    "mT2": "Lichtreiche Geheimnisse",
+    "mT3": "Schmerzhafte Geheimnisse",
+    "mT4": "Glorreiche Geheimnisse",
+    "mT5": "Barmherzigkeitsrosenkranz"
+  }
+}

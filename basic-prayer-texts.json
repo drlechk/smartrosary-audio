@@ -13,33 +13,37 @@
       "071": "Miej miłosierdzie dla nas i całego świata.",
       "080": "Święty Boże, Święty Mocny, Święty Nieśmiertelny, zmiłuj się nad nami i nad całym światem.",
       "090": "Jezu ufam Tobie. Jezu ufam Tobie. Jezu ufam Tobie"
+    },
+    "de": {
+      "010": "Ich glaube an Gott, den Vater, den Allmächtigen, den Schöpfer des Himmels und der Erde, und an Jesus Christus, seinen eingeborenen Sohn, unsern Herrn, empfangen durch den Heiligen Geist, geboren von der Jungfrau Maria, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben.\nHinabgestiegen in das Reich des Todes, am dritten Tage auferstanden von den Toten, aufgefahren in den Himmel; er sitzt zur Rechten Gottes, des allmächtigen Vaters.\nVon dort wird er kommen, zu richten die Lebenden und die Toten.\nIch glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Vergebung der Sünden, Auferstehung der Toten und das ewige Leben.\nAmen.",
+      "020": "Vater unser im Himmel,\ngeheiligt werde dein Name.\nDein Reich komme.\nDein Wille geschehe,\nwie im Himmel so auf Erden.",
+      "021": "Unser tägliches Brot gib uns heute.\nUnd vergib uns unsere Schuld,\nwie auch wir vergeben unsern Schuldigern.\nUnd führe uns nicht in Versuchung,\nsondern erlöse uns von dem Bösen.\nAmen.",
+      "030": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus.",
+      "031": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.",
+      "040": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist, wie im Anfang, so auch jetzt und alle Zeit und in Ewigkeit. Amen.",
+      "050": "O mein Jesus, verzeih uns unsere Sünden, bewahre uns vor dem Feuer der Hölle, führe alle Seelen in den Himmel, besonders jene, die deiner Barmherzigkeit am meisten bedürfen. Amen.",
+      "060": "Ewiger Vater, ich opfere dir auf den Leib und das Blut, die Seele und die Gottheit deines über alles geliebten Sohnes, unseres Herrn Jesus Christus, zur Sühne für unsere Sünden und die Sünden der ganzen Welt.",
+      "070": "Durch sein schmerzhaftes Leiden.",
+      "071": "Habe Erbarmen mit uns und mit der ganzen Welt.",
+      "080": "Heiliger Gott, heiliger starker Gott, heiliger unsterblicher Gott, habe Erbarmen mit uns und mit der ganzen Welt.",
+      "090": "Jesus, ich vertraue auf dich. Jesus, ich vertraue auf dich. Jesus, ich vertraue auf dich."
+    },
+    "en": {
+      "010": "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried.\nHe descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty.\nFrom there he will come to judge the living and the dead.\nI believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting.\nAmen.",
+      "020": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come;\nthy will be done on earth as it is in heaven.",
+      "021": "Give us this day our daily bread;\nand forgive us our trespasses\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\nAmen.",
+      "030": "Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus.",
+      "031": "Holy Mary, Mother of God, pray for us sinners now and at the hour of our death. Amen.",
+      "040": "Glory be to the Father, and to the Son, and to the Holy Spirit; as it was in the beginning, is now, and ever shall be, world without end. Amen.",
+      "050": "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those in most need of thy mercy. Amen.",
+      "060": "Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world.",
+      "070": "For the sake of His sorrowful Passion.",
+      "071": "Have mercy on us and on the whole world.",
+      "080": "Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world.",
+      "090": "Jesus, I trust in You. Jesus, I trust in You. Jesus, I trust in You."
     }
   },
   "voices": {
-    "pl-zofia": {
-      "texts": "pl",
-      "language": "polish",
-      "voice": "Zofia PL",
-      "predefined_voice_id": "Zofia-PL.wav",
-      "temperature": 0.25,
-      "exaggeration": 0.12,
-      "cfg_weight": 0.35,
-      "speed_factor": 1.0,
-      "chunk_size": 240,
-      "output_format": "mp3"
-    },
-    "pl-marek": {
-      "texts": "pl",
-      "language": "polish",
-      "voice": "Marek PL",
-      "predefined_voice_id": "Marek-PL.wav",
-      "temperature": 0.25,
-      "exaggeration": 0.12,
-      "cfg_weight": 0.35,
-      "speed_factor": 1.0,
-      "chunk_size": 240,
-      "output_format": "mp3"
-    },
     "pl-florian": {
       "texts": "pl",
       "language": "polish",
@@ -55,6 +59,54 @@
     "pl-seraphina": {
       "texts": "pl",
       "language": "polish",
+      "voice": "Seraphina Multilingual",
+      "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "de-florian": {
+      "texts": "de",
+      "language": "german",
+      "voice": "Florian Multilingual",
+      "predefined_voice_id": "de-DE-FlorianMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "de-seraphina": {
+      "texts": "de",
+      "language": "german",
+      "voice": "Seraphina Multilingual",
+      "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "en-florian": {
+      "texts": "en",
+      "language": "english",
+      "voice": "Florian Multilingual",
+      "predefined_voice_id": "de-DE-FlorianMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1.0,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "en-seraphina": {
+      "texts": "en",
+      "language": "english",
       "voice": "Seraphina Multilingual",
       "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
       "temperature": 0.25,

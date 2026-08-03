@@ -32,6 +32,14 @@ LANGUAGE_ALIASES = {
     "spanish": "es",
 }
 LANGUAGE_AUDIO_KEYS = {
+    "de": (
+        re.compile(r"^mT[1-5]$"),
+        re.compile(r"^m[1-5][1-5]$"),
+    ),
+    "en": (
+        re.compile(r"^mT[1-5]$"),
+        re.compile(r"^m[1-5][1-5]$"),
+    ),
     "pl": (
         re.compile(r"^mT[1-5]$"),
         re.compile(r"^m[1-5][1-5]$"),
@@ -476,7 +484,7 @@ def main() -> int:
     parser.add_argument(
         "targets",
         nargs="*",
-        help="Voice variants or language groups to generate, e.g. pl-zofia pl-marek or pl",
+        help="Voice variants or language groups to generate, e.g. en-florian en-seraphina or en",
     )
     parser.add_argument("--api-url", default=DEFAULT_API_URL)
     parser.add_argument(

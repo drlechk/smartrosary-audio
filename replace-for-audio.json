@@ -1,4 +1,16 @@
 {
+  "de": [
+    {
+      "from": "hl.",
+      "to": "heiligen"
+    }
+  ],
+  "en": [
+    {
+      "from": "St.",
+      "to": "Saint"
+    }
+  ],
   "pl": [
     {
       "from": "NMP",

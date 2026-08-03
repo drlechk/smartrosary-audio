@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 
-DEFAULT_VARIANT = "pl-marek"
+DEFAULT_VARIANT = "en-seraphina"
 DEFAULT_IMAGE_NAME = "audio-rosary.bin"
 DEFAULT_FS_SIZE = "0x134000"
 DEFAULT_BLOCK_SIZE = "4096"
