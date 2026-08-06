@@ -35,6 +35,42 @@
       "5": "Divine Mercy"
     }
   },
+  "es": {
+    "template": "{ordinal} {noun} {set}. {title}",
+    "noun": "misterio",
+    "ordinals": {
+      "1": "primer",
+      "2": "segundo",
+      "3": "tercer",
+      "4": "cuarto",
+      "5": "quinto"
+    },
+    "sets": {
+      "1": "gozoso",
+      "2": "luminoso",
+      "3": "doloroso",
+      "4": "glorioso",
+      "5": "de la misericordia"
+    }
+  },
+  "fr": {
+    "template": "{ordinal} {noun} {set}. {title}",
+    "noun": "mystère",
+    "ordinals": {
+      "1": "premier",
+      "2": "deuxième",
+      "3": "troisième",
+      "4": "quatrième",
+      "5": "cinquième"
+    },
+    "sets": {
+      "1": "joyeux",
+      "2": "lumineux",
+      "3": "douloureux",
+      "4": "glorieux",
+      "5": "de la miséricorde"
+    }
+  },
   "pl": {
     "template": "{ordinal} {noun} {set}. {title}",
     "noun": "tajemnica",
@@ -51,6 +87,24 @@
       "3": "bolesna",
       "4": "chwalebna",
       "5": "koronki"
+    }
+  },
+  "pt": {
+    "template": "{ordinal} {noun} {set}. {title}",
+    "noun": "mistério",
+    "ordinals": {
+      "1": "primeiro",
+      "2": "segundo",
+      "3": "terceiro",
+      "4": "quarto",
+      "5": "quinto"
+    },
+    "sets": {
+      "1": "gozoso",
+      "2": "luminoso",
+      "3": "doloroso",
+      "4": "glorioso",
+      "5": "da misericórdia"
     }
   }
 }

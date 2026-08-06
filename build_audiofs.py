@@ -170,7 +170,7 @@ def build_audio_manifest(source_dir: Path) -> bytes:
         durations_ms[rel_path] = mp3_duration_ms(item)
 
     manifest = {
-        "version": 1,
+        "version": "1.0",
         "unit": "ms",
         "durations_ms": durations_ms,
     }

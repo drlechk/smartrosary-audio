@@ -14,6 +14,9 @@ audio LittleFS partition.
 - `pl-florian/` and `pl-seraphina/` contain generated Polish MP3s using the German multilingual voice references.
 - `de-florian/` and `de-seraphina/` contain generated German MP3s using those same voice references.
 - `en-florian/` and `en-seraphina/` contain generated English MP3s using those same voice references.
+- `es-florian/` and `es-seraphina/` contain generated Spanish MP3s using those same voice references.
+- `fr-florian/` and `fr-seraphina/` contain generated French MP3s using those same voice references.
+- `pt-florian/` and `pt-seraphina/` contain generated Portuguese MP3s using those same voice references.
 
 Generated MP3 files are placed directly in each voice directory:
 
@@ -26,6 +29,29 @@ en-seraphina/021.mp3
 
 The firmware filesystem image packages one selected voice directory, so MP3
 paths on the device are generic root paths such as `/010.mp3` and `/020.mp3`.
+
+## Clip Map
+
+| File | Prayer or text | Source text |
+| --- | --- | --- |
+| `010.mp3` | Apostles' Creed | `basic-prayer-texts.json`, key `010` |
+| `020.mp3` | Our Father, first part | `basic-prayer-texts.json`, key `020` |
+| `021.mp3` | Our Father, second part | `basic-prayer-texts.json`, key `021` |
+| `030.mp3` | Hail Mary, first part | `basic-prayer-texts.json`, key `030` |
+| `031.mp3` | Hail Mary, second part | `basic-prayer-texts.json`, key `031` |
+| `040.mp3` | Glory Be | `basic-prayer-texts.json`, key `040` |
+| `050.mp3` | Fatima prayer | `basic-prayer-texts.json`, key `050` |
+| `060.mp3` | Divine Mercy Chaplet: Eternal Father prayer | `basic-prayer-texts.json`, key `060` |
+| `070.mp3` | Divine Mercy Chaplet: For the sake of His sorrowful Passion | `basic-prayer-texts.json`, key `070` |
+| `071.mp3` | Divine Mercy Chaplet: have mercy response | `basic-prayer-texts.json`, key `071` |
+| `080.mp3` | Divine Mercy Chaplet: Holy God prayer | `basic-prayer-texts.json`, key `080` |
+| `090.mp3` | Divine Mercy Chaplet: Jesus, I trust in You, repeated three times | `basic-prayer-texts.json`, key `090` |
+| `mT1.mp3` | Joyful Mysteries set title | `audio-languages/<language>.json`, key `mT1` |
+| `mT2.mp3` | Luminous Mysteries set title | `audio-languages/<language>.json`, key `mT2` |
+| `mT3.mp3` | Sorrowful Mysteries set title | `audio-languages/<language>.json`, key `mT3` |
+| `mT4.mp3` | Glorious Mysteries set title | `audio-languages/<language>.json`, key `mT4` |
+| `mT5.mp3` | Divine Mercy Chaplet title | `audio-languages/<language>.json`, key `mT5` |
+| `mXY.mp3` | Rosary mystery title, where `X` is mystery number `1`-`5` and `Y` is set `1` Joyful, `2` Luminous, `3` Sorrowful, or `4` Glorious | `audio-languages/<language>.json`, key `mXY`, with spoken prefixes from `mystery-prefix.json` |
 
 ## Generate Audio
 
@@ -94,7 +120,8 @@ Current voice variants use the German multilingual references
 `de-DE-SeraphinaMultilingualNeural.wav`.
 
 `generate_audio.py` calls the Chatterbox `/tts` endpoint and writes the returned
-MP3 bytes to the selected voice directory. For Polish, German, and English voices, it also reads
+MP3 bytes to the selected voice directory. For Polish, German, English, Spanish,
+French, and Portuguese voices, it also reads
 non-empty `mT1`..`mT5` and `m11`..`m55` mystery strings from
 `audio-languages/<language>.json` and generates matching MP3 files such as `mT1.mp3`
 and `m11.mp3`. That audio-only file is derived from the canonical `languages/`
@@ -103,9 +130,11 @@ trailing whitespace or `-` characters before TTS. The canonical language
 submodule remains unchanged for firmware and editor use.
 
 For mystery title clips such as `m11.mp3`, `mystery-prefix.json` adds spoken
-prefixes before TTS. Polish currently uses phrases such as `pierwsza tajemnica
-radosna`; German uses phrases such as `erstes freudenreiches Geheimnis`;
-English uses phrases such as `First Joyful Mystery`.
+prefixes before TTS. Polish uses phrases such as `pierwsza tajemnica radosna`;
+German uses phrases such as `erstes freudenreiches Geheimnis`; English uses
+phrases such as `First Joyful Mystery`; Spanish uses phrases such as `primer
+misterio gozoso`; French uses phrases such as `premier mystère joyeux`;
+Portuguese uses phrases such as `primeiro mistério gozoso`.
 
 After language text is loaded and mystery prefixes are applied,
 `replace-for-audio.json` applies ordered string replacements before the text is
@@ -149,7 +178,7 @@ Each voice variant selects its Chatterbox voice file through
 ## Add A Voice Variant
 
 Add a new entry under `voices` in `basic-prayer-texts.json`. The key should be
-`language-voice`, for example `en-seraphina`, `de-florian`, or `en-john`.
+`language-voice`, for example `en-seraphina`, `es-florian`, or `en-john`.
 
 Example:
 
@@ -176,8 +205,8 @@ example, `./generate_audio.py en` generates every `en-*` voice.
 Add a new text set under `texts`, then add one or more voice variants that point
 to it. Use the `languages/` submodule for the matching canonical device
 language definitions, and put any spoken-only normalized strings in
-`audio-languages/` so firmware language text remains unchanged. Planned language
-keys include `en`, `de`, `pl`, `fr`, `es`, and `pt`.
+`audio-languages/` so firmware language text remains unchanged. Current
+language keys include `en`, `de`, `pl`, `es`, `fr`, and `pt`.
 
 The `language` field is sent to Chatterbox. Common language names such as
 `polish`, `german`, `english`, `french`, `spanish`, and `portuguese` are mapped
@@ -203,7 +232,7 @@ This creates `audio-rosary.bin` from the selected voice directory and flashes it
 to the S3 `audio-rosary` partition when using `uploadfs`. Firmware build outputs keep
 the image under the selected voice subdirectory, for example
 `.pio/build/esp32-s3-touch-amoled-1-75/en-seraphina/audio-rosary.bin`.
-The image also contains a generated `/audio-manifest.json` file with MP3
+The image also contains a generated `/audio-manifest.json` file (version `"1.0"`) with MP3
 durations in milliseconds so firmware auto-play countdowns do not need to scan
 MP3 frames at runtime.
 
@@ -213,7 +242,7 @@ MP3 frames at runtime.
 audio repo. By default it packages `en-seraphina` using the ESP32-S3 `audio-rosary`
 partition size, `0x134000` bytes. The separate S3 `audio-contemplation` space is
 reserved for future content.
-The standalone builder also embeds `/audio-manifest.json` with per-file MP3
+The standalone builder also embeds `/audio-manifest.json` (version `"1.0"`) with per-file MP3
 durations in milliseconds.
 
 Build the default image:

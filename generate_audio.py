@@ -40,7 +40,19 @@ LANGUAGE_AUDIO_KEYS = {
         re.compile(r"^mT[1-5]$"),
         re.compile(r"^m[1-5][1-5]$"),
     ),
+    "es": (
+        re.compile(r"^mT[1-5]$"),
+        re.compile(r"^m[1-5][1-5]$"),
+    ),
+    "fr": (
+        re.compile(r"^mT[1-5]$"),
+        re.compile(r"^m[1-5][1-5]$"),
+    ),
     "pl": (
+        re.compile(r"^mT[1-5]$"),
+        re.compile(r"^m[1-5][1-5]$"),
+    ),
+    "pt": (
         re.compile(r"^mT[1-5]$"),
         re.compile(r"^m[1-5][1-5]$"),
     ),
