@@ -1,0 +1,36 @@
+{
+  "language": "es",
+  "source": "languages/fixtures/es.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "La Anunciación de la Santísima Virgen María",
+    "m12": "El Bautismo del Señor Jesús en el Jordán",
+    "m13": "La Oración en el Huerto de Getsemaní",
+    "m14": "La Resurrección del Señor Jesús",
+    "m21": "La Visitación de Santa Isabel",
+    "m22": "Las Bodas de Caná",
+    "m23": "La Flagelación del Señor",
+    "m24": "La Ascensión del Señor",
+    "m31": "La Natividad del Señor",
+    "m32": "La Proclamación del Reino de Dios",
+    "m33": "La Coronación de espinas",
+    "m34": "La Venida del Espíritu Santo",
+    "m41": "La Presentación en el Templo",
+    "m42": "La Transfiguración en el monte Tabor",
+    "m43": "El Vía Crucis",
+    "m44": "La Asunción de María",
+    "m51": "El Hallazgo del Niño Jesús en el Templo",
+    "m52": "La Institución de la Eucaristía",
+    "m53": "La Muerte del Señor en la Cruz",
+    "m54": "La Coronación de la Santísima Virgen María como Reina del Cielo y de la Tierra",
+    "mT1": "Misterios gozosos",
+    "mT2": "Misterios luminosos",
+    "mT3": "Misterios dolorosos",
+    "mT4": "Misterios gloriosos",
+    "mT5": "Coronilla"
+  }
+}

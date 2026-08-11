@@ -10,7 +10,8 @@ audio LittleFS partition.
 - `audio-languages/` contains audio-only normalized language text derived from the canonical submodule.
 - `mystery-prefix.json` contains language-specific text used to prefix mystery title audio.
 - `replace-for-audio.json` contains language-specific text replacements applied before TTS.
-- `generate_audio.py` generates MP3 files through the local Chatterbox API.
+- `generate_audio.py` generates raw MP3 files through the local Chatterbox API
+  and postprocesses them into final voice folders.
 - `pl-florian/` and `pl-seraphina/` contain generated Polish MP3s using the German multilingual voice references.
 - `de-florian/` and `de-seraphina/` contain generated German MP3s using those same voice references.
 - `en-florian/` and `en-seraphina/` contain generated English MP3s using those same voice references.
@@ -29,6 +30,9 @@ en-seraphina/021.mp3
 
 The firmware filesystem image packages one selected voice directory, so MP3
 paths on the device are generic root paths such as `/010.mp3` and `/020.mp3`.
+Raw Chatterbox outputs are kept outside those packageable folders under
+`raw/<voice-variant>/`, for example `raw/en-seraphina/010.mp3`, so they can be
+inspected and reused for another cleanup pass without calling Chatterbox again.
 
 ## Clip Map
 
@@ -57,6 +61,23 @@ paths on the device are generic root paths such as `/010.mp3` and `/020.mp3`.
 
 The default API endpoint is `http://192.168.3.201:8004`.
 Chatterbox API docs are available at `http://192.168.3.201:8004/docs`.
+
+## Install Audio Tools
+
+Generated MP3 cleanup uses `auto-editor` when it is installed and falls back to
+`ffmpeg` otherwise. Install both tools before generating or rerunning cleanup:
+
+```sh
+brew install auto-editor ffmpeg
+auto-editor --version
+ffmpeg -version
+```
+
+If Homebrew reports a `ca-certificates` post-install warning, repair that with:
+
+```sh
+brew postinstall ca-certificates
+```
 
 Generate all English voice variants:
 
@@ -108,6 +129,32 @@ Disable generated-MP3 trailing silence trimming:
 ./generate_audio.py en --no-trim-trailing-silence
 ```
 
+Generate raw Chatterbox files without writing final cleaned files:
+
+```sh
+./generate_audio.py en-seraphina --only 090 --raw-only
+```
+
+Rerun cleanup from existing raw files without calling Chatterbox:
+
+```sh
+./generate_audio.py en-seraphina --only 090 --clean-only
+```
+
+Use a specific postprocessing tool:
+
+```sh
+./generate_audio.py en-seraphina --clean-only --postprocess-tool auto-editor
+./generate_audio.py en-seraphina --clean-only --postprocess-tool ffmpeg
+```
+
+For clips whose text is one identical sentence repeated, such as `090.mp3`,
+the generator sends only one sentence to Chatterbox and assembles the final MP3
+from repeated cleaned copies. This avoids TTS drift where Chatterbox adds or
+omits a word while reading repeated text. The raw cache for such a clip contains
+the single spoken source and a hidden repeat marker, so regenerate repeated clips
+once without `--clean-only` after changing this behavior or changing their text.
+
 ## Chatterbox Settings
 
 Audio generation requires a running
@@ -120,14 +167,20 @@ Current voice variants use the German multilingual references
 `de-DE-SeraphinaMultilingualNeural.wav`.
 
 `generate_audio.py` calls the Chatterbox `/tts` endpoint and writes the returned
-MP3 bytes to the selected voice directory. For Polish, German, English, Spanish,
-French, and Portuguese voices, it also reads
+MP3 bytes to `raw/<voice-variant>/`. Unless `--raw-only` is used, it then
+postprocesses that raw file into the selected final voice directory. For Polish,
+German, English, Spanish, French, and Portuguese voices, it also reads
 non-empty `mT1`..`mT5` and `m11`..`m55` mystery strings from
 `audio-languages/<language>.json` and generates matching MP3 files such as `mT1.mp3`
 and `m11.mp3`. That audio-only file is derived from the canonical `languages/`
 submodule, but it strips display-only leading Roman numbering such as `I.` and
 trailing whitespace or `-` characters before TTS. The canonical language
 submodule remains unchanged for firmware and editor use.
+
+When a clip consists of the same sentence repeated multiple times, the raw
+Chatterbox request uses the sentence once. The cleaned single-sentence result is
+then concatenated with `ffmpeg` to create the final repeated clip. This is used
+for `090.mp3` in the current language sets.
 
 For mystery title clips such as `m11.mp3`, `mystery-prefix.json` adds spoken
 prefixes before TTS. Polish uses phrases such as `pierwsza tajemnica radosna`;
@@ -148,13 +201,16 @@ sent to TTS. The file is scoped by language:
 }
 ```
 
-Every generated MP3 is postprocessed with `ffmpeg` to trim trailing low-level
-audio once the tail is at least `0.5` seconds long. The default trim keeps
-`0.15` seconds at the end and treats audio below `-30dB` as silence/noise floor.
-It also trims when that low-level tail is followed by up to `0.75` seconds of
-generated ramp/noise. Tune this with `--trim-silence-duration`,
-`--trim-silence-keep`, `--trim-silence-threshold`, and
-`--trim-trailing-noise-window`.
+Every generated MP3 is postprocessed from raw into the final voice directory.
+By default `--postprocess-tool auto` uses `auto-editor` when it is installed and
+falls back to the legacy `ffmpeg` trimmer otherwise. The auto-editor cleanup uses
+audio loudness detection with the configured threshold and keeps `0.15` seconds
+of end margin by default. The ffmpeg fallback trims trailing low-level audio once
+the tail is at least `0.5` seconds long, treats audio below `-30dB` as the
+silence/noise floor, and also trims when that low-level tail is followed by up
+to `0.75` seconds of generated ramp/noise. Tune this with
+`--trim-silence-duration`, `--trim-silence-keep`, `--trim-silence-threshold`,
+and `--trim-trailing-noise-window`.
 
 The request uses these fixed generation options:
 
@@ -232,7 +288,7 @@ This creates `audio-rosary.bin` from the selected voice directory and flashes it
 to the S3 `audio-rosary` partition when using `uploadfs`. Firmware build outputs keep
 the image under the selected voice subdirectory, for example
 `.pio/build/esp32-s3-touch-amoled-1-75/en-seraphina/audio-rosary.bin`.
-The image also contains a generated `/audio-manifest.json` file (version `"1.0"`) with MP3
+The image also contains a generated `/audio-manifest.json` file (version `"1.1"`) with MP3
 durations in milliseconds so firmware auto-play countdowns do not need to scan
 MP3 frames at runtime.
 
@@ -242,7 +298,7 @@ MP3 frames at runtime.
 audio repo. By default it packages `en-seraphina` using the ESP32-S3 `audio-rosary`
 partition size, `0x134000` bytes. The separate S3 `audio-contemplation` space is
 reserved for future content.
-The standalone builder also embeds `/audio-manifest.json` (version `"1.0"`) with per-file MP3
+The standalone builder also embeds `/audio-manifest.json` (version `"1.1"`) with per-file MP3
 durations in milliseconds.
 
 Build the default image:

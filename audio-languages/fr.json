@@ -1,0 +1,36 @@
+{
+  "language": "fr",
+  "source": "languages/fixtures/fr.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "L'Annonciation de la Bienheureuse Vierge Marie",
+    "m12": "Le Baptême du Seigneur Jésus au Jourdain",
+    "m13": "La Prière au Jardin de Gethsémani",
+    "m14": "La Résurrection du Seigneur Jésus",
+    "m21": "La Visitation de sainte Élisabeth",
+    "m22": "Les Noces de Cana",
+    "m23": "La Flagellation du Seigneur",
+    "m24": "L'Ascension du Seigneur",
+    "m31": "La Nativité du Seigneur",
+    "m32": "La Proclamation du Royaume de Dieu",
+    "m33": "Le Couronnement d'épines",
+    "m34": "La Descente du Saint-Esprit",
+    "m41": "La Présentation au Temple",
+    "m42": "La Transfiguration au mont Thabor",
+    "m43": "Le Chemin de Croix",
+    "m44": "L'Assomption de Marie",
+    "m51": "Le Recouvrement de l'Enfant Jésus au Temple",
+    "m52": "L'Institution de l'Eucharistie",
+    "m53": "La Mort du Seigneur sur la Croix",
+    "m54": "Le Couronnement de la Bienheureuse Vierge Marie comme Reine du Ciel et de la Terre",
+    "mT1": "Mystères joyeux",
+    "mT2": "Mystères lumineux",
+    "mT3": "Mystères douloureux",
+    "mT4": "Mystères glorieux",
+    "mT5": "Chapelet"
+  }
+}

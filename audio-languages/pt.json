@@ -1,0 +1,36 @@
+{
+  "language": "pt",
+  "source": "languages/fixtures/pt.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "A Anunciação da Bem-aventurada Virgem Maria",
+    "m12": "O Batismo do Senhor Jesus no Jordão",
+    "m13": "A Oração no Jardim do Getsémani",
+    "m14": "A Ressurreição do Senhor Jesus",
+    "m21": "A Visitação de Santa Isabel",
+    "m22": "As Bodas de Caná",
+    "m23": "A Flagelação do Senhor",
+    "m24": "A Ascensão do Senhor",
+    "m31": "A Natividade do Senhor",
+    "m32": "A Proclamação do Reino de Deus",
+    "m33": "A Coroação de espinhos",
+    "m34": "A Vinda do Espírito Santo",
+    "m41": "A Apresentação no Templo",
+    "m42": "A Transfiguração no monte Tabor",
+    "m43": "O Caminho da Cruz",
+    "m44": "A Assunção de Maria",
+    "m51": "O Encontro do Menino Jesus no Templo",
+    "m52": "A Instituição da Eucaristia",
+    "m53": "A Morte do Senhor na Cruz",
+    "m54": "A Coroação da Bem-aventurada Virgem Maria como Rainha do Céu e da Terra",
+    "mT1": "Mistérios gozosos",
+    "mT2": "Mistérios luminosos",
+    "mT3": "Mistérios dolorosos",
+    "mT4": "Mistérios gloriosos",
+    "mT5": "Terço da Misericórdia"
+  }
+}

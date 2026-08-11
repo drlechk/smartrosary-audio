@@ -15,6 +15,7 @@ DEFAULT_IMAGE_NAME = "audio-rosary.bin"
 DEFAULT_FS_SIZE = "0x134000"
 DEFAULT_BLOCK_SIZE = "4096"
 DEFAULT_LITTLEFS_VERSION = "2.1"
+DEFAULT_MANIFEST_VERSION = "1.1"
 AUDIO_MANIFEST_NAME = "audio-manifest.json"
 
 
@@ -161,7 +162,7 @@ def mp3_duration_ms(path: Path) -> int:
     return int((total_us + 500) // 1000) if frames and total_us else 0
 
 
-def build_audio_manifest(source_dir: Path) -> bytes:
+def build_audio_manifest(source_dir: Path, version: str) -> bytes:
     durations_ms = {}
     for item in sorted(source_dir.rglob("*.mp3")):
         if not item.is_file():
@@ -170,7 +171,7 @@ def build_audio_manifest(source_dir: Path) -> bytes:
         durations_ms[rel_path] = mp3_duration_ms(item)
 
     manifest = {
-        "version": "1.0",
+        "version": version,
         "unit": "ms",
         "durations_ms": durations_ms,
     }
@@ -205,7 +206,7 @@ def add_source_tree(fs: LittleFS, source_dir: Path) -> tuple[int, int]:
         file_count += 1
 
     with fs.open(AUDIO_MANIFEST_NAME, "wb") as dest:
-        dest.write(build_audio_manifest(source_dir))
+        dest.write(build_audio_manifest(source_dir, DEFAULT_MANIFEST_VERSION))
     file_count += 1
 
     return file_count, skipped_count
