@@ -13,296 +13,296 @@
             {
               "id": "010",
               "file": "pl-florian/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Skład Apostolski",
+              "group": "Modlitwy różańcowe",
               "text": "Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, i w Jezusa Chrystusa, Syna Jego jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Ponckim Piłatem, ukrzyżowan, umarł i pogrzebion.\nZstąpił do piekieł, trzeciego dnia zmartwychwstał. Wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego.\nStamtąd przyjdzie sądzić żywych i umarłych.\nWierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny.\nAmen.",
               "bytes": 128205
             },
             {
               "id": "020",
               "file": "pl-florian/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Ojcze nasz, pierwsza część",
+              "group": "Modlitwy różańcowe",
               "text": "Ojcze nasz,\nktóryś jest w niebie:\nświęć się imię Twoje,\nprzyjdź Królestwo Twoje,\nbądź wola Twoja jako w niebie,\ntak i na ziemi.",
               "bytes": 32493
             },
             {
               "id": "021",
               "file": "pl-florian/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Ojcze nasz, druga część",
+              "group": "Modlitwy różańcowe",
               "text": "Chleba naszego powszedniego\ndaj nam dzisiaj.\nI odpuść nam nasze winy,\njako i my odpuszczamy naszym winowajcom.\nI nie wódź nas na pokuszenie,\nale nas zbaw od złego, Amen.",
               "bytes": 40461
             },
             {
               "id": "030",
               "file": "pl-florian/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Zdrowaś Maryjo, pierwsza część",
+              "group": "Modlitwy różańcowe",
               "text": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego Jezus.",
               "bytes": 29133
             },
             {
               "id": "031",
               "file": "pl-florian/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Zdrowaś Maryjo, druga część",
+              "group": "Modlitwy różańcowe",
               "text": "Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej, Amen.",
               "bytes": 24429
             },
             {
               "id": "040",
               "file": "pl-florian/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Chwała Ojcu",
+              "group": "Modlitwy różańcowe",
               "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu, jak była na początku, teraz i zawsze, i na wieki wiekó, Amen.",
               "bytes": 26445
             },
             {
               "id": "050",
               "file": "pl-florian/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Modlitwa fatimska",
+              "group": "Modlitwy różańcowe",
               "text": "O mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
               "bytes": 40173
             },
             {
               "id": "060",
               "file": "pl-florian/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: modlitwa Ojcze Przedwieczny",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Ojcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.",
               "bytes": 42381
             },
             {
               "id": "070",
               "file": "pl-florian/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: Dla Jego bolesnej męki",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Dla Jego bolesnej męki.",
               "bytes": 7149
             },
             {
               "id": "071",
               "file": "pl-florian/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: odpowiedź o miłosierdzie",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Miej miłosierdzie dla nas i całego świata.",
               "bytes": 10605
             },
             {
               "id": "080",
               "file": "pl-florian/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: Święty Boże",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Święty Boże, Święty Mocny, Święty Nieśmiertelny, zmiłuj się nad nami i nad całym światem.",
               "bytes": 22893
             },
             {
               "id": "090",
               "file": "pl-florian/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: Jezu, ufam Tobie",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Jezu ufam Tobie. Jezu ufam Tobie. Jezu ufam Tobie",
               "bytes": 25125
             },
             {
               "id": "mT1",
               "file": "pl-florian/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic radosnych",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice radosne",
               "bytes": 6093
             },
             {
               "id": "mT2",
               "file": "pl-florian/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic światła",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice światła",
               "bytes": 9165
             },
             {
               "id": "mT3",
               "file": "pl-florian/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic bolesnych",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice bolesne",
               "bytes": 7053
             },
             {
               "id": "mT4",
               "file": "pl-florian/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic chwalebnych",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice chwalebne",
               "bytes": 5709
             },
             {
               "id": "mT5",
               "file": "pl-florian/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Tytuł Koronki do Miłosierdzia Bożego",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Koronka",
               "bytes": 4077
             },
             {
               "id": "m11",
               "file": "pl-florian/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 1",
+              "group": "Tytuły tajemnic",
               "text": "Zwiastowanie NMP",
               "bytes": 18381
             },
             {
               "id": "m21",
               "file": "pl-florian/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 2",
+              "group": "Tytuły tajemnic",
               "text": "Nawiedzenie św. Elżbiety",
               "bytes": 15117
             },
             {
               "id": "m31",
               "file": "pl-florian/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 3",
+              "group": "Tytuły tajemnic",
               "text": "Narodzenie Jezusa",
               "bytes": 12045
             },
             {
               "id": "m41",
               "file": "pl-florian/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 4",
+              "group": "Tytuły tajemnic",
               "text": "Ofiarowanie w świątyni",
               "bytes": 12909
             },
             {
               "id": "m51",
               "file": "pl-florian/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 5",
+              "group": "Tytuły tajemnic",
               "text": "Znalezienie w świątyni",
               "bytes": 13101
             },
             {
               "id": "m12",
               "file": "pl-florian/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 1",
+              "group": "Tytuły tajemnic",
               "text": "Chrzest Pana Jezusa w Jordanie",
               "bytes": 14733
             },
             {
               "id": "m22",
               "file": "pl-florian/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 2",
+              "group": "Tytuły tajemnic",
               "text": "Objawienie siebie na weselu w Kanie Galilejskiej",
               "bytes": 17805
             },
             {
               "id": "m32",
               "file": "pl-florian/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 3",
+              "group": "Tytuły tajemnic",
               "text": "Głoszenie Królestwa Bożego i wzywanie do nawrócenia",
               "bytes": 17901
             },
             {
               "id": "m42",
               "file": "pl-florian/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 4",
+              "group": "Tytuły tajemnic",
               "text": "Przemienienie na górze Tabor",
               "bytes": 14061
             },
             {
               "id": "m52",
               "file": "pl-florian/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 5",
+              "group": "Tytuły tajemnic",
               "text": "Ustanowienie Eucharystii",
               "bytes": 16077
             },
             {
               "id": "m13",
               "file": "pl-florian/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 1",
+              "group": "Tytuły tajemnic",
               "text": "Modlitwa w Ogrójcu",
               "bytes": 12429
             },
             {
               "id": "m23",
               "file": "pl-florian/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 2",
+              "group": "Tytuły tajemnic",
               "text": "Biczowanie",
               "bytes": 10317
             },
             {
               "id": "m33",
               "file": "pl-florian/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 3",
+              "group": "Tytuły tajemnic",
               "text": "Cierniem ukoronowanie",
               "bytes": 13677
             },
             {
               "id": "m43",
               "file": "pl-florian/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 4",
+              "group": "Tytuły tajemnic",
               "text": "Droga krzyżowa",
               "bytes": 11181
             },
             {
               "id": "m53",
               "file": "pl-florian/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 5",
+              "group": "Tytuły tajemnic",
               "text": "Śmierć na Krzyżu",
               "bytes": 11661
             },
             {
               "id": "m14",
               "file": "pl-florian/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 1",
+              "group": "Tytuły tajemnic",
               "text": "Zmartwychwstanie Pana Jezusa",
               "bytes": 16461
             },
             {
               "id": "m24",
               "file": "pl-florian/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 2",
+              "group": "Tytuły tajemnic",
               "text": "Wniebowstąpienie",
               "bytes": 12045
             },
             {
               "id": "m34",
               "file": "pl-florian/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 3",
+              "group": "Tytuły tajemnic",
               "text": "Zesłanie Ducha Świętego",
               "bytes": 12909
             },
             {
               "id": "m44",
               "file": "pl-florian/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 4",
+              "group": "Tytuły tajemnic",
               "text": "Wniebowzięcie Maryi",
               "bytes": 12429
             },
             {
               "id": "m54",
               "file": "pl-florian/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 5",
+              "group": "Tytuły tajemnic",
               "text": "Ukoronowanie Matki Bożej na Królową nieba i ziemi",
               "bytes": 19245
             }
@@ -317,296 +317,296 @@
             {
               "id": "010",
               "file": "pl-seraphina/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Skład Apostolski",
+              "group": "Modlitwy różańcowe",
               "text": "Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, i w Jezusa Chrystusa, Syna Jego jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Ponckim Piłatem, ukrzyżowan, umarł i pogrzebion.\nZstąpił do piekieł, trzeciego dnia zmartwychwstał. Wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego.\nStamtąd przyjdzie sądzić żywych i umarłych.\nWierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny.\nAmen.",
               "bytes": 138093
             },
             {
               "id": "020",
               "file": "pl-seraphina/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Ojcze nasz, pierwsza część",
+              "group": "Modlitwy różańcowe",
               "text": "Ojcze nasz,\nktóryś jest w niebie:\nświęć się imię Twoje,\nprzyjdź Królestwo Twoje,\nbądź wola Twoja jako w niebie,\ntak i na ziemi.",
               "bytes": 32205
             },
             {
               "id": "021",
               "file": "pl-seraphina/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Ojcze nasz, druga część",
+              "group": "Modlitwy różańcowe",
               "text": "Chleba naszego powszedniego\ndaj nam dzisiaj.\nI odpuść nam nasze winy,\njako i my odpuszczamy naszym winowajcom.\nI nie wódź nas na pokuszenie,\nale nas zbaw od złego, Amen.",
               "bytes": 40461
             },
             {
               "id": "030",
               "file": "pl-seraphina/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Zdrowaś Maryjo, pierwsza część",
+              "group": "Modlitwy różańcowe",
               "text": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego Jezus.",
               "bytes": 29901
             },
             {
               "id": "031",
               "file": "pl-seraphina/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Zdrowaś Maryjo, druga część",
+              "group": "Modlitwy różańcowe",
               "text": "Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej, Amen.",
               "bytes": 25677
             },
             {
               "id": "040",
               "file": "pl-seraphina/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Chwała Ojcu",
+              "group": "Modlitwy różańcowe",
               "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu, jak była na początku, teraz i zawsze, i na wieki wiekó, Amen.",
               "bytes": 28365
             },
             {
               "id": "050",
               "file": "pl-seraphina/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Modlitwa fatimska",
+              "group": "Modlitwy różańcowe",
               "text": "O mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
               "bytes": 44973
             },
             {
               "id": "060",
               "file": "pl-seraphina/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: modlitwa Ojcze Przedwieczny",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Ojcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.",
               "bytes": 48333
             },
             {
               "id": "070",
               "file": "pl-seraphina/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: Dla Jego bolesnej męki",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Dla Jego bolesnej męki.",
               "bytes": 7053
             },
             {
               "id": "071",
               "file": "pl-seraphina/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: odpowiedź o miłosierdzie",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Miej miłosierdzie dla nas i całego świata.",
               "bytes": 11565
             },
             {
               "id": "080",
               "file": "pl-seraphina/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: Święty Boże",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Święty Boże, Święty Mocny, Święty Nieśmiertelny, zmiłuj się nad nami i nad całym światem.",
               "bytes": 26061
             },
             {
               "id": "090",
               "file": "pl-seraphina/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Koronka do Miłosierdzia Bożego: Jezu, ufam Tobie",
+              "group": "Koronka do Miłosierdzia Bożego",
               "text": "Jezu ufam Tobie. Jezu ufam Tobie. Jezu ufam Tobie",
               "bytes": 28269
             },
             {
               "id": "mT1",
               "file": "pl-seraphina/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic radosnych",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice radosne",
               "bytes": 6189
             },
             {
               "id": "mT2",
               "file": "pl-seraphina/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic światła",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice światła",
               "bytes": 7245
             },
             {
               "id": "mT3",
               "file": "pl-seraphina/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic bolesnych",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice bolesne",
               "bytes": 6093
             },
             {
               "id": "mT4",
               "file": "pl-seraphina/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Tytuł tajemnic chwalebnych",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Tajemnice chwalebne",
               "bytes": 6477
             },
             {
               "id": "mT5",
               "file": "pl-seraphina/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Tytuł Koronki do Miłosierdzia Bożego",
+              "group": "Tytuły zestawów tajemnic",
               "text": "Koronka",
               "bytes": 3789
             },
             {
               "id": "m11",
               "file": "pl-seraphina/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 1",
+              "group": "Tytuły tajemnic",
               "text": "Zwiastowanie NMP",
               "bytes": 17421
             },
             {
               "id": "m21",
               "file": "pl-seraphina/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 2",
+              "group": "Tytuły tajemnic",
               "text": "Nawiedzenie św. Elżbiety",
               "bytes": 15021
             },
             {
               "id": "m31",
               "file": "pl-seraphina/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 3",
+              "group": "Tytuły tajemnic",
               "text": "Narodzenie Jezusa",
               "bytes": 13005
             },
             {
               "id": "m41",
               "file": "pl-seraphina/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 4",
+              "group": "Tytuły tajemnic",
               "text": "Ofiarowanie w świątyni",
               "bytes": 13773
             },
             {
               "id": "m51",
               "file": "pl-seraphina/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica radosna 5",
+              "group": "Tytuły tajemnic",
               "text": "Znalezienie w świątyni",
               "bytes": 14349
             },
             {
               "id": "m12",
               "file": "pl-seraphina/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 1",
+              "group": "Tytuły tajemnic",
               "text": "Chrzest Pana Jezusa w Jordanie",
               "bytes": 14445
             },
             {
               "id": "m22",
               "file": "pl-seraphina/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 2",
+              "group": "Tytuły tajemnic",
               "text": "Objawienie siebie na weselu w Kanie Galilejskiej",
               "bytes": 19437
             },
             {
               "id": "m32",
               "file": "pl-seraphina/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 3",
+              "group": "Tytuły tajemnic",
               "text": "Głoszenie Królestwa Bożego i wzywanie do nawrócenia",
               "bytes": 21645
             },
             {
               "id": "m42",
               "file": "pl-seraphina/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 4",
+              "group": "Tytuły tajemnic",
               "text": "Przemienienie na górze Tabor",
               "bytes": 14445
             },
             {
               "id": "m52",
               "file": "pl-seraphina/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica światła 5",
+              "group": "Tytuły tajemnic",
               "text": "Ustanowienie Eucharystii",
               "bytes": 16077
             },
             {
               "id": "m13",
               "file": "pl-seraphina/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 1",
+              "group": "Tytuły tajemnic",
               "text": "Modlitwa w Ogrójcu",
               "bytes": 12909
             },
             {
               "id": "m23",
               "file": "pl-seraphina/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 2",
+              "group": "Tytuły tajemnic",
               "text": "Biczowanie",
               "bytes": 11949
             },
             {
               "id": "m33",
               "file": "pl-seraphina/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 3",
+              "group": "Tytuły tajemnic",
               "text": "Cierniem ukoronowanie",
               "bytes": 14829
             },
             {
               "id": "m43",
               "file": "pl-seraphina/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 4",
+              "group": "Tytuły tajemnic",
               "text": "Droga krzyżowa",
               "bytes": 12429
             },
             {
               "id": "m53",
               "file": "pl-seraphina/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica bolesna 5",
+              "group": "Tytuły tajemnic",
               "text": "Śmierć na Krzyżu",
               "bytes": 14061
             },
             {
               "id": "m14",
               "file": "pl-seraphina/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 1",
+              "group": "Tytuły tajemnic",
               "text": "Zmartwychwstanie Pana Jezusa",
               "bytes": 15309
             },
             {
               "id": "m24",
               "file": "pl-seraphina/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 2",
+              "group": "Tytuły tajemnic",
               "text": "Wniebowstąpienie",
               "bytes": 13965
             },
             {
               "id": "m34",
               "file": "pl-seraphina/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 3",
+              "group": "Tytuły tajemnic",
               "text": "Zesłanie Ducha Świętego",
               "bytes": 14733
             },
             {
               "id": "m44",
               "file": "pl-seraphina/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 4",
+              "group": "Tytuły tajemnic",
               "text": "Wniebowzięcie Maryi",
               "bytes": 13965
             },
             {
               "id": "m54",
               "file": "pl-seraphina/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Tajemnica chwalebna 5",
+              "group": "Tytuły tajemnic",
               "text": "Ukoronowanie Matki Bożej na Królową nieba i ziemi",
               "bytes": 20781
             }
@@ -1241,296 +1241,296 @@
             {
               "id": "010",
               "file": "de-florian/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Apostolisches Glaubensbekenntnis",
+              "group": "Rosenkranzgebete",
               "text": "Ich glaube an Gott, den Vater, den Allmächtigen, den Schöpfer des Himmels und der Erde, und an Jesus Christus, seinen eingeborenen Sohn, unsern Herrn, empfangen durch den Heiligen Geist, geboren von der Jungfrau Maria, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben.\nHinabgestiegen in das Reich des Todes, am dritten Tage auferstanden von den Toten, aufgefahren in den Himmel; er sitzt zur Rechten Gottes, des allmächtigen Vaters.\nVon dort wird er kommen, zu richten die Lebenden und die Toten.\nIch glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Vergebung der Sünden, Auferstehung der Toten und das ewige Leben.\nAmen.",
               "bytes": 139149
             },
             {
               "id": "020",
               "file": "de-florian/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Vaterunser, erster Teil",
+              "group": "Rosenkranzgebete",
               "text": "Vater unser im Himmel,\ngeheiligt werde dein Name.\nDein Reich komme.\nDein Wille geschehe,\nwie im Himmel so auf Erden.",
               "bytes": 25389
             },
             {
               "id": "021",
               "file": "de-florian/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Vaterunser, zweiter Teil",
+              "group": "Rosenkranzgebete",
               "text": "Unser tägliches Brot gib uns heute.\nUnd vergib uns unsere Schuld,\nwie auch wir vergeben unsern Schuldigern.\nUnd führe uns nicht in Versuchung,\nsondern erlöse uns von dem Bösen.\nAmen.",
               "bytes": 38637
             },
             {
               "id": "030",
               "file": "de-florian/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Gegrüßet seist du, Maria, erster Teil",
+              "group": "Rosenkranzgebete",
               "text": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus.",
               "bytes": 29805
             },
             {
               "id": "031",
               "file": "de-florian/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Gegrüßet seist du, Maria, zweiter Teil",
+              "group": "Rosenkranzgebete",
               "text": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.",
               "bytes": 24621
             },
             {
               "id": "040",
               "file": "de-florian/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Ehre sei dem Vater",
+              "group": "Rosenkranzgebete",
               "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist, wie im Anfang, so auch jetzt und alle Zeit und in Ewigkeit. Amen.",
               "bytes": 28845
             },
             {
               "id": "050",
               "file": "de-florian/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Fatima-Gebet",
+              "group": "Rosenkranzgebete",
               "text": "O mein Jesus, verzeih uns unsere Sünden, bewahre uns vor dem Feuer der Hölle, führe alle Seelen in den Himmel, besonders jene, die deiner Barmherzigkeit am meisten bedürfen. Amen.",
               "bytes": 40365
             },
             {
               "id": "060",
               "file": "de-florian/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Ewiger Vater",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Ewiger Vater, ich opfere dir auf den Leib und das Blut, die Seele und die Gottheit deines über alles geliebten Sohnes, unseres Herrn Jesus Christus, zur Sühne für unsere Sünden und die Sünden der ganzen Welt.",
               "bytes": 41229
             },
             {
               "id": "070",
               "file": "de-florian/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Durch sein schmerzhaftes Leiden",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Durch sein schmerzhaftes Leiden.",
               "bytes": 8109
             },
             {
               "id": "071",
               "file": "de-florian/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Erbarme dich unser",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Habe Erbarmen mit uns und mit der ganzen Welt.",
               "bytes": 9837
             },
             {
               "id": "080",
               "file": "de-florian/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Heiliger Gott",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Heiliger Gott, heiliger starker Gott, heiliger unsterblicher Gott, habe Erbarmen mit uns und mit der ganzen Welt.",
               "bytes": 26349
             },
             {
               "id": "090",
               "file": "de-florian/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Jesus, ich vertraue auf dich",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Jesus, ich vertraue auf dich. Jesus, ich vertraue auf dich. Jesus, ich vertraue auf dich.",
               "bytes": 34869
             },
             {
               "id": "mT1",
               "file": "de-florian/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der freudenreichen Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Freudenreiche Geheimnisse",
               "bytes": 5805
             },
             {
               "id": "mT2",
               "file": "de-florian/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der lichtreichen Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Lichtreiche Geheimnisse",
               "bytes": 6381
             },
             {
               "id": "mT3",
               "file": "de-florian/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der schmerzhaften Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Schmerzhafte Geheimnisse",
               "bytes": 6573
             },
             {
               "id": "mT4",
               "file": "de-florian/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der glorreichen Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Glorreiche Geheimnisse",
               "bytes": 6381
             },
             {
               "id": "mT5",
               "file": "de-florian/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Titel des Barmherzigkeitsrosenkranzes",
+              "group": "Titel der Geheimnisreihen",
               "text": "Barmherzigkeitsrosenkranz",
               "bytes": 7821
             },
             {
               "id": "m11",
               "file": "de-florian/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Die Verkündigung der seligen Jungfrau Maria",
               "bytes": 17901
             },
             {
               "id": "m21",
               "file": "de-florian/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Heimsuchung der heiligen Elisabeth",
               "bytes": 16365
             },
             {
               "id": "m31",
               "file": "de-florian/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Die Geburt des Herrn",
               "bytes": 12429
             },
             {
               "id": "m41",
               "file": "de-florian/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Die Darstellung im Tempel",
               "bytes": 13773
             },
             {
               "id": "m51",
               "file": "de-florian/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Die Findung des Kindes Jesus im Tempel",
               "bytes": 18093
             },
             {
               "id": "m12",
               "file": "de-florian/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Die Taufe des Herrn Jesus im Jordan",
               "bytes": 14733
             },
             {
               "id": "m22",
               "file": "de-florian/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Hochzeit zu Kana",
               "bytes": 13773
             },
             {
               "id": "m32",
               "file": "de-florian/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Die Verkündigung des Reiches Gottes",
               "bytes": 16461
             },
             {
               "id": "m42",
               "file": "de-florian/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Die Verklärung auf dem Berg Tabor",
               "bytes": 16461
             },
             {
               "id": "m52",
               "file": "de-florian/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Die Einsetzung der Eucharistie",
               "bytes": 16365
             },
             {
               "id": "m13",
               "file": "de-florian/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Das Gebet im Garten Gethsemane",
               "bytes": 16365
             },
             {
               "id": "m23",
               "file": "de-florian/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Geißelung des Herrn",
               "bytes": 11949
             },
             {
               "id": "m33",
               "file": "de-florian/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Die Dornenkrönung",
               "bytes": 11565
             },
             {
               "id": "m43",
               "file": "de-florian/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Der Kreuzweg",
               "bytes": 11373
             },
             {
               "id": "m53",
               "file": "de-florian/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Der Tod des Herrn am Kreuz",
               "bytes": 13773
             },
             {
               "id": "m14",
               "file": "de-florian/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Die Auferstehung des Herrn Jesus",
               "bytes": 15021
             },
             {
               "id": "m24",
               "file": "de-florian/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Himmelfahrt des Herrn",
               "bytes": 12333
             },
             {
               "id": "m34",
               "file": "de-florian/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Das Pfingstereignis",
               "bytes": 13005
             },
             {
               "id": "m44",
               "file": "de-florian/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Die Aufnahme Marias in den Himmel",
               "bytes": 18477
             },
             {
               "id": "m54",
               "file": "de-florian/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Die Krönung der seligen Jungfrau Maria zur Königin des Himmels und der Erde",
               "bytes": 22509
             }
@@ -1545,296 +1545,296 @@
             {
               "id": "010",
               "file": "de-seraphina/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Apostolisches Glaubensbekenntnis",
+              "group": "Rosenkranzgebete",
               "text": "Ich glaube an Gott, den Vater, den Allmächtigen, den Schöpfer des Himmels und der Erde, und an Jesus Christus, seinen eingeborenen Sohn, unsern Herrn, empfangen durch den Heiligen Geist, geboren von der Jungfrau Maria, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben.\nHinabgestiegen in das Reich des Todes, am dritten Tage auferstanden von den Toten, aufgefahren in den Himmel; er sitzt zur Rechten Gottes, des allmächtigen Vaters.\nVon dort wird er kommen, zu richten die Lebenden und die Toten.\nIch glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Vergebung der Sünden, Auferstehung der Toten und das ewige Leben.\nAmen.",
               "bytes": 163053
             },
             {
               "id": "020",
               "file": "de-seraphina/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Vaterunser, erster Teil",
+              "group": "Rosenkranzgebete",
               "text": "Vater unser im Himmel,\ngeheiligt werde dein Name.\nDein Reich komme.\nDein Wille geschehe,\nwie im Himmel so auf Erden.",
               "bytes": 30861
             },
             {
               "id": "021",
               "file": "de-seraphina/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Vaterunser, zweiter Teil",
+              "group": "Rosenkranzgebete",
               "text": "Unser tägliches Brot gib uns heute.\nUnd vergib uns unsere Schuld,\nwie auch wir vergeben unsern Schuldigern.\nUnd führe uns nicht in Versuchung,\nsondern erlöse uns von dem Bösen.\nAmen.",
               "bytes": 45549
             },
             {
               "id": "030",
               "file": "de-seraphina/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Gegrüßet seist du, Maria, erster Teil",
+              "group": "Rosenkranzgebete",
               "text": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus.",
               "bytes": 34317
             },
             {
               "id": "031",
               "file": "de-seraphina/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Gegrüßet seist du, Maria, zweiter Teil",
+              "group": "Rosenkranzgebete",
               "text": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.",
               "bytes": 27789
             },
             {
               "id": "040",
               "file": "de-seraphina/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Ehre sei dem Vater",
+              "group": "Rosenkranzgebete",
               "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist, wie im Anfang, so auch jetzt und alle Zeit und in Ewigkeit. Amen.",
               "bytes": 33549
             },
             {
               "id": "050",
               "file": "de-seraphina/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Fatima-Gebet",
+              "group": "Rosenkranzgebete",
               "text": "O mein Jesus, verzeih uns unsere Sünden, bewahre uns vor dem Feuer der Hölle, führe alle Seelen in den Himmel, besonders jene, die deiner Barmherzigkeit am meisten bedürfen. Amen.",
               "bytes": 46989
             },
             {
               "id": "060",
               "file": "de-seraphina/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Ewiger Vater",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Ewiger Vater, ich opfere dir auf den Leib und das Blut, die Seele und die Gottheit deines über alles geliebten Sohnes, unseres Herrn Jesus Christus, zur Sühne für unsere Sünden und die Sünden der ganzen Welt.",
               "bytes": 49677
             },
             {
               "id": "070",
               "file": "de-seraphina/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Durch sein schmerzhaftes Leiden",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Durch sein schmerzhaftes Leiden.",
               "bytes": 8205
             },
             {
               "id": "071",
               "file": "de-seraphina/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Erbarme dich unser",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Habe Erbarmen mit uns und mit der ganzen Welt.",
               "bytes": 10605
             },
             {
               "id": "080",
               "file": "de-seraphina/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Heiliger Gott",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Heiliger Gott, heiliger starker Gott, heiliger unsterblicher Gott, habe Erbarmen mit uns und mit der ganzen Welt.",
               "bytes": 29133
             },
             {
               "id": "090",
               "file": "de-seraphina/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Barmherzigkeitsrosenkranz: Jesus, ich vertraue auf dich",
+              "group": "Barmherzigkeitsrosenkranz",
               "text": "Jesus, ich vertraue auf dich. Jesus, ich vertraue auf dich. Jesus, ich vertraue auf dich.",
               "bytes": 43725
             },
             {
               "id": "mT1",
               "file": "de-seraphina/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der freudenreichen Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Freudenreiche Geheimnisse",
               "bytes": 8493
             },
             {
               "id": "mT2",
               "file": "de-seraphina/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der lichtreichen Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Lichtreiche Geheimnisse",
               "bytes": 8493
             },
             {
               "id": "mT3",
               "file": "de-seraphina/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der schmerzhaften Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Schmerzhafte Geheimnisse",
               "bytes": 15789
             },
             {
               "id": "mT4",
               "file": "de-seraphina/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titel der glorreichen Geheimnisse",
+              "group": "Titel der Geheimnisreihen",
               "text": "Glorreiche Geheimnisse",
               "bytes": 6381
             },
             {
               "id": "mT5",
               "file": "de-seraphina/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Titel des Barmherzigkeitsrosenkranzes",
+              "group": "Titel der Geheimnisreihen",
               "text": "Barmherzigkeitsrosenkranz",
               "bytes": 7629
             },
             {
               "id": "m11",
               "file": "de-seraphina/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Die Verkündigung der seligen Jungfrau Maria",
               "bytes": 19149
             },
             {
               "id": "m21",
               "file": "de-seraphina/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Heimsuchung der heiligen Elisabeth",
               "bytes": 19533
             },
             {
               "id": "m31",
               "file": "de-seraphina/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Die Geburt des Herrn",
               "bytes": 14061
             },
             {
               "id": "m41",
               "file": "de-seraphina/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Die Darstellung im Tempel",
               "bytes": 15309
             },
             {
               "id": "m51",
               "file": "de-seraphina/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Freudenreiches Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Die Findung des Kindes Jesus im Tempel",
               "bytes": 19533
             },
             {
               "id": "m12",
               "file": "de-seraphina/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Die Taufe des Herrn Jesus im Jordan",
               "bytes": 17709
             },
             {
               "id": "m22",
               "file": "de-seraphina/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Hochzeit zu Kana",
               "bytes": 15501
             },
             {
               "id": "m32",
               "file": "de-seraphina/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Die Verkündigung des Reiches Gottes",
               "bytes": 18189
             },
             {
               "id": "m42",
               "file": "de-seraphina/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Die Verklärung auf dem Berg Tabor",
               "bytes": 18573
             },
             {
               "id": "m52",
               "file": "de-seraphina/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Lichtreiches Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Die Einsetzung der Eucharistie",
               "bytes": 16653
             },
             {
               "id": "m13",
               "file": "de-seraphina/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Das Gebet im Garten Gethsemane",
               "bytes": 16173
             },
             {
               "id": "m23",
               "file": "de-seraphina/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Geißelung des Herrn",
               "bytes": 14733
             },
             {
               "id": "m33",
               "file": "de-seraphina/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Die Dornenkrönung",
               "bytes": 13965
             },
             {
               "id": "m43",
               "file": "de-seraphina/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Der Kreuzweg",
               "bytes": 12429
             },
             {
               "id": "m53",
               "file": "de-seraphina/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Schmerzhaftes Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Der Tod des Herrn am Kreuz",
               "bytes": 17133
             },
             {
               "id": "m14",
               "file": "de-seraphina/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 1",
+              "group": "Titel der Geheimnisse",
               "text": "Die Auferstehung des Herrn Jesus",
               "bytes": 16173
             },
             {
               "id": "m24",
               "file": "de-seraphina/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 2",
+              "group": "Titel der Geheimnisse",
               "text": "Die Himmelfahrt des Herrn",
               "bytes": 17037
             },
             {
               "id": "m34",
               "file": "de-seraphina/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 3",
+              "group": "Titel der Geheimnisse",
               "text": "Das Pfingstereignis",
               "bytes": 17421
             },
             {
               "id": "m44",
               "file": "de-seraphina/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 4",
+              "group": "Titel der Geheimnisse",
               "text": "Die Aufnahme Marias in den Himmel",
               "bytes": 21261
             },
             {
               "id": "m54",
               "file": "de-seraphina/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Glorreiches Geheimnis 5",
+              "group": "Titel der Geheimnisse",
               "text": "Die Krönung der seligen Jungfrau Maria zur Königin des Himmels und der Erde",
               "bytes": 26733
             }
@@ -1844,7 +1844,7 @@
     },
     {
       "code": "fr",
-      "name": "Francais",
+      "name": "Français",
       "variants": [
         {
           "id": "fr-florian",
@@ -1855,296 +1855,296 @@
             {
               "id": "010",
               "file": "fr-florian/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Symbole des Apôtres",
+              "group": "Prières du chapelet",
               "text": "Je crois en Dieu, le Père tout-puissant, Créateur du ciel et de la terre.\nEt en Jésus Christ, son Fils unique, notre Seigneur, qui a été conçu du Saint-Esprit, est né de la Vierge Marie, a souffert sous Ponce Pilate, a été crucifié, est mort et a été enseveli, est descendu aux enfers.\nLe troisième jour est ressuscité des morts, est monté aux cieux, est assis à la droite de Dieu le Père tout-puissant, d'où il viendra juger les vivants et les morts.\nJe crois en l'Esprit Saint, à la sainte Église catholique, à la communion des saints, à la rémission des péchés, à la résurrection de la chair, à la vie éternelle.\nAmen.",
               "bytes": 121005
             },
             {
               "id": "020",
               "file": "fr-florian/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Notre Père, première partie",
+              "group": "Prières du chapelet",
               "text": "Notre Père, qui es aux cieux,\nque ton Nom soit sanctifié,\nque ton Règne vienne,\nque ta volonté soit faite,\nsur la terre comme au ciel.",
               "bytes": 22989
             },
             {
               "id": "021",
               "file": "fr-florian/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Notre Père, deuxième partie",
+              "group": "Prières du chapelet",
               "text": "Donne-nous aujourd'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi à ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du mal.\nAmen.",
               "bytes": 38733
             },
             {
               "id": "030",
               "file": "fr-florian/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Je vous salue Marie, première partie",
+              "group": "Prières du chapelet",
               "text": "Je vous salue, Marie, pleine de grâce. Le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni.",
               "bytes": 27693
             },
             {
               "id": "031",
               "file": "fr-florian/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Je vous salue Marie, deuxième partie",
+              "group": "Prières du chapelet",
               "text": "Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.",
               "bytes": 23373
             },
             {
               "id": "040",
               "file": "fr-florian/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Gloire au Père",
+              "group": "Prières du chapelet",
               "text": "Gloire au Père, au Fils et au Saint-Esprit, comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen.",
               "bytes": 24909
             },
             {
               "id": "050",
               "file": "fr-florian/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Prière de Fatima",
+              "group": "Prières du chapelet",
               "text": "Ô mon Jésus, pardonnez-nous, préservez-nous du feu de l'enfer; emmenez au Paradis toutes les âmes, surtout celles qui ont le plus besoin.",
               "bytes": 21453
             },
             {
               "id": "060",
               "file": "fr-florian/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : prière du Père Éternel",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Père Éternel, je t'offre le Corps et le Sang, l'Âme et la Divinité de ton Fils bien-aimé, notre Seigneur Jésus-Christ, en réparation de nos péchés et de ceux du monde entier.",
               "bytes": 36045
             },
             {
               "id": "070",
               "file": "fr-florian/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : Par sa douloureuse Passion",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Par sa douloureuse Passion.",
               "bytes": 5805
             },
             {
               "id": "071",
               "file": "fr-florian/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : réponse de miséricorde",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Sois miséricordieux pour nous et pour le monde entier.",
               "bytes": 12909
             },
             {
               "id": "080",
               "file": "fr-florian/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : Dieu Saint",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Saint Dieu, Saint Fort, Saint Immortel, aie pitié de nous et du monde entier.",
               "bytes": 16077
             },
             {
               "id": "090",
               "file": "fr-florian/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : Jésus, j'ai confiance en toi",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Jésus, j'ai confiance en toi. Jésus, j'ai confiance en toi. Jésus, j'ai confiance en toi.",
               "bytes": 38013
             },
             {
               "id": "mT1",
               "file": "fr-florian/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères joyeux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères joyeux",
               "bytes": 4461
             },
             {
               "id": "mT2",
               "file": "fr-florian/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères lumineux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères lumineux",
               "bytes": 4749
             },
             {
               "id": "mT3",
               "file": "fr-florian/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères douloureux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères douloureux",
               "bytes": 4845
             },
             {
               "id": "mT4",
               "file": "fr-florian/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères glorieux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères glorieux",
               "bytes": 5037
             },
             {
               "id": "mT5",
               "file": "fr-florian/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Titre du Chapelet de la Divine Miséricorde",
+              "group": "Titres des séries de mystères",
               "text": "Chapelet",
               "bytes": 3309
             },
             {
               "id": "m11",
               "file": "fr-florian/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 1",
+              "group": "Titres des mystères",
               "text": "L'Annonciation de la Bienheureuse Vierge Marie",
               "bytes": 13005
             },
             {
               "id": "m21",
               "file": "fr-florian/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 2",
+              "group": "Titres des mystères",
               "text": "La Visitation de sainte Élisabeth",
               "bytes": 13389
             },
             {
               "id": "m31",
               "file": "fr-florian/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 3",
+              "group": "Titres des mystères",
               "text": "La Nativité du Seigneur",
               "bytes": 12909
             },
             {
               "id": "m41",
               "file": "fr-florian/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 4",
+              "group": "Titres des mystères",
               "text": "La Présentation au Temple",
               "bytes": 11949
             },
             {
               "id": "m51",
               "file": "fr-florian/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 5",
+              "group": "Titres des mystères",
               "text": "Le Recouvrement de l'Enfant Jésus au Temple",
               "bytes": 14445
             },
             {
               "id": "m12",
               "file": "fr-florian/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 1",
+              "group": "Titres des mystères",
               "text": "Le Baptême du Seigneur Jésus au Jourdain",
               "bytes": 13101
             },
             {
               "id": "m22",
               "file": "fr-florian/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 2",
+              "group": "Titres des mystères",
               "text": "Les Noces de Cana",
               "bytes": 13293
             },
             {
               "id": "m32",
               "file": "fr-florian/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 3",
+              "group": "Titres des mystères",
               "text": "La Proclamation du Royaume de Dieu",
               "bytes": 13581
             },
             {
               "id": "m42",
               "file": "fr-florian/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 4",
+              "group": "Titres des mystères",
               "text": "La Transfiguration au mont Thabor",
               "bytes": 15981
             },
             {
               "id": "m52",
               "file": "fr-florian/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 5",
+              "group": "Titres des mystères",
               "text": "L'Institution de l'Eucharistie",
               "bytes": 13005
             },
             {
               "id": "m13",
               "file": "fr-florian/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 1",
+              "group": "Titres des mystères",
               "text": "La Prière au Jardin de Gethsémani",
               "bytes": 12717
             },
             {
               "id": "m23",
               "file": "fr-florian/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 2",
+              "group": "Titres des mystères",
               "text": "La Flagellation du Seigneur",
               "bytes": 13101
             },
             {
               "id": "m33",
               "file": "fr-florian/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 3",
+              "group": "Titres des mystères",
               "text": "Le Couronnement d'épines",
               "bytes": 12237
             },
             {
               "id": "m43",
               "file": "fr-florian/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 4",
+              "group": "Titres des mystères",
               "text": "Le Chemin de Croix",
               "bytes": 10605
             },
             {
               "id": "m53",
               "file": "fr-florian/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 5",
+              "group": "Titres des mystères",
               "text": "La Mort du Seigneur sur la Croix",
               "bytes": 15405
             },
             {
               "id": "m14",
               "file": "fr-florian/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 1",
+              "group": "Titres des mystères",
               "text": "La Résurrection du Seigneur Jésus",
               "bytes": 12621
             },
             {
               "id": "m24",
               "file": "fr-florian/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 2",
+              "group": "Titres des mystères",
               "text": "L'Ascension du Seigneur",
               "bytes": 11949
             },
             {
               "id": "m34",
               "file": "fr-florian/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 3",
+              "group": "Titres des mystères",
               "text": "La Descente du Saint-Esprit",
               "bytes": 12237
             },
             {
               "id": "m44",
               "file": "fr-florian/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 4",
+              "group": "Titres des mystères",
               "text": "L'Assomption de Marie",
               "bytes": 12237
             },
             {
               "id": "m54",
               "file": "fr-florian/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 5",
+              "group": "Titres des mystères",
               "text": "Le Couronnement de la Bienheureuse Vierge Marie comme Reine du Ciel et de la Terre",
               "bytes": 21837
             }
@@ -2159,296 +2159,296 @@
             {
               "id": "010",
               "file": "fr-seraphina/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Symbole des Apôtres",
+              "group": "Prières du chapelet",
               "text": "Je crois en Dieu, le Père tout-puissant, Créateur du ciel et de la terre.\nEt en Jésus Christ, son Fils unique, notre Seigneur, qui a été conçu du Saint-Esprit, est né de la Vierge Marie, a souffert sous Ponce Pilate, a été crucifié, est mort et a été enseveli, est descendu aux enfers.\nLe troisième jour est ressuscité des morts, est monté aux cieux, est assis à la droite de Dieu le Père tout-puissant, d'où il viendra juger les vivants et les morts.\nJe crois en l'Esprit Saint, à la sainte Église catholique, à la communion des saints, à la rémission des péchés, à la résurrection de la chair, à la vie éternelle.\nAmen.",
               "bytes": 133581
             },
             {
               "id": "020",
               "file": "fr-seraphina/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Notre Père, première partie",
+              "group": "Prières du chapelet",
               "text": "Notre Père, qui es aux cieux,\nque ton Nom soit sanctifié,\nque ton Règne vienne,\nque ta volonté soit faite,\nsur la terre comme au ciel.",
               "bytes": 27789
             },
             {
               "id": "021",
               "file": "fr-seraphina/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Notre Père, deuxième partie",
+              "group": "Prières du chapelet",
               "text": "Donne-nous aujourd'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi à ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du mal.\nAmen.",
               "bytes": 39693
             },
             {
               "id": "030",
               "file": "fr-seraphina/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Je vous salue Marie, première partie",
+              "group": "Prières du chapelet",
               "text": "Je vous salue, Marie, pleine de grâce. Le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni.",
               "bytes": 26733
             },
             {
               "id": "031",
               "file": "fr-seraphina/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Je vous salue Marie, deuxième partie",
+              "group": "Prières du chapelet",
               "text": "Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.",
               "bytes": 28461
             },
             {
               "id": "040",
               "file": "fr-seraphina/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Gloire au Père",
+              "group": "Prières du chapelet",
               "text": "Gloire au Père, au Fils et au Saint-Esprit, comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen.",
               "bytes": 29421
             },
             {
               "id": "050",
               "file": "fr-seraphina/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Prière de Fatima",
+              "group": "Prières du chapelet",
               "text": "Ô mon Jésus, pardonnez-nous, préservez-nous du feu de l'enfer; emmenez au Paradis toutes les âmes, surtout celles qui ont le plus besoin.",
               "bytes": 27981
             },
             {
               "id": "060",
               "file": "fr-seraphina/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : prière du Père Éternel",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Père Éternel, je t'offre le Corps et le Sang, l'Âme et la Divinité de ton Fils bien-aimé, notre Seigneur Jésus-Christ, en réparation de nos péchés et de ceux du monde entier.",
               "bytes": 37965
             },
             {
               "id": "070",
               "file": "fr-seraphina/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : Par sa douloureuse Passion",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Par sa douloureuse Passion.",
               "bytes": 7053
             },
             {
               "id": "071",
               "file": "fr-seraphina/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : réponse de miséricorde",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Sois miséricordieux pour nous et pour le monde entier.",
               "bytes": 12045
             },
             {
               "id": "080",
               "file": "fr-seraphina/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : Dieu Saint",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Saint Dieu, Saint Fort, Saint Immortel, aie pitié de nous et du monde entier.",
               "bytes": 19245
             },
             {
               "id": "090",
               "file": "fr-seraphina/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Chapelet de la Divine Miséricorde : Jésus, j'ai confiance en toi",
+              "group": "Chapelet de la Divine Miséricorde",
               "text": "Jésus, j'ai confiance en toi. Jésus, j'ai confiance en toi. Jésus, j'ai confiance en toi.",
               "bytes": 42981
             },
             {
               "id": "mT1",
               "file": "fr-seraphina/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères joyeux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères joyeux",
               "bytes": 4845
             },
             {
               "id": "mT2",
               "file": "fr-seraphina/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères lumineux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères lumineux",
               "bytes": 5229
             },
             {
               "id": "mT3",
               "file": "fr-seraphina/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères douloureux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères douloureux",
               "bytes": 5517
             },
             {
               "id": "mT4",
               "file": "fr-seraphina/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Titre des mystères glorieux",
+              "group": "Titres des séries de mystères",
               "text": "Mystères glorieux",
               "bytes": 6093
             },
             {
               "id": "mT5",
               "file": "fr-seraphina/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Titre du Chapelet de la Divine Miséricorde",
+              "group": "Titres des séries de mystères",
               "text": "Chapelet",
               "bytes": 3117
             },
             {
               "id": "m11",
               "file": "fr-seraphina/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 1",
+              "group": "Titres des mystères",
               "text": "L'Annonciation de la Bienheureuse Vierge Marie",
               "bytes": 16461
             },
             {
               "id": "m21",
               "file": "fr-seraphina/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 2",
+              "group": "Titres des mystères",
               "text": "La Visitation de sainte Élisabeth",
               "bytes": 16077
             },
             {
               "id": "m31",
               "file": "fr-seraphina/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 3",
+              "group": "Titres des mystères",
               "text": "La Nativité du Seigneur",
               "bytes": 12429
             },
             {
               "id": "m41",
               "file": "fr-seraphina/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 4",
+              "group": "Titres des mystères",
               "text": "La Présentation au Temple",
               "bytes": 13293
             },
             {
               "id": "m51",
               "file": "fr-seraphina/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère joyeux 5",
+              "group": "Titres des mystères",
               "text": "Le Recouvrement de l'Enfant Jésus au Temple",
               "bytes": 15309
             },
             {
               "id": "m12",
               "file": "fr-seraphina/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 1",
+              "group": "Titres des mystères",
               "text": "Le Baptême du Seigneur Jésus au Jourdain",
               "bytes": 15501
             },
             {
               "id": "m22",
               "file": "fr-seraphina/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 2",
+              "group": "Titres des mystères",
               "text": "Les Noces de Cana",
               "bytes": 12717
             },
             {
               "id": "m32",
               "file": "fr-seraphina/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 3",
+              "group": "Titres des mystères",
               "text": "La Proclamation du Royaume de Dieu",
               "bytes": 17229
             },
             {
               "id": "m42",
               "file": "fr-seraphina/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 4",
+              "group": "Titres des mystères",
               "text": "La Transfiguration au mont Thabor",
               "bytes": 15693
             },
             {
               "id": "m52",
               "file": "fr-seraphina/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère lumineux 5",
+              "group": "Titres des mystères",
               "text": "L'Institution de l'Eucharistie",
               "bytes": 14253
             },
             {
               "id": "m13",
               "file": "fr-seraphina/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 1",
+              "group": "Titres des mystères",
               "text": "La Prière au Jardin de Gethsémani",
               "bytes": 16077
             },
             {
               "id": "m23",
               "file": "fr-seraphina/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 2",
+              "group": "Titres des mystères",
               "text": "La Flagellation du Seigneur",
               "bytes": 14733
             },
             {
               "id": "m33",
               "file": "fr-seraphina/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 3",
+              "group": "Titres des mystères",
               "text": "Le Couronnement d'épines",
               "bytes": 12333
             },
             {
               "id": "m43",
               "file": "fr-seraphina/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 4",
+              "group": "Titres des mystères",
               "text": "Le Chemin de Croix",
               "bytes": 11277
             },
             {
               "id": "m53",
               "file": "fr-seraphina/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère douloureux 5",
+              "group": "Titres des mystères",
               "text": "La Mort du Seigneur sur la Croix",
               "bytes": 15693
             },
             {
               "id": "m14",
               "file": "fr-seraphina/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 1",
+              "group": "Titres des mystères",
               "text": "La Résurrection du Seigneur Jésus",
               "bytes": 14733
             },
             {
               "id": "m24",
               "file": "fr-seraphina/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 2",
+              "group": "Titres des mystères",
               "text": "L'Ascension du Seigneur",
               "bytes": 12333
             },
             {
               "id": "m34",
               "file": "fr-seraphina/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 3",
+              "group": "Titres des mystères",
               "text": "La Descente du Saint-Esprit",
               "bytes": 13101
             },
             {
               "id": "m44",
               "file": "fr-seraphina/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 4",
+              "group": "Titres des mystères",
               "text": "L'Assomption de Marie",
               "bytes": 14349
             },
             {
               "id": "m54",
               "file": "fr-seraphina/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mystère glorieux 5",
+              "group": "Titres des mystères",
               "text": "Le Couronnement de la Bienheureuse Vierge Marie comme Reine du Ciel et de la Terre",
               "bytes": 22605
             }
@@ -2458,7 +2458,7 @@
     },
     {
       "code": "es",
-      "name": "Espanol",
+      "name": "Español",
       "variants": [
         {
           "id": "es-florian",
@@ -2469,296 +2469,296 @@
             {
               "id": "010",
               "file": "es-florian/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Credo de los Apóstoles",
+              "group": "Oraciones del rosario",
               "text": "Creo en Dios, Padre Todopoderoso, Creador del cielo y de la tierra.\nCreo en Jesucristo, su único Hijo, Nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo, nació de Santa María Virgen, padeció bajo el poder de Poncio Pilato, fue crucificado, muerto y sepultado.\nDescendió a los infiernos, al tercer día resucitó de entre los muertos, subió a los cielos y está sentado a la derecha de Dios, Padre todopoderoso.\nDesde allí ha de venir a juzgar a vivos y muertos.\nCreo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna.\nAmén.",
               "bytes": 139917
             },
             {
               "id": "020",
               "file": "es-florian/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Padre nuestro, primera parte",
+              "group": "Oraciones del rosario",
               "text": "Padre nuestro que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu Reino;\nhágase tu voluntad\nen la tierra como en el cielo.",
               "bytes": 33933
             },
             {
               "id": "021",
               "file": "es-florian/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Padre nuestro, segunda parte",
+              "group": "Oraciones del rosario",
               "text": "Danos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal. Amén.",
               "bytes": 39789
             },
             {
               "id": "030",
               "file": "es-florian/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Ave María, primera parte",
+              "group": "Oraciones del rosario",
               "text": "Dios te salve, María, llena eres de gracia; el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.",
               "bytes": 37965
             },
             {
               "id": "031",
               "file": "es-florian/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Ave María, segunda parte",
+              "group": "Oraciones del rosario",
               "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
               "bytes": 27789
             },
             {
               "id": "040",
               "file": "es-florian/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Gloria al Padre",
+              "group": "Oraciones del rosario",
               "text": "Gloria al Padre y al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.",
               "bytes": 27693
             },
             {
               "id": "050",
               "file": "es-florian/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Oración de Fátima",
+              "group": "Oraciones del rosario",
               "text": "Oh Jesús mío, perdónanos, líbranos del fuego del infierno, lleva al cielo a todas las almas, especialmente a las más necesitadas.",
               "bytes": 31533
             },
             {
               "id": "060",
               "file": "es-florian/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: oración del Padre Eterno",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Padre Eterno, te ofrezco el Cuerpo, la Sangre, el Alma y la Divinidad de tu amadísimo Hijo, Nuestro Señor Jesucristo, como propiciación de nuestros pecados y los del mundo entero.",
               "bytes": 41901
             },
             {
               "id": "070",
               "file": "es-florian/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: Por su dolorosa Pasión",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Por su dolorosa Pasión.",
               "bytes": 6765
             },
             {
               "id": "071",
               "file": "es-florian/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: respuesta de misericordia",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Ten misericordia de nosotros y del mundo entero.",
               "bytes": 10893
             },
             {
               "id": "080",
               "file": "es-florian/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: Santo Dios",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Santo Dios, Santo Fuerte, Santo Inmortal, ten misericordia de nosotros y del mundo entero.",
               "bytes": 24717
             },
             {
               "id": "090",
               "file": "es-florian/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: Jesús, en ti confío",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Jesús, en ti confío. Jesús, en ti confío. Jesús, en ti confío.",
               "bytes": 33957
             },
             {
               "id": "mT1",
               "file": "es-florian/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios gozosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios gozosos",
               "bytes": 6189
             },
             {
               "id": "mT2",
               "file": "es-florian/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios luminosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios luminosos",
               "bytes": 6573
             },
             {
               "id": "mT3",
               "file": "es-florian/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios dolorosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios dolorosos",
               "bytes": 5709
             },
             {
               "id": "mT4",
               "file": "es-florian/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios gloriosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios gloriosos",
               "bytes": 6381
             },
             {
               "id": "mT5",
               "file": "es-florian/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Título de la Coronilla de la Divina Misericordia",
+              "group": "Títulos de grupos de misterios",
               "text": "Coronilla",
               "bytes": 5037
             },
             {
               "id": "m11",
               "file": "es-florian/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 1",
+              "group": "Títulos de misterios",
               "text": "La Anunciación de la Santísima Virgen María",
               "bytes": 15981
             },
             {
               "id": "m21",
               "file": "es-florian/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 2",
+              "group": "Títulos de misterios",
               "text": "La Visitación de Santa Isabel",
               "bytes": 13965
             },
             {
               "id": "m31",
               "file": "es-florian/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 3",
+              "group": "Títulos de misterios",
               "text": "La Natividad del Señor",
               "bytes": 12621
             },
             {
               "id": "m41",
               "file": "es-florian/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 4",
+              "group": "Títulos de misterios",
               "text": "La Presentación en el Templo",
               "bytes": 15693
             },
             {
               "id": "m51",
               "file": "es-florian/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 5",
+              "group": "Títulos de misterios",
               "text": "El Hallazgo del Niño Jesús en el Templo",
               "bytes": 15309
             },
             {
               "id": "m12",
               "file": "es-florian/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 1",
+              "group": "Títulos de misterios",
               "text": "El Bautismo del Señor Jesús en el Jordán",
               "bytes": 16461
             },
             {
               "id": "m22",
               "file": "es-florian/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 2",
+              "group": "Títulos de misterios",
               "text": "Las Bodas de Caná",
               "bytes": 12333
             },
             {
               "id": "m32",
               "file": "es-florian/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 3",
+              "group": "Títulos de misterios",
               "text": "La Proclamación del Reino de Dios",
               "bytes": 15981
             },
             {
               "id": "m42",
               "file": "es-florian/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 4",
+              "group": "Títulos de misterios",
               "text": "La Transfiguración en el monte Tabor",
               "bytes": 15789
             },
             {
               "id": "m52",
               "file": "es-florian/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 5",
+              "group": "Títulos de misterios",
               "text": "La Institución de la Eucaristía",
               "bytes": 13293
             },
             {
               "id": "m13",
               "file": "es-florian/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 1",
+              "group": "Títulos de misterios",
               "text": "La Oración en el Huerto de Getsemaní",
               "bytes": 15021
             },
             {
               "id": "m23",
               "file": "es-florian/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 2",
+              "group": "Títulos de misterios",
               "text": "La Flagelación del Señor",
               "bytes": 13581
             },
             {
               "id": "m33",
               "file": "es-florian/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 3",
+              "group": "Títulos de misterios",
               "text": "La Coronación de espinas",
               "bytes": 13581
             },
             {
               "id": "m43",
               "file": "es-florian/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 4",
+              "group": "Títulos de misterios",
               "text": "El Vía Crucis",
               "bytes": 11373
             },
             {
               "id": "m53",
               "file": "es-florian/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 5",
+              "group": "Títulos de misterios",
               "text": "La Muerte del Señor en la Cruz",
               "bytes": 13677
             },
             {
               "id": "m14",
               "file": "es-florian/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 1",
+              "group": "Títulos de misterios",
               "text": "La Resurrección del Señor Jesús",
               "bytes": 14829
             },
             {
               "id": "m24",
               "file": "es-florian/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 2",
+              "group": "Títulos de misterios",
               "text": "La Ascensión del Señor",
               "bytes": 13677
             },
             {
               "id": "m34",
               "file": "es-florian/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 3",
+              "group": "Títulos de misterios",
               "text": "La Venida del Espíritu Santo",
               "bytes": 14445
             },
             {
               "id": "m44",
               "file": "es-florian/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 4",
+              "group": "Títulos de misterios",
               "text": "La Asunción de María",
               "bytes": 13005
             },
             {
               "id": "m54",
               "file": "es-florian/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 5",
+              "group": "Títulos de misterios",
               "text": "La Coronación de la Santísima Virgen María como Reina del Cielo y de la Tierra",
               "bytes": 22893
             }
@@ -2773,296 +2773,296 @@
             {
               "id": "010",
               "file": "es-seraphina/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Credo de los Apóstoles",
+              "group": "Oraciones del rosario",
               "text": "Creo en Dios, Padre Todopoderoso, Creador del cielo y de la tierra.\nCreo en Jesucristo, su único Hijo, Nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo, nació de Santa María Virgen, padeció bajo el poder de Poncio Pilato, fue crucificado, muerto y sepultado.\nDescendió a los infiernos, al tercer día resucitó de entre los muertos, subió a los cielos y está sentado a la derecha de Dios, Padre todopoderoso.\nDesde allí ha de venir a juzgar a vivos y muertos.\nCreo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna.\nAmén.",
               "bytes": 167661
             },
             {
               "id": "020",
               "file": "es-seraphina/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Padre nuestro, primera parte",
+              "group": "Oraciones del rosario",
               "text": "Padre nuestro que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu Reino;\nhágase tu voluntad\nen la tierra como en el cielo.",
               "bytes": 34989
             },
             {
               "id": "021",
               "file": "es-seraphina/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Padre nuestro, segunda parte",
+              "group": "Oraciones del rosario",
               "text": "Danos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal. Amén.",
               "bytes": 43821
             },
             {
               "id": "030",
               "file": "es-seraphina/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Ave María, primera parte",
+              "group": "Oraciones del rosario",
               "text": "Dios te salve, María, llena eres de gracia; el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.",
               "bytes": 37677
             },
             {
               "id": "031",
               "file": "es-seraphina/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Ave María, segunda parte",
+              "group": "Oraciones del rosario",
               "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
               "bytes": 29133
             },
             {
               "id": "040",
               "file": "es-seraphina/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Gloria al Padre",
+              "group": "Oraciones del rosario",
               "text": "Gloria al Padre y al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.",
               "bytes": 30765
             },
             {
               "id": "050",
               "file": "es-seraphina/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Oración de Fátima",
+              "group": "Oraciones del rosario",
               "text": "Oh Jesús mío, perdónanos, líbranos del fuego del infierno, lleva al cielo a todas las almas, especialmente a las más necesitadas.",
               "bytes": 36237
             },
             {
               "id": "060",
               "file": "es-seraphina/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: oración del Padre Eterno",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Padre Eterno, te ofrezco el Cuerpo, la Sangre, el Alma y la Divinidad de tu amadísimo Hijo, Nuestro Señor Jesucristo, como propiciación de nuestros pecados y los del mundo entero.",
               "bytes": 49965
             },
             {
               "id": "070",
               "file": "es-seraphina/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: Por su dolorosa Pasión",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Por su dolorosa Pasión.",
               "bytes": 8877
             },
             {
               "id": "071",
               "file": "es-seraphina/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: respuesta de misericordia",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Ten misericordia de nosotros y del mundo entero.",
               "bytes": 12333
             },
             {
               "id": "080",
               "file": "es-seraphina/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: Santo Dios",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Santo Dios, Santo Fuerte, Santo Inmortal, ten misericordia de nosotros y del mundo entero.",
               "bytes": 25293
             },
             {
               "id": "090",
               "file": "es-seraphina/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Coronilla de la Divina Misericordia: Jesús, en ti confío",
+              "group": "Coronilla de la Divina Misericordia",
               "text": "Jesús, en ti confío. Jesús, en ti confío. Jesús, en ti confío.",
               "bytes": 57693
             },
             {
               "id": "mT1",
               "file": "es-seraphina/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios gozosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios gozosos",
               "bytes": 14829
             },
             {
               "id": "mT2",
               "file": "es-seraphina/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios luminosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios luminosos",
               "bytes": 6861
             },
             {
               "id": "mT3",
               "file": "es-seraphina/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios dolorosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios dolorosos",
               "bytes": 6861
             },
             {
               "id": "mT4",
               "file": "es-seraphina/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título de los misterios gloriosos",
+              "group": "Títulos de grupos de misterios",
               "text": "Misterios gloriosos",
               "bytes": 8109
             },
             {
               "id": "mT5",
               "file": "es-seraphina/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Título de la Coronilla de la Divina Misericordia",
+              "group": "Títulos de grupos de misterios",
               "text": "Coronilla",
               "bytes": 4845
             },
             {
               "id": "m11",
               "file": "es-seraphina/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 1",
+              "group": "Títulos de misterios",
               "text": "La Anunciación de la Santísima Virgen María",
               "bytes": 19437
             },
             {
               "id": "m21",
               "file": "es-seraphina/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 2",
+              "group": "Títulos de misterios",
               "text": "La Visitación de Santa Isabel",
               "bytes": 17229
             },
             {
               "id": "m31",
               "file": "es-seraphina/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 3",
+              "group": "Títulos de misterios",
               "text": "La Natividad del Señor",
               "bytes": 14445
             },
             {
               "id": "m41",
               "file": "es-seraphina/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 4",
+              "group": "Títulos de misterios",
               "text": "La Presentación en el Templo",
               "bytes": 15117
             },
             {
               "id": "m51",
               "file": "es-seraphina/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio gozoso 5",
+              "group": "Títulos de misterios",
               "text": "El Hallazgo del Niño Jesús en el Templo",
               "bytes": 17037
             },
             {
               "id": "m12",
               "file": "es-seraphina/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 1",
+              "group": "Títulos de misterios",
               "text": "El Bautismo del Señor Jesús en el Jordán",
               "bytes": 18093
             },
             {
               "id": "m22",
               "file": "es-seraphina/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 2",
+              "group": "Títulos de misterios",
               "text": "Las Bodas de Caná",
               "bytes": 13581
             },
             {
               "id": "m32",
               "file": "es-seraphina/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 3",
+              "group": "Títulos de misterios",
               "text": "La Proclamación del Reino de Dios",
               "bytes": 16653
             },
             {
               "id": "m42",
               "file": "es-seraphina/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 4",
+              "group": "Títulos de misterios",
               "text": "La Transfiguración en el monte Tabor",
               "bytes": 18573
             },
             {
               "id": "m52",
               "file": "es-seraphina/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio luminoso 5",
+              "group": "Títulos de misterios",
               "text": "La Institución de la Eucaristía",
               "bytes": 16365
             },
             {
               "id": "m13",
               "file": "es-seraphina/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 1",
+              "group": "Títulos de misterios",
               "text": "La Oración en el Huerto de Getsemaní",
               "bytes": 17421
             },
             {
               "id": "m23",
               "file": "es-seraphina/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 2",
+              "group": "Títulos de misterios",
               "text": "La Flagelación del Señor",
               "bytes": 15117
             },
             {
               "id": "m33",
               "file": "es-seraphina/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 3",
+              "group": "Títulos de misterios",
               "text": "La Coronación de espinas",
               "bytes": 15789
             },
             {
               "id": "m43",
               "file": "es-seraphina/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 4",
+              "group": "Títulos de misterios",
               "text": "El Vía Crucis",
               "bytes": 12909
             },
             {
               "id": "m53",
               "file": "es-seraphina/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio doloroso 5",
+              "group": "Títulos de misterios",
               "text": "La Muerte del Señor en la Cruz",
               "bytes": 16173
             },
             {
               "id": "m14",
               "file": "es-seraphina/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 1",
+              "group": "Títulos de misterios",
               "text": "La Resurrección del Señor Jesús",
               "bytes": 17517
             },
             {
               "id": "m24",
               "file": "es-seraphina/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 2",
+              "group": "Títulos de misterios",
               "text": "La Ascensión del Señor",
               "bytes": 15117
             },
             {
               "id": "m34",
               "file": "es-seraphina/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 3",
+              "group": "Títulos de misterios",
               "text": "La Venida del Espíritu Santo",
               "bytes": 15789
             },
             {
               "id": "m44",
               "file": "es-seraphina/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 4",
+              "group": "Títulos de misterios",
               "text": "La Asunción de María",
               "bytes": 13581
             },
             {
               "id": "m54",
               "file": "es-seraphina/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Misterio glorioso 5",
+              "group": "Títulos de misterios",
               "text": "La Coronación de la Santísima Virgen María como Reina del Cielo y de la Tierra",
               "bytes": 27117
             }
@@ -3072,7 +3072,7 @@
     },
     {
       "code": "pt",
-      "name": "Portugues",
+      "name": "Português",
       "variants": [
         {
           "id": "pt-florian",
@@ -3083,296 +3083,296 @@
             {
               "id": "010",
               "file": "pt-florian/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Credo dos Apóstolos",
+              "group": "Orações do rosário",
               "text": "Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra.\nE em Jesus Cristo, seu único Filho, nosso Senhor, que foi concebido pelo poder do Espírito Santo, nasceu da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado.\nDesceu à mansão dos mortos, ressuscitou ao terceiro dia, subiu aos Céus, está sentado à direita de Deus Pai todo-poderoso, de onde há-de vir a julgar os vivos e os mortos.\nCreio no Espírito Santo, na santa Igreja Católica, na comunhão dos Santos, na remissão dos pecados, na ressurreição da carne e na vida eterna.\nÁmen.",
               "bytes": 135405
             },
             {
               "id": "020",
               "file": "pt-florian/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Pai Nosso, primeira parte",
+              "group": "Orações do rosário",
               "text": "Pai Nosso que estais nos Céus,\nsantificado seja o vosso Nome,\nvenha a nós o vosso Reino,\nseja feita a vossa vontade,\nassim na terra como no Céu.",
               "bytes": 32493
             },
             {
               "id": "021",
               "file": "pt-florian/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Pai Nosso, segunda parte",
+              "group": "Orações do rosário",
               "text": "O pão nosso de cada dia nos dai hoje.\nPerdoai-nos as nossas ofensas,\nassim como nós perdoamos a quem nos tem ofendido.\nE não nos deixeis cair em tentação,\nmas livrai-nos do Mal.\nÁmen.",
               "bytes": 43053
             },
             {
               "id": "030",
               "file": "pt-florian/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Avé Maria, primeira parte",
+              "group": "Orações do rosário",
               "text": "Avé Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres e bendito é o fruto do vosso ventre, Jesus.",
               "bytes": 30573
             },
             {
               "id": "031",
               "file": "pt-florian/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Avé Maria, segunda parte",
+              "group": "Orações do rosário",
               "text": "Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Ámen.",
               "bytes": 23181
             },
             {
               "id": "040",
               "file": "pt-florian/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Glória ao Pai",
+              "group": "Orações do rosário",
               "text": "Glória ao Pai e ao Filho e ao Espírito Santo, como era, no princípio, agora e sempre. Ámen.",
               "bytes": 24717
             },
             {
               "id": "050",
               "file": "pt-florian/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Oração de Fátima",
+              "group": "Orações do rosário",
               "text": "Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno; levai as almas todas para o Céu, principalmente as que mais precisarem.",
               "bytes": 30573
             },
             {
               "id": "060",
               "file": "pt-florian/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: oração do Pai Eterno",
+              "group": "Terço da Divina Misericórdia",
               "text": "Eterno Pai, eu vos ofereço o Corpo e Sangue, a Alma e Divindade de vosso diletíssimo Filho, Nosso Senhor Jesus Cristo, em expiação dos nossos pecados e do mundo inteiro.",
               "bytes": 39693
             },
             {
               "id": "070",
               "file": "pt-florian/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: Pela sua dolorosa Paixão",
+              "group": "Terço da Divina Misericórdia",
               "text": "Pela sua dolorosa Paixão.",
               "bytes": 7437
             },
             {
               "id": "071",
               "file": "pt-florian/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: resposta de misericórdia",
+              "group": "Terço da Divina Misericórdia",
               "text": "Tende misericórdia de nós e do mundo inteiro.",
               "bytes": 10989
             },
             {
               "id": "080",
               "file": "pt-florian/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: Deus Santo",
+              "group": "Terço da Divina Misericórdia",
               "text": "Deus Santo, Deus Forte, Deus Imortal, tende piedade de nós e do mundo inteiro.",
               "bytes": 20301
             },
             {
               "id": "090",
               "file": "pt-florian/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: Jesus, eu confio em vós",
+              "group": "Terço da Divina Misericórdia",
               "text": "Jesus, eu confio em vós. Jesus, eu confio em vós. Jesus, eu confio em vós.",
               "bytes": 43581
             },
             {
               "id": "mT1",
               "file": "pt-florian/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios gozosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios gozosos",
               "bytes": 5709
             },
             {
               "id": "mT2",
               "file": "pt-florian/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios luminosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios luminosos",
               "bytes": 5517
             },
             {
               "id": "mT3",
               "file": "pt-florian/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios dolorosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios dolorosos",
               "bytes": 6381
             },
             {
               "id": "mT4",
               "file": "pt-florian/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios gloriosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios gloriosos",
               "bytes": 6573
             },
             {
               "id": "mT5",
               "file": "pt-florian/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Título do Terço da Divina Misericórdia",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Terço da Misericórdia",
               "bytes": 6381
             },
             {
               "id": "m11",
               "file": "pt-florian/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 1",
+              "group": "Títulos dos mistérios",
               "text": "A Anunciação da Bem-aventurada Virgem Maria",
               "bytes": 17229
             },
             {
               "id": "m21",
               "file": "pt-florian/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 2",
+              "group": "Títulos dos mistérios",
               "text": "A Visitação de Santa Isabel",
               "bytes": 13389
             },
             {
               "id": "m31",
               "file": "pt-florian/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Natividade do Senhor",
               "bytes": 13101
             },
             {
               "id": "m41",
               "file": "pt-florian/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 4",
+              "group": "Títulos dos mistérios",
               "text": "A Apresentação no Templo",
               "bytes": 15693
             },
             {
               "id": "m51",
               "file": "pt-florian/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 5",
+              "group": "Títulos dos mistérios",
               "text": "O Encontro do Menino Jesus no Templo",
               "bytes": 15021
             },
             {
               "id": "m12",
               "file": "pt-florian/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 1",
+              "group": "Títulos dos mistérios",
               "text": "O Batismo do Senhor Jesus no Jordão",
               "bytes": 15405
             },
             {
               "id": "m22",
               "file": "pt-florian/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 2",
+              "group": "Títulos dos mistérios",
               "text": "As Bodas de Caná",
               "bytes": 13005
             },
             {
               "id": "m32",
               "file": "pt-florian/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Proclamação do Reino de Deus",
               "bytes": 15693
             },
             {
               "id": "m42",
               "file": "pt-florian/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 4",
+              "group": "Títulos dos mistérios",
               "text": "A Transfiguração no monte Tabor",
               "bytes": 15693
             },
             {
               "id": "m52",
               "file": "pt-florian/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 5",
+              "group": "Títulos dos mistérios",
               "text": "A Instituição da Eucaristia",
               "bytes": 14253
             },
             {
               "id": "m13",
               "file": "pt-florian/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 1",
+              "group": "Títulos dos mistérios",
               "text": "A Oração no Jardim do Getsémani",
               "bytes": 15117
             },
             {
               "id": "m23",
               "file": "pt-florian/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 2",
+              "group": "Títulos dos mistérios",
               "text": "A Flagelação do Senhor",
               "bytes": 13293
             },
             {
               "id": "m33",
               "file": "pt-florian/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Coroação de espinhos",
               "bytes": 14349
             },
             {
               "id": "m43",
               "file": "pt-florian/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 4",
+              "group": "Títulos dos mistérios",
               "text": "O Caminho da Cruz",
               "bytes": 12237
             },
             {
               "id": "m53",
               "file": "pt-florian/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 5",
+              "group": "Títulos dos mistérios",
               "text": "A Morte do Senhor na Cruz",
               "bytes": 13101
             },
             {
               "id": "m14",
               "file": "pt-florian/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 1",
+              "group": "Títulos dos mistérios",
               "text": "A Ressurreição do Senhor Jesus",
               "bytes": 14445
             },
             {
               "id": "m24",
               "file": "pt-florian/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 2",
+              "group": "Títulos dos mistérios",
               "text": "A Ascensão do Senhor",
               "bytes": 17133
             },
             {
               "id": "m34",
               "file": "pt-florian/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Vinda do Espírito Santo",
               "bytes": 14061
             },
             {
               "id": "m44",
               "file": "pt-florian/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 4",
+              "group": "Títulos dos mistérios",
               "text": "A Assunção de Maria",
               "bytes": 13005
             },
             {
               "id": "m54",
               "file": "pt-florian/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 5",
+              "group": "Títulos dos mistérios",
               "text": "A Coroação da Bem-aventurada Virgem Maria como Rainha do Céu e da Terra",
               "bytes": 22317
             }
@@ -3387,296 +3387,296 @@
             {
               "id": "010",
               "file": "pt-seraphina/010.mp3",
-              "title": "Apostles' Creed",
-              "group": "Rosary prayers",
+              "title": "Credo dos Apóstolos",
+              "group": "Orações do rosário",
               "text": "Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra.\nE em Jesus Cristo, seu único Filho, nosso Senhor, que foi concebido pelo poder do Espírito Santo, nasceu da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado.\nDesceu à mansão dos mortos, ressuscitou ao terceiro dia, subiu aos Céus, está sentado à direita de Deus Pai todo-poderoso, de onde há-de vir a julgar os vivos e os mortos.\nCreio no Espírito Santo, na santa Igreja Católica, na comunhão dos Santos, na remissão dos pecados, na ressurreição da carne e na vida eterna.\nÁmen.",
               "bytes": 149037
             },
             {
               "id": "020",
               "file": "pt-seraphina/020.mp3",
-              "title": "Our Father, first part",
-              "group": "Rosary prayers",
+              "title": "Pai Nosso, primeira parte",
+              "group": "Orações do rosário",
               "text": "Pai Nosso que estais nos Céus,\nsantificado seja o vosso Nome,\nvenha a nós o vosso Reino,\nseja feita a vossa vontade,\nassim na terra como no Céu.",
               "bytes": 37389
             },
             {
               "id": "021",
               "file": "pt-seraphina/021.mp3",
-              "title": "Our Father, second part",
-              "group": "Rosary prayers",
+              "title": "Pai Nosso, segunda parte",
+              "group": "Orações do rosário",
               "text": "O pão nosso de cada dia nos dai hoje.\nPerdoai-nos as nossas ofensas,\nassim como nós perdoamos a quem nos tem ofendido.\nE não nos deixeis cair em tentação,\nmas livrai-nos do Mal.\nÁmen.",
               "bytes": 42381
             },
             {
               "id": "030",
               "file": "pt-seraphina/030.mp3",
-              "title": "Hail Mary, first part",
-              "group": "Rosary prayers",
+              "title": "Avé Maria, primeira parte",
+              "group": "Orações do rosário",
               "text": "Avé Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres e bendito é o fruto do vosso ventre, Jesus.",
               "bytes": 31245
             },
             {
               "id": "031",
               "file": "pt-seraphina/031.mp3",
-              "title": "Hail Mary, second part",
-              "group": "Rosary prayers",
+              "title": "Avé Maria, segunda parte",
+              "group": "Orações do rosário",
               "text": "Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Ámen.",
               "bytes": 25293
             },
             {
               "id": "040",
               "file": "pt-seraphina/040.mp3",
-              "title": "Glory Be",
-              "group": "Rosary prayers",
+              "title": "Glória ao Pai",
+              "group": "Orações do rosário",
               "text": "Glória ao Pai e ao Filho e ao Espírito Santo, como era, no princípio, agora e sempre. Ámen.",
               "bytes": 25293
             },
             {
               "id": "050",
               "file": "pt-seraphina/050.mp3",
-              "title": "Fatima prayer",
-              "group": "Rosary prayers",
+              "title": "Oração de Fátima",
+              "group": "Orações do rosário",
               "text": "Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno; levai as almas todas para o Céu, principalmente as que mais precisarem.",
               "bytes": 32301
             },
             {
               "id": "060",
               "file": "pt-seraphina/060.mp3",
-              "title": "Divine Mercy Chaplet: Eternal Father prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: oração do Pai Eterno",
+              "group": "Terço da Divina Misericórdia",
               "text": "Eterno Pai, eu vos ofereço o Corpo e Sangue, a Alma e Divindade de vosso diletíssimo Filho, Nosso Senhor Jesus Cristo, em expiação dos nossos pecados e do mundo inteiro.",
               "bytes": 43437
             },
             {
               "id": "070",
               "file": "pt-seraphina/070.mp3",
-              "title": "Divine Mercy Chaplet: For the sake of His sorrowful Passion",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: Pela sua dolorosa Paixão",
+              "group": "Terço da Divina Misericórdia",
               "text": "Pela sua dolorosa Paixão.",
               "bytes": 7917
             },
             {
               "id": "071",
               "file": "pt-seraphina/071.mp3",
-              "title": "Divine Mercy Chaplet: mercy response",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: resposta de misericórdia",
+              "group": "Terço da Divina Misericórdia",
               "text": "Tende misericórdia de nós e do mundo inteiro.",
               "bytes": 12045
             },
             {
               "id": "080",
               "file": "pt-seraphina/080.mp3",
-              "title": "Divine Mercy Chaplet: Holy God prayer",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: Deus Santo",
+              "group": "Terço da Divina Misericórdia",
               "text": "Deus Santo, Deus Forte, Deus Imortal, tende piedade de nós e do mundo inteiro.",
               "bytes": 21645
             },
             {
               "id": "090",
               "file": "pt-seraphina/090.mp3",
-              "title": "Divine Mercy Chaplet: Jesus, I trust in You",
-              "group": "Divine Mercy Chaplet",
+              "title": "Terço da Divina Misericórdia: Jesus, eu confio em vós",
+              "group": "Terço da Divina Misericórdia",
               "text": "Jesus, eu confio em vós. Jesus, eu confio em vós. Jesus, eu confio em vós.",
               "bytes": 40845
             },
             {
               "id": "mT1",
               "file": "pt-seraphina/mT1.mp3",
-              "title": "Joyful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios gozosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios gozosos",
               "bytes": 6765
             },
             {
               "id": "mT2",
               "file": "pt-seraphina/mT2.mp3",
-              "title": "Luminous Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios luminosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios luminosos",
               "bytes": 7149
             },
             {
               "id": "mT3",
               "file": "pt-seraphina/mT3.mp3",
-              "title": "Sorrowful Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios dolorosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios dolorosos",
               "bytes": 6477
             },
             {
               "id": "mT4",
               "file": "pt-seraphina/mT4.mp3",
-              "title": "Glorious Mysteries set title",
-              "group": "Mystery set titles",
+              "title": "Título dos mistérios gloriosos",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Mistérios gloriosos",
               "bytes": 7245
             },
             {
               "id": "mT5",
               "file": "pt-seraphina/mT5.mp3",
-              "title": "Divine Mercy Chaplet title",
-              "group": "Mystery set titles",
+              "title": "Título do Terço da Divina Misericórdia",
+              "group": "Títulos dos conjuntos de mistérios",
               "text": "Terço da Misericórdia",
               "bytes": 6381
             },
             {
               "id": "m11",
               "file": "pt-seraphina/m11.mp3",
-              "title": "Joyful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 1",
+              "group": "Títulos dos mistérios",
               "text": "A Anunciação da Bem-aventurada Virgem Maria",
               "bytes": 19917
             },
             {
               "id": "m21",
               "file": "pt-seraphina/m21.mp3",
-              "title": "Joyful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 2",
+              "group": "Títulos dos mistérios",
               "text": "A Visitação de Santa Isabel",
               "bytes": 14829
             },
             {
               "id": "m31",
               "file": "pt-seraphina/m31.mp3",
-              "title": "Joyful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Natividade do Senhor",
               "bytes": 13965
             },
             {
               "id": "m41",
               "file": "pt-seraphina/m41.mp3",
-              "title": "Joyful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 4",
+              "group": "Títulos dos mistérios",
               "text": "A Apresentação no Templo",
               "bytes": 14349
             },
             {
               "id": "m51",
               "file": "pt-seraphina/m51.mp3",
-              "title": "Joyful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério gozoso 5",
+              "group": "Títulos dos mistérios",
               "text": "O Encontro do Menino Jesus no Templo",
               "bytes": 16077
             },
             {
               "id": "m12",
               "file": "pt-seraphina/m12.mp3",
-              "title": "Luminous Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 1",
+              "group": "Títulos dos mistérios",
               "text": "O Batismo do Senhor Jesus no Jordão",
               "bytes": 17805
             },
             {
               "id": "m22",
               "file": "pt-seraphina/m22.mp3",
-              "title": "Luminous Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 2",
+              "group": "Títulos dos mistérios",
               "text": "As Bodas de Caná",
               "bytes": 13101
             },
             {
               "id": "m32",
               "file": "pt-seraphina/m32.mp3",
-              "title": "Luminous Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Proclamação do Reino de Deus",
               "bytes": 16365
             },
             {
               "id": "m42",
               "file": "pt-seraphina/m42.mp3",
-              "title": "Luminous Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 4",
+              "group": "Títulos dos mistérios",
               "text": "A Transfiguração no monte Tabor",
               "bytes": 16749
             },
             {
               "id": "m52",
               "file": "pt-seraphina/m52.mp3",
-              "title": "Luminous Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério luminoso 5",
+              "group": "Títulos dos mistérios",
               "text": "A Instituição da Eucaristia",
               "bytes": 14733
             },
             {
               "id": "m13",
               "file": "pt-seraphina/m13.mp3",
-              "title": "Sorrowful Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 1",
+              "group": "Títulos dos mistérios",
               "text": "A Oração no Jardim do Getsémani",
               "bytes": 17709
             },
             {
               "id": "m23",
               "file": "pt-seraphina/m23.mp3",
-              "title": "Sorrowful Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 2",
+              "group": "Títulos dos mistérios",
               "text": "A Flagelação do Senhor",
               "bytes": 15021
             },
             {
               "id": "m33",
               "file": "pt-seraphina/m33.mp3",
-              "title": "Sorrowful Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Coroação de espinhos",
               "bytes": 15309
             },
             {
               "id": "m43",
               "file": "pt-seraphina/m43.mp3",
-              "title": "Sorrowful Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 4",
+              "group": "Títulos dos mistérios",
               "text": "O Caminho da Cruz",
               "bytes": 12717
             },
             {
               "id": "m53",
               "file": "pt-seraphina/m53.mp3",
-              "title": "Sorrowful Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério doloroso 5",
+              "group": "Títulos dos mistérios",
               "text": "A Morte do Senhor na Cruz",
               "bytes": 14445
             },
             {
               "id": "m14",
               "file": "pt-seraphina/m14.mp3",
-              "title": "Glorious Mystery 1",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 1",
+              "group": "Títulos dos mistérios",
               "text": "A Ressurreição do Senhor Jesus",
               "bytes": 16077
             },
             {
               "id": "m24",
               "file": "pt-seraphina/m24.mp3",
-              "title": "Glorious Mystery 2",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 2",
+              "group": "Títulos dos mistérios",
               "text": "A Ascensão do Senhor",
               "bytes": 13581
             },
             {
               "id": "m34",
               "file": "pt-seraphina/m34.mp3",
-              "title": "Glorious Mystery 3",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 3",
+              "group": "Títulos dos mistérios",
               "text": "A Vinda do Espírito Santo",
               "bytes": 14637
             },
             {
               "id": "m44",
               "file": "pt-seraphina/m44.mp3",
-              "title": "Glorious Mystery 4",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 4",
+              "group": "Títulos dos mistérios",
               "text": "A Assunção de Maria",
               "bytes": 13773
             },
             {
               "id": "m54",
               "file": "pt-seraphina/m54.mp3",
-              "title": "Glorious Mystery 5",
-              "group": "Mystery titles",
+              "title": "Mistério glorioso 5",
+              "group": "Títulos dos mistérios",
               "text": "A Coroação da Bem-aventurada Virgem Maria como Rainha do Céu e da Terra",
               "bytes": 23565
             }

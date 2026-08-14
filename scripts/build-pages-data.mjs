@@ -16,38 +16,206 @@ const languageNames = {
   pl: 'Polski',
   en: 'English',
   de: 'Deutsch',
-  fr: 'Francais',
-  es: 'Espanol',
-  pt: 'Portugues'
+  fr: 'Français',
+  es: 'Español',
+  pt: 'Português'
 };
 
 const languageOrder = ['pl', 'en', 'de', 'fr', 'es', 'pt'];
 
 const clipTitles = {
-  '010': "Apostles' Creed",
-  '020': 'Our Father, first part',
-  '021': 'Our Father, second part',
-  '030': 'Hail Mary, first part',
-  '031': 'Hail Mary, second part',
-  '040': 'Glory Be',
-  '050': 'Fatima prayer',
-  '060': 'Divine Mercy Chaplet: Eternal Father prayer',
-  '070': 'Divine Mercy Chaplet: For the sake of His sorrowful Passion',
-  '071': 'Divine Mercy Chaplet: mercy response',
-  '080': 'Divine Mercy Chaplet: Holy God prayer',
-  '090': 'Divine Mercy Chaplet: Jesus, I trust in You',
-  mT1: 'Joyful Mysteries set title',
-  mT2: 'Luminous Mysteries set title',
-  mT3: 'Sorrowful Mysteries set title',
-  mT4: 'Glorious Mysteries set title',
-  mT5: 'Divine Mercy Chaplet title'
+  en: {
+    '010': "Apostles' Creed",
+    '020': 'Our Father, first part',
+    '021': 'Our Father, second part',
+    '030': 'Hail Mary, first part',
+    '031': 'Hail Mary, second part',
+    '040': 'Glory Be',
+    '050': 'Fatima prayer',
+    '060': 'Divine Mercy Chaplet: Eternal Father prayer',
+    '070': 'Divine Mercy Chaplet: For the sake of His sorrowful Passion',
+    '071': 'Divine Mercy Chaplet: mercy response',
+    '080': 'Divine Mercy Chaplet: Holy God prayer',
+    '090': 'Divine Mercy Chaplet: Jesus, I trust in You',
+    mT1: 'Joyful Mysteries set title',
+    mT2: 'Luminous Mysteries set title',
+    mT3: 'Sorrowful Mysteries set title',
+    mT4: 'Glorious Mysteries set title',
+    mT5: 'Divine Mercy Chaplet title'
+  },
+  pl: {
+    '010': 'Skład Apostolski',
+    '020': 'Ojcze nasz, pierwsza część',
+    '021': 'Ojcze nasz, druga część',
+    '030': 'Zdrowaś Maryjo, pierwsza część',
+    '031': 'Zdrowaś Maryjo, druga część',
+    '040': 'Chwała Ojcu',
+    '050': 'Modlitwa fatimska',
+    '060': 'Koronka do Miłosierdzia Bożego: modlitwa Ojcze Przedwieczny',
+    '070': 'Koronka do Miłosierdzia Bożego: Dla Jego bolesnej męki',
+    '071': 'Koronka do Miłosierdzia Bożego: odpowiedź o miłosierdzie',
+    '080': 'Koronka do Miłosierdzia Bożego: Święty Boże',
+    '090': 'Koronka do Miłosierdzia Bożego: Jezu, ufam Tobie',
+    mT1: 'Tytuł tajemnic radosnych',
+    mT2: 'Tytuł tajemnic światła',
+    mT3: 'Tytuł tajemnic bolesnych',
+    mT4: 'Tytuł tajemnic chwalebnych',
+    mT5: 'Tytuł Koronki do Miłosierdzia Bożego'
+  },
+  de: {
+    '010': 'Apostolisches Glaubensbekenntnis',
+    '020': 'Vaterunser, erster Teil',
+    '021': 'Vaterunser, zweiter Teil',
+    '030': 'Gegrüßet seist du, Maria, erster Teil',
+    '031': 'Gegrüßet seist du, Maria, zweiter Teil',
+    '040': 'Ehre sei dem Vater',
+    '050': 'Fatima-Gebet',
+    '060': 'Barmherzigkeitsrosenkranz: Ewiger Vater',
+    '070': 'Barmherzigkeitsrosenkranz: Durch sein schmerzhaftes Leiden',
+    '071': 'Barmherzigkeitsrosenkranz: Erbarme dich unser',
+    '080': 'Barmherzigkeitsrosenkranz: Heiliger Gott',
+    '090': 'Barmherzigkeitsrosenkranz: Jesus, ich vertraue auf dich',
+    mT1: 'Titel der freudenreichen Geheimnisse',
+    mT2: 'Titel der lichtreichen Geheimnisse',
+    mT3: 'Titel der schmerzhaften Geheimnisse',
+    mT4: 'Titel der glorreichen Geheimnisse',
+    mT5: 'Titel des Barmherzigkeitsrosenkranzes'
+  },
+  es: {
+    '010': 'Credo de los Apóstoles',
+    '020': 'Padre nuestro, primera parte',
+    '021': 'Padre nuestro, segunda parte',
+    '030': 'Ave María, primera parte',
+    '031': 'Ave María, segunda parte',
+    '040': 'Gloria al Padre',
+    '050': 'Oración de Fátima',
+    '060': 'Coronilla de la Divina Misericordia: oración del Padre Eterno',
+    '070': 'Coronilla de la Divina Misericordia: Por su dolorosa Pasión',
+    '071': 'Coronilla de la Divina Misericordia: respuesta de misericordia',
+    '080': 'Coronilla de la Divina Misericordia: Santo Dios',
+    '090': 'Coronilla de la Divina Misericordia: Jesús, en ti confío',
+    mT1: 'Título de los misterios gozosos',
+    mT2: 'Título de los misterios luminosos',
+    mT3: 'Título de los misterios dolorosos',
+    mT4: 'Título de los misterios gloriosos',
+    mT5: 'Título de la Coronilla de la Divina Misericordia'
+  },
+  fr: {
+    '010': 'Symbole des Apôtres',
+    '020': 'Notre Père, première partie',
+    '021': 'Notre Père, deuxième partie',
+    '030': 'Je vous salue Marie, première partie',
+    '031': 'Je vous salue Marie, deuxième partie',
+    '040': 'Gloire au Père',
+    '050': 'Prière de Fatima',
+    '060': 'Chapelet de la Divine Miséricorde : prière du Père Éternel',
+    '070': 'Chapelet de la Divine Miséricorde : Par sa douloureuse Passion',
+    '071': 'Chapelet de la Divine Miséricorde : réponse de miséricorde',
+    '080': 'Chapelet de la Divine Miséricorde : Dieu Saint',
+    '090': "Chapelet de la Divine Miséricorde : Jésus, j'ai confiance en toi",
+    mT1: 'Titre des mystères joyeux',
+    mT2: 'Titre des mystères lumineux',
+    mT3: 'Titre des mystères douloureux',
+    mT4: 'Titre des mystères glorieux',
+    mT5: 'Titre du Chapelet de la Divine Miséricorde'
+  },
+  pt: {
+    '010': 'Credo dos Apóstolos',
+    '020': 'Pai Nosso, primeira parte',
+    '021': 'Pai Nosso, segunda parte',
+    '030': 'Avé Maria, primeira parte',
+    '031': 'Avé Maria, segunda parte',
+    '040': 'Glória ao Pai',
+    '050': 'Oração de Fátima',
+    '060': 'Terço da Divina Misericórdia: oração do Pai Eterno',
+    '070': 'Terço da Divina Misericórdia: Pela sua dolorosa Paixão',
+    '071': 'Terço da Divina Misericórdia: resposta de misericórdia',
+    '080': 'Terço da Divina Misericórdia: Deus Santo',
+    '090': 'Terço da Divina Misericórdia: Jesus, eu confio em vós',
+    mT1: 'Título dos mistérios gozosos',
+    mT2: 'Título dos mistérios luminosos',
+    mT3: 'Título dos mistérios dolorosos',
+    mT4: 'Título dos mistérios gloriosos',
+    mT5: 'Título do Terço da Divina Misericórdia'
+  }
 };
 
 const mysterySetNames = {
-  1: 'Joyful Mystery',
-  2: 'Luminous Mystery',
-  3: 'Sorrowful Mystery',
-  4: 'Glorious Mystery'
+  en: {
+    1: 'Joyful Mystery',
+    2: 'Luminous Mystery',
+    3: 'Sorrowful Mystery',
+    4: 'Glorious Mystery'
+  },
+  pl: {
+    1: 'Tajemnica radosna',
+    2: 'Tajemnica światła',
+    3: 'Tajemnica bolesna',
+    4: 'Tajemnica chwalebna'
+  },
+  de: {
+    1: 'Freudenreiches Geheimnis',
+    2: 'Lichtreiches Geheimnis',
+    3: 'Schmerzhaftes Geheimnis',
+    4: 'Glorreiches Geheimnis'
+  },
+  es: {
+    1: 'Misterio gozoso',
+    2: 'Misterio luminoso',
+    3: 'Misterio doloroso',
+    4: 'Misterio glorioso'
+  },
+  fr: {
+    1: 'Mystère joyeux',
+    2: 'Mystère lumineux',
+    3: 'Mystère douloureux',
+    4: 'Mystère glorieux'
+  },
+  pt: {
+    1: 'Mistério gozoso',
+    2: 'Mistério luminoso',
+    3: 'Mistério doloroso',
+    4: 'Mistério glorioso'
+  }
+};
+
+const clipGroups = {
+  en: {
+    rosary: 'Rosary prayers',
+    chaplet: 'Divine Mercy Chaplet',
+    setTitles: 'Mystery set titles',
+    mysteryTitles: 'Mystery titles'
+  },
+  pl: {
+    rosary: 'Modlitwy różańcowe',
+    chaplet: 'Koronka do Miłosierdzia Bożego',
+    setTitles: 'Tytuły zestawów tajemnic',
+    mysteryTitles: 'Tytuły tajemnic'
+  },
+  de: {
+    rosary: 'Rosenkranzgebete',
+    chaplet: 'Barmherzigkeitsrosenkranz',
+    setTitles: 'Titel der Geheimnisreihen',
+    mysteryTitles: 'Titel der Geheimnisse'
+  },
+  es: {
+    rosary: 'Oraciones del rosario',
+    chaplet: 'Coronilla de la Divina Misericordia',
+    setTitles: 'Títulos de grupos de misterios',
+    mysteryTitles: 'Títulos de misterios'
+  },
+  fr: {
+    rosary: 'Prières du chapelet',
+    chaplet: 'Chapelet de la Divine Miséricorde',
+    setTitles: 'Titres des séries de mystères',
+    mysteryTitles: 'Titres des mystères'
+  },
+  pt: {
+    rosary: 'Orações do rosário',
+    chaplet: 'Terço da Divina Misericórdia',
+    setTitles: 'Títulos dos conjuntos de mistérios',
+    mysteryTitles: 'Títulos dos mistérios'
+  }
 };
 
 const fixedOrder = [
@@ -88,20 +256,23 @@ async function getAudioLanguageTexts(languageCode) {
   return data.texts || {};
 }
 
-function getClipTitle(id) {
-  if (clipTitles[id]) return clipTitles[id];
+function getClipTitle(id, languageCode) {
+  const titles = clipTitles[languageCode] || clipTitles.en;
+  if (titles[id]) return titles[id];
   const mysteryMatch = /^m([1-5])([1-4])$/.exec(id);
   if (!mysteryMatch) return id;
   const mysteryNumber = Number(mysteryMatch[1]);
   const setNumber = Number(mysteryMatch[2]);
-  return `${mysterySetNames[setNumber]} ${mysteryNumber}`;
+  const setNames = mysterySetNames[languageCode] || mysterySetNames.en;
+  return `${setNames[setNumber]} ${mysteryNumber}`;
 }
 
-function getClipGroup(id) {
-  if (/^\d/.test(id) && Number(id) < 60) return 'Rosary prayers';
-  if (/^\d/.test(id)) return 'Divine Mercy Chaplet';
-  if (/^mT/.test(id)) return 'Mystery set titles';
-  return 'Mystery titles';
+function getClipGroup(id, languageCode) {
+  const groups = clipGroups[languageCode] || clipGroups.en;
+  if (/^\d/.test(id) && Number(id) < 60) return groups.rosary;
+  if (/^\d/.test(id)) return groups.chaplet;
+  if (/^mT/.test(id)) return groups.setTitles;
+  return groups.mysteryTitles;
 }
 
 function variantSort(a, b) {
@@ -159,8 +330,8 @@ async function build() {
       return {
         id,
         file: `${voiceId}/${fileName}`,
-        title: getClipTitle(id),
-        group: getClipGroup(id),
+        title: getClipTitle(id, languageCode),
+        group: getClipGroup(id, languageCode),
         text: basic.texts?.[languageCode]?.[id] || audioTexts[id] || '',
         bytes: stat.size
       };
