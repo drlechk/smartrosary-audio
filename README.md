@@ -279,7 +279,9 @@ The GitHub Actions workflow in `.github/workflows/pages.yml` runs the same build
 on every push to `main` and deploys only the public preview files, generated
 `audio-data.json`, and the supported MP3 voice directories to GitHub Pages.
 Before the first deployment, enable GitHub Pages for this repository and set the
-source to GitHub Actions in the repository Pages settings.
+source to GitHub Actions in the repository Pages settings. Alternatively, add a
+`PAGES_TOKEN` repository secret with Pages write permission so the workflow can
+enable Pages automatically on its first run.
 
 ## Add A Language
 

@@ -329,6 +329,12 @@
       text-underline-offset: 0.2em;
     }
     footer a:hover { color: #fff; }
+    .deploy-info {
+      margin-top: 0.35rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      opacity: 0.78;
+    }
 
     @media (max-width: 800px) {
       header {
@@ -371,6 +377,9 @@
       footer a {
         display: block;
         margin: 0.35rem 0 0;
+      }
+      .deploy-info {
+        display: none;
       }
     }
   </style>
@@ -425,6 +434,7 @@
   <footer>
     <span>© 2026 SmartRosary</span>
     <a href="https://github.com/drlechk/smartrosary-audio" target="_blank" rel="noopener">GitHub</a>
+    <div id="deployInfo" class="deploy-info" aria-label="Ostatnie wdrożenie"></div>
   </footer>
 
   <script>
@@ -452,7 +462,8 @@
           unknown: 'unknown',
           noMatches: 'No audio files match the current filter.',
           loadFailed: 'Failed to load audio-data.json',
-          noLanguages: 'audio-data.json has no language entries'
+          noLanguages: 'audio-data.json has no language entries',
+          deployLabel: 'Last deploy'
         },
         pl: {
           title: 'Audio Smart Rosary',
@@ -475,7 +486,8 @@
           unknown: 'nieznana',
           noMatches: 'Żaden plik audio nie pasuje do bieżącego filtra.',
           loadFailed: 'Nie udało się wczytać audio-data.json',
-          noLanguages: 'audio-data.json nie zawiera języków'
+          noLanguages: 'audio-data.json nie zawiera języków',
+          deployLabel: 'Ostatnie wdrożenie'
         },
         de: {
           title: 'Smart Rosary Audio',
@@ -498,7 +510,8 @@
           unknown: 'unbekannt',
           noMatches: 'Keine Audiodateien entsprechen dem aktuellen Filter.',
           loadFailed: 'audio-data.json konnte nicht geladen werden',
-          noLanguages: 'audio-data.json enthält keine Spracheinträge'
+          noLanguages: 'audio-data.json enthält keine Spracheinträge',
+          deployLabel: 'Letztes Deployment'
         },
         fr: {
           title: 'Audio Smart Rosary',
@@ -521,7 +534,8 @@
           unknown: 'inconnue',
           noMatches: 'Aucun fichier audio ne correspond au filtre actuel.',
           loadFailed: 'Impossible de charger audio-data.json',
-          noLanguages: 'audio-data.json ne contient aucune langue'
+          noLanguages: 'audio-data.json ne contient aucune langue',
+          deployLabel: 'Dernier déploiement'
         },
         es: {
           title: 'Audio Smart Rosary',
@@ -544,7 +558,8 @@
           unknown: 'desconocida',
           noMatches: 'Ningún archivo de audio coincide con el filtro actual.',
           loadFailed: 'No se pudo cargar audio-data.json',
-          noLanguages: 'audio-data.json no contiene idiomas'
+          noLanguages: 'audio-data.json no contiene idiomas',
+          deployLabel: 'Último despliegue'
         },
         pt: {
           title: 'Áudio Smart Rosary',
@@ -567,7 +582,8 @@
           unknown: 'desconhecida',
           noMatches: 'Nenhum ficheiro de áudio corresponde ao filtro atual.',
           loadFailed: 'Não foi possível carregar audio-data.json',
-          noLanguages: 'audio-data.json não contém idiomas'
+          noLanguages: 'audio-data.json não contém idiomas',
+          deployLabel: 'Última publicação'
         }
       };
 
@@ -588,7 +604,8 @@
         textControl: document.getElementById('textControl'),
         summary: document.getElementById('summary'),
         error: document.getElementById('error'),
-        clipList: document.getElementById('clipList')
+        clipList: document.getElementById('clipList'),
+        deployInfo: document.getElementById('deployInfo')
       };
 
       function escapeHtml(value) {
@@ -646,6 +663,22 @@
           if (dict[key]) el.setAttribute('placeholder', dict[key]);
         });
         els.language.setAttribute('aria-label', dict.controlLanguage);
+        setDeployInfo(dict);
+      }
+
+      function setDeployInfo(dict) {
+        const ts = new Date(document.lastModified);
+        const formatted = Number.isNaN(ts.getTime())
+          ? ''
+          : ts.toLocaleString(undefined, {
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit'
+            });
+        els.deployInfo.setAttribute('aria-label', dict.deployLabel);
+        els.deployInfo.textContent = formatted ? `${dict.deployLabel}: ${formatted}` : '';
       }
 
       function getTextKey(clip) {
