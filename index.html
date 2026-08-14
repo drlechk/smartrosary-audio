@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Audio Smart Rosary</title>
+  <title>Smart Rosary Audio</title>
   <meta name="description" content="Podgląd audio Smart Rosary z obsługiwanymi językami, głosami i plikami MP3.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <style>
@@ -401,7 +401,7 @@
       <div class="hero">
         <img class="hero-icon" src="favicon.svg" alt="" role="presentation">
         <div>
-          <h1 data-i18n="headline">Audio Smart Rosary</h1>
+          <h1 data-i18n="headline">Smart Rosary Audio</h1>
           <p class="lead" data-i18n="lead">Odsłuchaj wygenerowane modlitwy i tajemnice MP3 dla każdego obsługiwanego języka.</p>
         </div>
       </div>
@@ -421,7 +421,7 @@
         </div>
         <div class="field">
           <label for="textControl" data-i18n="textLabel">Tekst</label>
-          <button class="toggle-btn" id="textControl" type="button">Ukryj cały tekst</button>
+          <button class="toggle-btn" id="textControl" type="button">Pokaż cały tekst</button>
         </div>
       </div>
 
@@ -466,9 +466,9 @@
           deployLabel: 'Last deploy'
         },
         pl: {
-          title: 'Audio Smart Rosary',
+          title: 'Smart Rosary Audio',
           description: 'Podgląd audio Smart Rosary z obsługiwanymi językami, głosami i plikami MP3.',
-          headline: 'Audio Smart Rosary',
+          headline: 'Smart Rosary Audio',
           lead: 'Odsłuchaj wygenerowane modlitwy i tajemnice MP3 dla każdego obsługiwanego języka.',
           labelLanguage: 'Język strony:',
           controlLanguage: 'Język audio',
@@ -514,9 +514,9 @@
           deployLabel: 'Letztes Deployment'
         },
         fr: {
-          title: 'Audio Smart Rosary',
+          title: 'Smart Rosary Audio',
           description: 'Aperçu audio Smart Rosary avec langues, voix et fichiers MP3 pris en charge.',
-          headline: 'Audio Smart Rosary',
+          headline: 'Smart Rosary Audio',
           lead: 'Écoutez chaque prière et mystère MP3 généré pour chaque langue prise en charge.',
           labelLanguage: 'Langue de la page :',
           controlLanguage: 'Langue audio',
@@ -538,9 +538,9 @@
           deployLabel: 'Dernier déploiement'
         },
         es: {
-          title: 'Audio Smart Rosary',
+          title: 'Smart Rosary Audio',
           description: 'Vista previa de audio de Smart Rosary con idiomas, voces y archivos MP3 compatibles.',
-          headline: 'Audio Smart Rosary',
+          headline: 'Smart Rosary Audio',
           lead: 'Escucha cada oración y misterio MP3 generado para cada idioma compatible.',
           labelLanguage: 'Idioma de la página:',
           controlLanguage: 'Idioma del audio',
@@ -562,9 +562,9 @@
           deployLabel: 'Último despliegue'
         },
         pt: {
-          title: 'Áudio Smart Rosary',
+          title: 'Smart Rosary Audio',
           description: 'Pré-visualização de áudio do Smart Rosary com idiomas, vozes e ficheiros MP3 suportados.',
-          headline: 'Áudio Smart Rosary',
+          headline: 'Smart Rosary Audio',
           lead: 'Ouça cada oração e mistério MP3 gerado para cada idioma suportado.',
           labelLanguage: 'Idioma da página:',
           controlLanguage: 'Idioma do áudio',
@@ -593,7 +593,7 @@
         audioLanguage: new URLSearchParams(location.search).get('lang') || localStorage.getItem('smartrosaryAudioLanguage') || DEFAULT_LANGUAGE,
         voice: new URLSearchParams(location.search).get('voice') || localStorage.getItem('smartrosaryAudioVoice') || '',
         query: '',
-        showAllText: localStorage.getItem('smartrosaryAudioShowText') !== 'false',
+        showAllText: false,
         textOverrides: new Map()
       };
 
@@ -755,7 +755,6 @@
         localStorage.setItem('smartrosaryAudioUiLanguage', state.uiLanguage);
         localStorage.setItem('smartrosaryAudioLanguage', state.audioLanguage);
         localStorage.setItem('smartrosaryAudioVoice', state.voice);
-        localStorage.setItem('smartrosaryAudioShowText', String(state.showAllText));
 
         if (!clips.length) {
           els.clipList.innerHTML = `<div class="empty">${escapeHtml(dict.noMatches)}</div>`;
