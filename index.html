@@ -124,7 +124,7 @@
 
     .tools {
       display: grid;
-      grid-template-columns: minmax(180px, 260px) minmax(180px, 260px) minmax(0, 1fr);
+      grid-template-columns: minmax(180px, 240px) minmax(180px, 240px) minmax(0, 1fr) minmax(140px, auto);
       gap: 0.85rem;
       align-items: end;
       margin: 1.5rem 0;
@@ -159,6 +159,36 @@
       font: inherit;
     }
     .search:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+    .toggle-btn {
+      min-height: 38px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--accent);
+      color: var(--accent-contrast);
+      font: inherit;
+      font-weight: 700;
+      padding: 0.45rem 0.8rem;
+      cursor: pointer;
+      transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.06s ease;
+    }
+    .toggle-btn:hover {
+      background: var(--accent-dark);
+      box-shadow: 0 4px 14px #00000014;
+      transform: translateY(-1px);
+    }
+    .toggle-btn.secondary {
+      min-height: 32px;
+      background: var(--surface);
+      color: var(--accent);
+      padding: 0.35rem 0.65rem;
+      font-size: 0.84rem;
+      white-space: nowrap;
+    }
+    .toggle-btn.secondary:hover {
+      background: var(--soft);
+      color: var(--accent-dark);
+    }
 
     .summary {
       display: grid;
@@ -199,6 +229,16 @@
       padding: 1rem;
       box-shadow: 0 2px 8px #0000000a;
     }
+    .clip-main {
+      min-width: 0;
+    }
+    .clip-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+      min-width: 0;
+    }
     .clip-title {
       display: flex;
       gap: 0.6rem;
@@ -206,6 +246,7 @@
       margin: 0;
       font-size: 1.05rem;
       line-height: 1.35;
+      min-width: 0;
     }
     .clip-id {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
@@ -227,6 +268,14 @@
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
+    }
+    .clip-text.expanded {
+      display: block;
+      -webkit-line-clamp: unset;
+      overflow: visible;
+    }
+    .clip-text.hidden {
+      display: none;
     }
     .clip audio {
       width: 100%;
@@ -301,6 +350,9 @@
         flex-direction: column;
         gap: 0.2rem;
       }
+      .clip-heading {
+        flex-direction: column;
+      }
       .clip-meta { text-align: left; }
       footer a {
         display: block;
@@ -344,6 +396,10 @@
           <label for="search">Filter audio files</label>
           <input class="search" id="search" type="search" placeholder="Search by file, title, or text">
         </div>
+        <div class="field">
+          <label for="textControl">Text</label>
+          <button class="toggle-btn" id="textControl" type="button">Hide all text</button>
+        </div>
       </div>
 
       <div class="summary" id="summary" aria-live="polite"></div>
@@ -364,7 +420,9 @@
         data: null,
         language: new URLSearchParams(location.search).get('lang') || localStorage.getItem('smartrosaryAudioLanguage') || DEFAULT_LANGUAGE,
         voice: new URLSearchParams(location.search).get('voice') || localStorage.getItem('smartrosaryAudioVoice') || '',
-        query: ''
+        query: '',
+        showAllText: localStorage.getItem('smartrosaryAudioShowText') !== 'false',
+        textOverrides: new Map()
       };
 
       const els = {
@@ -372,6 +430,7 @@
         languageControl: document.getElementById('languageControl'),
         voiceControl: document.getElementById('voiceControl'),
         search: document.getElementById('search'),
+        textControl: document.getElementById('textControl'),
         summary: document.getElementById('summary'),
         error: document.getElementById('error'),
         clipList: document.getElementById('clipList')
@@ -412,6 +471,20 @@
 
       function getVariant(language) {
         return language.variants.find((variant) => variant.id === state.voice) || language.variants[0];
+      }
+
+      function getTextKey(clip) {
+        return clip.file;
+      }
+
+      function isClipTextVisible(clip) {
+        const key = getTextKey(clip);
+        return state.textOverrides.has(key) ? state.textOverrides.get(key) : state.showAllText;
+      }
+
+      function updateTextControl() {
+        els.textControl.textContent = state.showAllText ? 'Hide all text' : 'Show all text';
+        els.textControl.setAttribute('aria-pressed', String(state.showAllText));
       }
 
       function updateUrl() {
@@ -462,28 +535,37 @@
         document.documentElement.lang = language.code;
         syncSelectOptions();
         renderSummary(language, variant, clips);
+        updateTextControl();
         updateUrl();
         localStorage.setItem('smartrosaryAudioLanguage', state.language);
         localStorage.setItem('smartrosaryAudioVoice', state.voice);
+        localStorage.setItem('smartrosaryAudioShowText', String(state.showAllText));
 
         if (!clips.length) {
           els.clipList.innerHTML = '<div class="empty">No audio files match the current filter.</div>';
           return;
         }
 
-        els.clipList.innerHTML = clips.map((clip) => `
+        els.clipList.innerHTML = clips.map((clip) => {
+          const hasText = Boolean(clip.text);
+          const textVisible = hasText && isClipTextVisible(clip);
+          return `
           <article class="clip">
-            <div>
-              <h2 class="clip-title"><span class="clip-id">${escapeHtml(clip.id)}.mp3</span><span>${escapeHtml(clip.title)}</span></h2>
+            <div class="clip-main">
+              <div class="clip-heading">
+                <h2 class="clip-title"><span class="clip-id">${escapeHtml(clip.id)}.mp3</span><span>${escapeHtml(clip.title)}</span></h2>
+                ${hasText ? `<button class="toggle-btn secondary" type="button" data-toggle-text="${escapeHtml(getTextKey(clip))}" aria-expanded="${textVisible}">${textVisible ? 'Hide text' : 'Show text'}</button>` : ''}
+              </div>
               <p class="clip-group">${escapeHtml(clip.group)}</p>
-              ${clip.text ? `<p class="clip-text">${escapeHtml(clip.text)}</p>` : ''}
+              ${hasText ? `<p class="clip-text expanded${textVisible ? '' : ' hidden'}">${escapeHtml(clip.text)}</p>` : ''}
             </div>
             <div>
               <audio controls preload="metadata" src="${encodeURI(clip.file)}" data-bytes="${clip.bytes}"></audio>
               <p class="clip-meta">${formatBytes(clip.bytes)}</p>
             </div>
           </article>
-        `).join('');
+        `;
+        }).join('');
 
         els.clipList.querySelectorAll('audio').forEach((audio) => {
           audio.addEventListener('loadedmetadata', () => {
@@ -510,6 +592,22 @@
         });
         els.search.addEventListener('input', (event) => {
           state.query = event.target.value;
+          renderClips();
+        });
+        els.textControl.addEventListener('click', () => {
+          state.showAllText = !state.showAllText;
+          state.textOverrides.clear();
+          renderClips();
+        });
+        els.clipList.addEventListener('click', (event) => {
+          const button = event.target.closest('[data-toggle-text]');
+          if (!button) return;
+          const key = button.getAttribute('data-toggle-text');
+          const language = getLanguage();
+          const variant = getVariant(language);
+          const clip = variant.clips.find((item) => getTextKey(item) === key);
+          if (!clip) return;
+          state.textOverrides.set(key, !isClipTextVisible(clip));
           renderClips();
         });
       }
