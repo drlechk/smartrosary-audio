@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Smart Rosary Audio</title>
-  <meta name="description" content="Smart Rosary audio preview page with supported language and voice MP3 files.">
+  <title>Audio Smart Rosary</title>
+  <meta name="description" content="Podgląd audio Smart Rosary z obsługiwanymi językami, głosami i plikami MP3.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <style>
     :root {
@@ -382,8 +382,8 @@
       <span>Smart Rosary</span>
     </a>
     <div class="selector-row">
-      <label for="language">Language:</label>
-      <select id="language" aria-label="Language"></select>
+      <label for="language" data-i18n="labelLanguage">Język:</label>
+      <select id="language" aria-label="Język"></select>
     </div>
   </header>
 
@@ -392,27 +392,27 @@
       <div class="hero">
         <img class="hero-icon" src="favicon.svg" alt="" role="presentation">
         <div>
-          <h1>Smart Rosary Audio</h1>
-          <p class="lead">Preview every generated prayer and mystery MP3 for each supported language.</p>
+          <h1 data-i18n="headline">Audio Smart Rosary</h1>
+          <p class="lead" data-i18n="lead">Odsłuchaj wygenerowane modlitwy i tajemnice MP3 dla każdego obsługiwanego języka.</p>
         </div>
       </div>
 
       <div class="tools">
         <div class="field">
-          <label for="languageControl">Language</label>
+          <label for="languageControl" data-i18n="controlLanguage">Język</label>
           <select id="languageControl"></select>
         </div>
         <div class="field">
-          <label for="voiceControl">Voice</label>
+          <label for="voiceControl" data-i18n="controlVoice">Głos</label>
           <select id="voiceControl"></select>
         </div>
         <div class="field">
-          <label for="search">Filter audio files</label>
-          <input class="search" id="search" type="search" placeholder="Search by file, title, or text">
+          <label for="search" data-i18n="filterAudio">Filtruj pliki audio</label>
+          <input class="search" id="search" type="search" placeholder="Szukaj po pliku, tytule lub tekście" data-i18n-placeholder="searchPlaceholder">
         </div>
         <div class="field">
-          <label for="textControl">Text</label>
-          <button class="toggle-btn" id="textControl" type="button">Hide all text</button>
+          <label for="textControl" data-i18n="textLabel">Tekst</label>
+          <button class="toggle-btn" id="textControl" type="button">Ukryj cały tekst</button>
         </div>
       </div>
 
@@ -430,6 +430,147 @@
   <script>
     (function () {
       const DEFAULT_LANGUAGE = 'pl';
+      const strings = {
+        en: {
+          title: 'Smart Rosary Audio',
+          description: 'Smart Rosary audio preview page with supported language and voice MP3 files.',
+          headline: 'Smart Rosary Audio',
+          lead: 'Preview every generated prayer and mystery MP3 for each supported language.',
+          labelLanguage: 'Language:',
+          controlLanguage: 'Language',
+          controlVoice: 'Voice',
+          filterAudio: 'Filter audio files',
+          searchPlaceholder: 'Search by file, title, or text',
+          textLabel: 'Text',
+          hideAllText: 'Hide all text',
+          showAllText: 'Show all text',
+          hideText: 'Hide text',
+          showText: 'Show text',
+          selectedLanguage: 'Selected language',
+          audioVoiceVersion: 'Audio voice version',
+          shown: 'shown',
+          unknown: 'unknown',
+          noMatches: 'No audio files match the current filter.',
+          loadFailed: 'Failed to load audio-data.json',
+          noLanguages: 'audio-data.json has no language entries'
+        },
+        pl: {
+          title: 'Audio Smart Rosary',
+          description: 'Podgląd audio Smart Rosary z obsługiwanymi językami, głosami i plikami MP3.',
+          headline: 'Audio Smart Rosary',
+          lead: 'Odsłuchaj wygenerowane modlitwy i tajemnice MP3 dla każdego obsługiwanego języka.',
+          labelLanguage: 'Język:',
+          controlLanguage: 'Język',
+          controlVoice: 'Głos',
+          filterAudio: 'Filtruj pliki audio',
+          searchPlaceholder: 'Szukaj po pliku, tytule lub tekście',
+          textLabel: 'Tekst',
+          hideAllText: 'Ukryj cały tekst',
+          showAllText: 'Pokaż cały tekst',
+          hideText: 'Ukryj tekst',
+          showText: 'Pokaż tekst',
+          selectedLanguage: 'Wybrany język',
+          audioVoiceVersion: 'Wersja głosu audio',
+          shown: 'pokazano',
+          unknown: 'nieznana',
+          noMatches: 'Żaden plik audio nie pasuje do bieżącego filtra.',
+          loadFailed: 'Nie udało się wczytać audio-data.json',
+          noLanguages: 'audio-data.json nie zawiera języków'
+        },
+        de: {
+          title: 'Smart Rosary Audio',
+          description: 'Smart-Rosary-Audiovorschau mit unterstützten Sprachen, Stimmen und MP3-Dateien.',
+          headline: 'Smart Rosary Audio',
+          lead: 'Hören Sie alle erzeugten Gebete und Geheimnisse als MP3 für jede unterstützte Sprache an.',
+          labelLanguage: 'Sprache:',
+          controlLanguage: 'Sprache',
+          controlVoice: 'Stimme',
+          filterAudio: 'Audiodateien filtern',
+          searchPlaceholder: 'Nach Datei, Titel oder Text suchen',
+          textLabel: 'Text',
+          hideAllText: 'Gesamten Text ausblenden',
+          showAllText: 'Gesamten Text anzeigen',
+          hideText: 'Text ausblenden',
+          showText: 'Text anzeigen',
+          selectedLanguage: 'Ausgewählte Sprache',
+          audioVoiceVersion: 'Audiostimmen-Version',
+          shown: 'angezeigt',
+          unknown: 'unbekannt',
+          noMatches: 'Keine Audiodateien entsprechen dem aktuellen Filter.',
+          loadFailed: 'audio-data.json konnte nicht geladen werden',
+          noLanguages: 'audio-data.json enthält keine Spracheinträge'
+        },
+        fr: {
+          title: 'Audio Smart Rosary',
+          description: 'Aperçu audio Smart Rosary avec langues, voix et fichiers MP3 pris en charge.',
+          headline: 'Audio Smart Rosary',
+          lead: 'Écoutez chaque prière et mystère MP3 généré pour chaque langue prise en charge.',
+          labelLanguage: 'Langue :',
+          controlLanguage: 'Langue',
+          controlVoice: 'Voix',
+          filterAudio: 'Filtrer les fichiers audio',
+          searchPlaceholder: 'Rechercher par fichier, titre ou texte',
+          textLabel: 'Texte',
+          hideAllText: 'Masquer tout le texte',
+          showAllText: 'Afficher tout le texte',
+          hideText: 'Masquer le texte',
+          showText: 'Afficher le texte',
+          selectedLanguage: 'Langue sélectionnée',
+          audioVoiceVersion: 'Version de la voix audio',
+          shown: 'affichés',
+          unknown: 'inconnue',
+          noMatches: 'Aucun fichier audio ne correspond au filtre actuel.',
+          loadFailed: 'Impossible de charger audio-data.json',
+          noLanguages: 'audio-data.json ne contient aucune langue'
+        },
+        es: {
+          title: 'Audio Smart Rosary',
+          description: 'Vista previa de audio de Smart Rosary con idiomas, voces y archivos MP3 compatibles.',
+          headline: 'Audio Smart Rosary',
+          lead: 'Escucha cada oración y misterio MP3 generado para cada idioma compatible.',
+          labelLanguage: 'Idioma:',
+          controlLanguage: 'Idioma',
+          controlVoice: 'Voz',
+          filterAudio: 'Filtrar archivos de audio',
+          searchPlaceholder: 'Buscar por archivo, título o texto',
+          textLabel: 'Texto',
+          hideAllText: 'Ocultar todo el texto',
+          showAllText: 'Mostrar todo el texto',
+          hideText: 'Ocultar texto',
+          showText: 'Mostrar texto',
+          selectedLanguage: 'Idioma seleccionado',
+          audioVoiceVersion: 'Versión de la voz de audio',
+          shown: 'mostrados',
+          unknown: 'desconocida',
+          noMatches: 'Ningún archivo de audio coincide con el filtro actual.',
+          loadFailed: 'No se pudo cargar audio-data.json',
+          noLanguages: 'audio-data.json no contiene idiomas'
+        },
+        pt: {
+          title: 'Áudio Smart Rosary',
+          description: 'Pré-visualização de áudio do Smart Rosary com idiomas, vozes e ficheiros MP3 suportados.',
+          headline: 'Áudio Smart Rosary',
+          lead: 'Ouça cada oração e mistério MP3 gerado para cada idioma suportado.',
+          labelLanguage: 'Idioma:',
+          controlLanguage: 'Idioma',
+          controlVoice: 'Voz',
+          filterAudio: 'Filtrar ficheiros de áudio',
+          searchPlaceholder: 'Procurar por ficheiro, título ou texto',
+          textLabel: 'Texto',
+          hideAllText: 'Ocultar todo o texto',
+          showAllText: 'Mostrar todo o texto',
+          hideText: 'Ocultar texto',
+          showText: 'Mostrar texto',
+          selectedLanguage: 'Idioma selecionado',
+          audioVoiceVersion: 'Versão da voz de áudio',
+          shown: 'mostrados',
+          unknown: 'desconhecida',
+          noMatches: 'Nenhum ficheiro de áudio corresponde ao filtro atual.',
+          loadFailed: 'Não foi possível carregar audio-data.json',
+          noLanguages: 'audio-data.json não contém idiomas'
+        }
+      };
+
       const state = {
         data: null,
         language: new URLSearchParams(location.search).get('lang') || localStorage.getItem('smartrosaryAudioLanguage') || DEFAULT_LANGUAGE,
@@ -487,6 +628,26 @@
         return language.variants.find((variant) => variant.id === state.voice) || language.variants[0];
       }
 
+      function getStrings(languageCode = state.language) {
+        return strings[languageCode] || strings.en;
+      }
+
+      function applyPageText(language) {
+        const dict = getStrings(language.code);
+        document.title = dict.title;
+        const description = document.querySelector('meta[name="description"]');
+        if (description) description.setAttribute('content', dict.description);
+        document.querySelectorAll('[data-i18n]').forEach((el) => {
+          const key = el.getAttribute('data-i18n');
+          if (dict[key]) el.textContent = dict[key];
+        });
+        document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+          const key = el.getAttribute('data-i18n-placeholder');
+          if (dict[key]) el.setAttribute('placeholder', dict[key]);
+        });
+        els.language.setAttribute('aria-label', dict.controlLanguage);
+      }
+
       function getTextKey(clip) {
         return clip.file;
       }
@@ -497,7 +658,8 @@
       }
 
       function updateTextControl() {
-        els.textControl.textContent = state.showAllText ? 'Hide all text' : 'Show all text';
+        const dict = getStrings();
+        els.textControl.textContent = state.showAllText ? dict.hideAllText : dict.showAllText;
         els.textControl.setAttribute('aria-pressed', String(state.showAllText));
       }
 
@@ -522,24 +684,26 @@
         state.language = language.code;
         state.voice = variant.id;
         els.voiceControl.innerHTML = language.variants.map((item) =>
-          `<option value="${escapeHtml(item.id)}">${escapeHtml(item.voice)} · v${escapeHtml(item.version || 'unknown')}</option>`
+          `<option value="${escapeHtml(item.id)}">${escapeHtml(item.voice)} · v${escapeHtml(item.version || getStrings(language.code).unknown)}</option>`
         ).join('');
         els.voiceControl.value = state.voice;
       }
 
       function renderSummary(language, variant, clips) {
+        const dict = getStrings(language.code);
         const bytes = variant.clips.reduce((sum, clip) => sum + clip.bytes, 0);
         els.summary.innerHTML = `
-          <div class="stat"><strong>${escapeHtml(language.name)}</strong><span>Selected language</span></div>
+          <div class="stat"><strong>${escapeHtml(language.name)}</strong><span>${escapeHtml(dict.selectedLanguage)}</span></div>
           <div class="stat"><strong>${escapeHtml(variant.voice)}</strong><span>${escapeHtml(variant.id)}</span></div>
-          <div class="stat"><strong><span class="version-pill">v${escapeHtml(variant.version || 'unknown')}</span></strong><span>Audio voice version</span></div>
-          <div class="stat"><strong>${variant.clipCount}</strong><span>${clips.length} shown · ${formatBytes(bytes)}</span></div>
+          <div class="stat"><strong><span class="version-pill">v${escapeHtml(variant.version || dict.unknown)}</span></strong><span>${escapeHtml(dict.audioVoiceVersion)}</span></div>
+          <div class="stat"><strong>${variant.clipCount}</strong><span>${clips.length} ${escapeHtml(dict.shown)} · ${formatBytes(bytes)}</span></div>
         `;
       }
 
       function renderClips() {
         const language = getLanguage();
         const variant = getVariant(language);
+        const dict = getStrings(language.code);
         const query = state.query.trim().toLowerCase();
         const clips = query
           ? variant.clips.filter((clip) =>
@@ -548,6 +712,7 @@
           : variant.clips;
 
         document.documentElement.lang = language.code;
+        applyPageText(language);
         syncSelectOptions();
         renderSummary(language, variant, clips);
         updateTextControl();
@@ -557,7 +722,7 @@
         localStorage.setItem('smartrosaryAudioShowText', String(state.showAllText));
 
         if (!clips.length) {
-          els.clipList.innerHTML = '<div class="empty">No audio files match the current filter.</div>';
+          els.clipList.innerHTML = `<div class="empty">${escapeHtml(dict.noMatches)}</div>`;
           return;
         }
 
@@ -569,7 +734,7 @@
             <div class="clip-main">
               <div class="clip-heading">
                 <h2 class="clip-title"><span class="clip-id">${escapeHtml(clip.id)}.mp3</span><span>${escapeHtml(clip.title)}</span></h2>
-                ${hasText ? `<button class="toggle-btn secondary" type="button" data-toggle-text="${escapeHtml(getTextKey(clip))}" aria-expanded="${textVisible}">${textVisible ? 'Hide text' : 'Show text'}</button>` : ''}
+                ${hasText ? `<button class="toggle-btn secondary" type="button" data-toggle-text="${escapeHtml(getTextKey(clip))}" aria-expanded="${textVisible}">${textVisible ? escapeHtml(dict.hideText) : escapeHtml(dict.showText)}</button>` : ''}
               </div>
               <p class="clip-group">${escapeHtml(clip.group)}</p>
               ${hasText ? `<p class="clip-text expanded${textVisible ? '' : ' hidden'}">${escapeHtml(clip.text)}</p>` : ''}
@@ -629,11 +794,12 @@
 
       async function init() {
         try {
+          applyPageText({ code: state.language });
           const response = await fetch('audio-data.json', { cache: 'no-store' });
-          if (!response.ok) throw new Error(`Failed to load audio-data.json (${response.status})`);
+          if (!response.ok) throw new Error(`${getStrings().loadFailed} (${response.status})`);
           state.data = await response.json();
           if (!state.data.languages || !state.data.languages.length) {
-            throw new Error('audio-data.json has no language entries');
+            throw new Error(getStrings().noLanguages);
           }
           if (!state.data.languages.some((language) => language.code === state.language)) {
             state.language = DEFAULT_LANGUAGE;
