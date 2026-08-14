@@ -8,6 +8,7 @@
           "id": "pl-florian",
           "voice": "Florian Multilingual",
           "language": "polish",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -312,6 +313,7 @@
           "id": "pl-seraphina",
           "voice": "Seraphina Multilingual",
           "language": "polish",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -622,6 +624,7 @@
           "id": "en-florian",
           "voice": "Florian Multilingual",
           "language": "english",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -926,6 +929,7 @@
           "id": "en-seraphina",
           "voice": "Seraphina Multilingual",
           "language": "english",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -1236,6 +1240,7 @@
           "id": "de-florian",
           "voice": "Florian Multilingual",
           "language": "german",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -1540,6 +1545,7 @@
           "id": "de-seraphina",
           "voice": "Seraphina Multilingual",
           "language": "german",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -1850,6 +1856,7 @@
           "id": "fr-florian",
           "voice": "Florian Multilingual",
           "language": "french",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -2154,6 +2161,7 @@
           "id": "fr-seraphina",
           "voice": "Seraphina Multilingual",
           "language": "french",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -2464,6 +2472,7 @@
           "id": "es-florian",
           "voice": "Florian Multilingual",
           "language": "spanish",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -2768,6 +2777,7 @@
           "id": "es-seraphina",
           "voice": "Seraphina Multilingual",
           "language": "spanish",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -3078,6 +3088,7 @@
           "id": "pt-florian",
           "voice": "Florian Multilingual",
           "language": "portuguese",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {
@@ -3382,6 +3393,7 @@
           "id": "pt-seraphina",
           "voice": "Seraphina Multilingual",
           "language": "portuguese",
+          "version": "1.1",
           "clipCount": 37,
           "clips": [
             {

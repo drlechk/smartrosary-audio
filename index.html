@@ -192,7 +192,7 @@
 
     .summary {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 0.75rem;
       margin: 0 0 1rem;
     }
@@ -212,6 +212,20 @@
       margin-top: 0.25rem;
       color: var(--muted);
       font-size: 0.86rem;
+    }
+    .version-pill {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--accent-dark);
+      font-size: 0.78rem;
+      font-weight: 800;
+      line-height: 1;
+      padding: 0.22rem 0.45rem;
+      white-space: nowrap;
+      vertical-align: middle;
     }
 
     .clip-list {
@@ -508,7 +522,7 @@
         state.language = language.code;
         state.voice = variant.id;
         els.voiceControl.innerHTML = language.variants.map((item) =>
-          `<option value="${escapeHtml(item.id)}">${escapeHtml(item.voice)}</option>`
+          `<option value="${escapeHtml(item.id)}">${escapeHtml(item.voice)} · v${escapeHtml(item.version || 'unknown')}</option>`
         ).join('');
         els.voiceControl.value = state.voice;
       }
@@ -517,8 +531,9 @@
         const bytes = variant.clips.reduce((sum, clip) => sum + clip.bytes, 0);
         els.summary.innerHTML = `
           <div class="stat"><strong>${escapeHtml(language.name)}</strong><span>Selected language</span></div>
-          <div class="stat"><strong>${variant.clipCount}</strong><span>MP3 files in ${escapeHtml(variant.id)}</span></div>
-          <div class="stat"><strong>${formatBytes(bytes)}</strong><span>${clips.length} files shown</span></div>
+          <div class="stat"><strong>${escapeHtml(variant.voice)}</strong><span>${escapeHtml(variant.id)}</span></div>
+          <div class="stat"><strong><span class="version-pill">v${escapeHtml(variant.version || 'unknown')}</span></strong><span>Audio voice version</span></div>
+          <div class="stat"><strong>${variant.clipCount}</strong><span>${clips.length} shown · ${formatBytes(bytes)}</span></div>
         `;
       }
 

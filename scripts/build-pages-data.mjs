@@ -4,6 +4,7 @@ import path from 'node:path';
 const repoRoot = path.resolve(new URL('..', import.meta.url).pathname);
 const textsPath = path.join(repoRoot, 'basic-prayer-texts.json');
 const audioLanguagesDir = path.join(repoRoot, 'audio-languages');
+const audioFsBuilderPath = path.join(repoRoot, 'build_audiofs.py');
 const outputPath = path.join(repoRoot, 'audio-data.json');
 const siteDirArg = process.argv.find((arg) => arg.startsWith('--site-dir='));
 const siteDir = siteDirArg ? path.resolve(repoRoot, siteDirArg.split('=').slice(1).join('=')) : null;
@@ -256,6 +257,12 @@ async function getAudioLanguageTexts(languageCode) {
   return data.texts || {};
 }
 
+async function getAudioVersion() {
+  const source = await fs.readFile(audioFsBuilderPath, 'utf8');
+  const match = source.match(/^DEFAULT_MANIFEST_VERSION\s*=\s*["']([^"']+)["']/m);
+  return match ? match[1] : 'unknown';
+}
+
 function getClipTitle(id, languageCode) {
   const titles = clipTitles[languageCode] || clipTitles.en;
   if (titles[id]) return titles[id];
@@ -307,6 +314,7 @@ async function copyPublicFiles(voiceIds) {
 
 async function build() {
   const basic = await readJson(textsPath);
+  const audioVersion = await getAudioVersion();
   const voices = basic.voices || {};
   const languages = new Map();
   const publicVoiceIds = [];
@@ -349,6 +357,7 @@ async function build() {
       id: voiceId,
       voice: voiceInfo.voice || voiceId,
       language: voiceInfo.language || languageCode,
+      version: audioVersion,
       clipCount: clips.length,
       clips
     });
