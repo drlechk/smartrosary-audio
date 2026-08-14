@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Rosary Audio</title>
+  <meta name="description" content="Smart Rosary audio preview page with supported language and voice MP3 files.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    :root {
+      --bg: linear-gradient(180deg, #0f5aa0 0%, #0b4f8f 55%, #09457e 100%);
+      --text: #14223d;
+      --muted: #5b6b86;
+      --card: #ffffffcc;
+      --surface: #ffffff;
+      --border: #b7d6f5;
+      --accent: #0974cc;
+      --accent-dark: #075b9f;
+      --accent-contrast: #ffffff;
+      --soft: #f3f8fd;
+      --warning: #7c2d12;
+      --warning-bg: #fff7ed;
+    }
+
+    * { box-sizing: border-box; }
+    html { min-height: 100%; background: var(--bg); }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      max-width: 1120px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .home-link {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+    }
+    .home-link img { width: 28px; height: 28px; }
+
+    .selector-row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    label {
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    select {
+      padding: 0.4rem 0.6rem;
+      border: 1px solid rgba(255,255,255,0.6);
+      border-radius: 8px;
+      background: transparent;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    select:focus { outline: 2px solid rgba(255,255,255,0.85); outline-offset: 2px; }
+    select option { color: #111; }
+
+    main {
+      display: grid;
+      place-items: start center;
+      padding: 1rem 1.25rem 3rem;
+      flex: 1;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 1120px;
+      background: var(--card);
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px #00000014;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1.25rem;
+    }
+    .hero-icon {
+      width: 78px;
+      height: 78px;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.1rem);
+      line-height: 1;
+      margin: 0 0 0.65rem;
+    }
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
+
+    .tools {
+      display: grid;
+      grid-template-columns: minmax(180px, 260px) minmax(180px, 260px) minmax(0, 1fr);
+      gap: 0.85rem;
+      align-items: end;
+      margin: 1.5rem 0;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--surface);
+      box-shadow: 0 2px 8px #0000000a;
+    }
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      min-width: 0;
+    }
+    .field label {
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .field select,
+    .search {
+      width: 100%;
+      max-width: 100%;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .search {
+      min-height: 38px;
+      border-radius: 8px;
+      padding: 0.45rem 0.65rem;
+      font: inherit;
+    }
+    .search:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin: 0 0 1rem;
+    }
+    .stat {
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.8rem;
+    }
+    .stat strong {
+      display: block;
+      font-size: 1.3rem;
+      line-height: 1.1;
+    }
+    .stat span {
+      display: block;
+      margin-top: 0.25rem;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .clip-list {
+      display: grid;
+      gap: 0.75rem;
+    }
+    .clip {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(240px, 360px);
+      gap: 1rem;
+      align-items: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px #0000000a;
+    }
+    .clip-title {
+      display: flex;
+      gap: 0.6rem;
+      align-items: baseline;
+      margin: 0;
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+    .clip-id {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      color: var(--accent);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .clip-group {
+      margin: 0.35rem 0 0;
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+    .clip-text {
+      margin: 0.55rem 0 0;
+      color: var(--muted);
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .clip audio {
+      width: 100%;
+      min-width: 0;
+    }
+    .clip-meta {
+      margin: 0.45rem 0 0;
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-align: right;
+    }
+
+    .empty,
+    .error {
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+      color: var(--muted);
+    }
+    .error {
+      background: var(--warning-bg);
+      color: var(--warning);
+      display: none;
+    }
+    .error.show { display: block; }
+
+    footer {
+      padding: 1rem 1.25rem;
+      text-align: center;
+      color: rgba(255,255,255,0.88);
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: inherit;
+      margin-left: 0.75rem;
+      text-underline-offset: 0.2em;
+    }
+    footer a:hover { color: #fff; }
+
+    @media (max-width: 800px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0.75rem 0.9rem;
+      }
+      .selector-row { justify-content: flex-start; }
+      main { padding: 1rem 0.85rem 2rem; }
+      .card {
+        padding: 1rem;
+        border-radius: 12px;
+      }
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+      }
+      .hero-icon {
+        width: 54px;
+        height: 54px;
+      }
+      .tools {
+        grid-template-columns: 1fr;
+        padding: 0.85rem;
+      }
+      .summary { grid-template-columns: 1fr; }
+      .clip {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+      }
+      .clip-title {
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+      .clip-meta { text-align: left; }
+      footer a {
+        display: block;
+        margin: 0.35rem 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="home-link" href="https://drlechk.github.io/smartrosary/" target="_blank" rel="noopener">
+      <img src="favicon.svg" alt="" role="presentation">
+      <span>Smart Rosary</span>
+    </a>
+    <div class="selector-row">
+      <label for="language">Language:</label>
+      <select id="language" aria-label="Language"></select>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="hero">
+        <img class="hero-icon" src="favicon.svg" alt="" role="presentation">
+        <div>
+          <h1>Smart Rosary Audio</h1>
+          <p class="lead">Preview every generated prayer and mystery MP3 for each supported language.</p>
+        </div>
+      </div>
+
+      <div class="tools">
+        <div class="field">
+          <label for="languageControl">Language</label>
+          <select id="languageControl"></select>
+        </div>
+        <div class="field">
+          <label for="voiceControl">Voice</label>
+          <select id="voiceControl"></select>
+        </div>
+        <div class="field">
+          <label for="search">Filter audio files</label>
+          <input class="search" id="search" type="search" placeholder="Search by file, title, or text">
+        </div>
+      </div>
+
+      <div class="summary" id="summary" aria-live="polite"></div>
+      <div class="error" id="error" role="status"></div>
+      <div class="clip-list" id="clipList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 SmartRosary</span>
+    <a href="https://github.com/drlechk/smartrosary-audio" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+
+  <script>
+    (function () {
+      const DEFAULT_LANGUAGE = 'pl';
+      const state = {
+        data: null,
+        language: new URLSearchParams(location.search).get('lang') || localStorage.getItem('smartrosaryAudioLanguage') || DEFAULT_LANGUAGE,
+        voice: new URLSearchParams(location.search).get('voice') || localStorage.getItem('smartrosaryAudioVoice') || '',
+        query: ''
+      };
+
+      const els = {
+        language: document.getElementById('language'),
+        languageControl: document.getElementById('languageControl'),
+        voiceControl: document.getElementById('voiceControl'),
+        search: document.getElementById('search'),
+        summary: document.getElementById('summary'),
+        error: document.getElementById('error'),
+        clipList: document.getElementById('clipList')
+      };
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll('&', '&amp;')
+          .replaceAll('<', '&lt;')
+          .replaceAll('>', '&gt;')
+          .replaceAll('"', '&quot;')
+          .replaceAll("'", '&#39;');
+      }
+
+      function formatBytes(bytes) {
+        if (!bytes) return '0 KB';
+        const units = ['B', 'KB', 'MB'];
+        let value = bytes;
+        let unitIndex = 0;
+        while (value >= 1024 && unitIndex < units.length - 1) {
+          value /= 1024;
+          unitIndex += 1;
+        }
+        return `${value.toFixed(unitIndex === 0 ? 0 : 1)} ${units[unitIndex]}`;
+      }
+
+      function formatDuration(seconds) {
+        if (!Number.isFinite(seconds)) return '';
+        const rounded = Math.round(seconds);
+        const minutes = Math.floor(rounded / 60);
+        const rest = String(rounded % 60).padStart(2, '0');
+        return `${minutes}:${rest}`;
+      }
+
+      function getLanguage() {
+        return state.data.languages.find((language) => language.code === state.language) || state.data.languages[0];
+      }
+
+      function getVariant(language) {
+        return language.variants.find((variant) => variant.id === state.voice) || language.variants[0];
+      }
+
+      function updateUrl() {
+        const params = new URLSearchParams();
+        params.set('lang', state.language);
+        if (state.voice) params.set('voice', state.voice);
+        history.replaceState(null, '', `${location.pathname}?${params.toString()}`);
+      }
+
+      function syncSelectOptions() {
+        const languageOptions = state.data.languages.map((language) =>
+          `<option value="${escapeHtml(language.code)}">${escapeHtml(language.name)}</option>`
+        ).join('');
+        els.language.innerHTML = languageOptions;
+        els.languageControl.innerHTML = languageOptions;
+        els.language.value = state.language;
+        els.languageControl.value = state.language;
+
+        const language = getLanguage();
+        const variant = getVariant(language);
+        state.language = language.code;
+        state.voice = variant.id;
+        els.voiceControl.innerHTML = language.variants.map((item) =>
+          `<option value="${escapeHtml(item.id)}">${escapeHtml(item.voice)}</option>`
+        ).join('');
+        els.voiceControl.value = state.voice;
+      }
+
+      function renderSummary(language, variant, clips) {
+        const bytes = variant.clips.reduce((sum, clip) => sum + clip.bytes, 0);
+        els.summary.innerHTML = `
+          <div class="stat"><strong>${escapeHtml(language.name)}</strong><span>Selected language</span></div>
+          <div class="stat"><strong>${variant.clipCount}</strong><span>MP3 files in ${escapeHtml(variant.id)}</span></div>
+          <div class="stat"><strong>${formatBytes(bytes)}</strong><span>${clips.length} files shown</span></div>
+        `;
+      }
+
+      function renderClips() {
+        const language = getLanguage();
+        const variant = getVariant(language);
+        const query = state.query.trim().toLowerCase();
+        const clips = query
+          ? variant.clips.filter((clip) =>
+              [clip.id, clip.file, clip.title, clip.group, clip.text].join(' ').toLowerCase().includes(query)
+            )
+          : variant.clips;
+
+        document.documentElement.lang = language.code;
+        syncSelectOptions();
+        renderSummary(language, variant, clips);
+        updateUrl();
+        localStorage.setItem('smartrosaryAudioLanguage', state.language);
+        localStorage.setItem('smartrosaryAudioVoice', state.voice);
+
+        if (!clips.length) {
+          els.clipList.innerHTML = '<div class="empty">No audio files match the current filter.</div>';
+          return;
+        }
+
+        els.clipList.innerHTML = clips.map((clip) => `
+          <article class="clip">
+            <div>
+              <h2 class="clip-title"><span class="clip-id">${escapeHtml(clip.id)}.mp3</span><span>${escapeHtml(clip.title)}</span></h2>
+              <p class="clip-group">${escapeHtml(clip.group)}</p>
+              ${clip.text ? `<p class="clip-text">${escapeHtml(clip.text)}</p>` : ''}
+            </div>
+            <div>
+              <audio controls preload="metadata" src="${encodeURI(clip.file)}" data-bytes="${clip.bytes}"></audio>
+              <p class="clip-meta">${formatBytes(clip.bytes)}</p>
+            </div>
+          </article>
+        `).join('');
+
+        els.clipList.querySelectorAll('audio').forEach((audio) => {
+          audio.addEventListener('loadedmetadata', () => {
+            const meta = audio.nextElementSibling;
+            const duration = formatDuration(audio.duration);
+            if (duration) meta.textContent = `${duration} · ${formatBytes(Number(audio.dataset.bytes))}`;
+          }, { once: true });
+        });
+      }
+
+      function setLanguage(value) {
+        state.language = value;
+        const language = getLanguage();
+        state.voice = getVariant(language).id;
+        renderClips();
+      }
+
+      function bindEvents() {
+        els.language.addEventListener('change', (event) => setLanguage(event.target.value));
+        els.languageControl.addEventListener('change', (event) => setLanguage(event.target.value));
+        els.voiceControl.addEventListener('change', (event) => {
+          state.voice = event.target.value;
+          renderClips();
+        });
+        els.search.addEventListener('input', (event) => {
+          state.query = event.target.value;
+          renderClips();
+        });
+      }
+
+      async function init() {
+        try {
+          const response = await fetch('audio-data.json', { cache: 'no-store' });
+          if (!response.ok) throw new Error(`Failed to load audio-data.json (${response.status})`);
+          state.data = await response.json();
+          if (!state.data.languages || !state.data.languages.length) {
+            throw new Error('audio-data.json has no language entries');
+          }
+          if (!state.data.languages.some((language) => language.code === state.language)) {
+            state.language = DEFAULT_LANGUAGE;
+          }
+          bindEvents();
+          renderClips();
+        } catch (error) {
+          els.error.textContent = error.message;
+          els.error.classList.add('show');
+        }
+      }
+
+      init();
+    }());
+  </script>
+</body>
+</html>

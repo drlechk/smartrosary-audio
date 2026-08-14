@@ -256,6 +256,29 @@ Example:
 The generator expands a language key to all matching voice variants. For
 example, `./generate_audio.py en` generates every `en-*` voice.
 
+## Audio Preview Page
+
+The repository includes a static GitHub Pages preview at `index.html`. It uses
+the same visual style as the SmartRosary landing page and lets visitors select a
+supported language, choose a voice variant, browse every generated MP3, and play
+clips in the browser.
+
+Build the preview data from the committed MP3 folders:
+
+```sh
+node scripts/build-pages-data.mjs
+```
+
+Prepare the exact public Pages payload locally:
+
+```sh
+node scripts/build-pages-data.mjs --site-dir=_site
+```
+
+The GitHub Actions workflow in `.github/workflows/pages.yml` runs the same build
+on every push to `main` and deploys only the public preview files, generated
+`audio-data.json`, and the supported MP3 voice directories to GitHub Pages.
+
 ## Add A Language
 
 Add a new text set under `texts`, then add one or more voice variants that point

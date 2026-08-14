@@ -1,4 +1,5 @@
 .DS_Store
 build/
+_site/
 __pycache__/
 raw/
