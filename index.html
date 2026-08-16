@@ -586,6 +586,14 @@
           deployLabel: 'Última publicação'
         }
       };
+      const uiLanguageNames = {
+        pl: 'Polski',
+        en: 'English',
+        de: 'Deutsch',
+        fr: 'Français',
+        es: 'Español',
+        pt: 'Português'
+      };
 
       const state = {
         data: null,
@@ -706,11 +714,14 @@
       }
 
       function syncSelectOptions() {
-        const languageOptions = state.data.languages.map((language) =>
+        const uiLanguageOptions = Object.keys(strings).map((code) =>
+          `<option value="${escapeHtml(code)}">${escapeHtml(uiLanguageNames[code] || code.toUpperCase())}</option>`
+        ).join('');
+        const audioLanguageOptions = state.data.languages.map((language) =>
           `<option value="${escapeHtml(language.code)}">${escapeHtml(language.name)}</option>`
         ).join('');
-        els.language.innerHTML = languageOptions;
-        els.languageControl.innerHTML = languageOptions;
+        els.language.innerHTML = uiLanguageOptions;
+        els.languageControl.innerHTML = audioLanguageOptions;
         els.language.value = state.uiLanguage;
         els.languageControl.value = state.audioLanguage;
 
@@ -844,7 +855,7 @@
           if (!state.data.languages.some((language) => language.code === state.audioLanguage)) {
             state.audioLanguage = DEFAULT_LANGUAGE;
           }
-          if (!state.data.languages.some((language) => language.code === state.uiLanguage)) {
+          if (!strings[state.uiLanguage]) {
             state.uiLanguage = DEFAULT_LANGUAGE;
           }
           bindEvents();
