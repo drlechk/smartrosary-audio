@@ -3081,6 +3081,622 @@
       ]
     },
     {
+      "code": "it",
+      "name": "Italiano",
+      "variants": [
+        {
+          "id": "it-florian",
+          "voice": "Florian Multilingual",
+          "language": "italian",
+          "version": "1.1",
+          "clipCount": 37,
+          "clips": [
+            {
+              "id": "010",
+              "file": "it-florian/010.mp3",
+              "title": "Credo degli Apostoli",
+              "group": "Preghiere del rosario",
+              "text": "Io credo in Dio, Padre onnipotente, Creatore del cielo e della terra; e in Gesù Cristo, suo unico Figlio, nostro Signore, il quale fu concepito di Spirito Santo, nacque da Maria Vergine, patì sotto Ponzio Pilato, fu crocifisso, morì e fu sepolto.\nDiscese agli inferi; il terzo giorno risuscitò da morte; salì al cielo, siede alla destra di Dio Padre onnipotente.\nDi là verrà a giudicare i vivi e i morti.\nCredo nello Spirito Santo, la santa Chiesa cattolica, la comunione dei santi, la remissione dei peccati, la risurrezione della carne, la vita eterna.\nAmen.",
+              "bytes": 125517
+            },
+            {
+              "id": "020",
+              "file": "it-florian/020.mp3",
+              "title": "Padre nostro, prima parte",
+              "group": "Preghiere del rosario",
+              "text": "Padre nostro, che sei nei cieli, sia santificato il tuo nome, venga il tuo regno, sia fatta la tua volontà, come in cielo così in terra.",
+              "bytes": 30381
+            },
+            {
+              "id": "021",
+              "file": "it-florian/021.mp3",
+              "title": "Padre nostro, seconda parte",
+              "group": "Preghiere del rosario",
+              "text": "Dacci oggi il nostro pane quotidiano, e rimetti a noi i nostri debiti, come anche noi li rimettiamo ai nostri debitori, e non abbandonarci alla tentazione, ma liberaci dal male. Amen.",
+              "bytes": 38061
+            },
+            {
+              "id": "030",
+              "file": "it-florian/030.mp3",
+              "title": "Ave Maria, prima parte",
+              "group": "Preghiere del rosario",
+              "text": "Ave Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne, e benedetto è il frutto del tuo seno, Gesù.",
+              "bytes": 28749
+            },
+            {
+              "id": "031",
+              "file": "it-florian/031.mp3",
+              "title": "Ave Maria, seconda parte",
+              "group": "Preghiere del rosario",
+              "text": "Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.",
+              "bytes": 21837
+            },
+            {
+              "id": "040",
+              "file": "it-florian/040.mp3",
+              "title": "Gloria al Padre",
+              "group": "Preghiere del rosario",
+              "text": "Gloria al Padre e al Figlio e allo Spirito Santo. Come era nel principio, ora e sempre, nei secoli dei secoli. Amen.",
+              "bytes": 29517
+            },
+            {
+              "id": "050",
+              "file": "it-florian/050.mp3",
+              "title": "Preghiera di Fatima",
+              "group": "Preghiere del rosario",
+              "text": "O Gesù mio, perdona le nostre colpe, preservaci dal fuoco dell'inferno, porta in cielo tutte le anime, specialmente le più bisognose della tua misericordia.",
+              "bytes": 34701
+            },
+            {
+              "id": "060",
+              "file": "it-florian/060.mp3",
+              "title": "Coroncina della Divina Misericordia: preghiera dell'Eterno Padre",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Eterno Padre, ti offro il Corpo e il Sangue, l'Anima e la Divinità del tuo dilettissimo Figlio, il Signore nostro Gesù Cristo, in espiazione dei nostri peccati e di quelli del mondo intero.",
+              "bytes": 39501
+            },
+            {
+              "id": "070",
+              "file": "it-florian/070.mp3",
+              "title": "Coroncina della Divina Misericordia: Per la sua dolorosa Passione",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Per la sua dolorosa Passione.",
+              "bytes": 7821
+            },
+            {
+              "id": "071",
+              "file": "it-florian/071.mp3",
+              "title": "Coroncina della Divina Misericordia: risposta di misericordia",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Abbi misericordia di noi e del mondo intero.",
+              "bytes": 10893
+            },
+            {
+              "id": "080",
+              "file": "it-florian/080.mp3",
+              "title": "Coroncina della Divina Misericordia: Santo Dio",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Santo Dio, Santo Forte, Santo Immortale, abbi pietà di noi e del mondo intero.",
+              "bytes": 19053
+            },
+            {
+              "id": "090",
+              "file": "it-florian/090.mp3",
+              "title": "Coroncina della Divina Misericordia: Gesù, confido in Te",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Gesù, confido in Te. Gesù, confido in Te. Gesù, confido in Te.",
+              "bytes": 28797
+            },
+            {
+              "id": "mT1",
+              "file": "it-florian/mT1.mp3",
+              "title": "Titolo dei misteri gaudiosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri gaudiosi",
+              "bytes": 5901
+            },
+            {
+              "id": "mT2",
+              "file": "it-florian/mT2.mp3",
+              "title": "Titolo dei misteri luminosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri luminosi",
+              "bytes": 6093
+            },
+            {
+              "id": "mT3",
+              "file": "it-florian/mT3.mp3",
+              "title": "Titolo dei misteri dolorosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri dolorosi",
+              "bytes": 5805
+            },
+            {
+              "id": "mT4",
+              "file": "it-florian/mT4.mp3",
+              "title": "Titolo dei misteri gloriosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri gloriosi",
+              "bytes": 6381
+            },
+            {
+              "id": "mT5",
+              "file": "it-florian/mT5.mp3",
+              "title": "Titolo della Coroncina della Divina Misericordia",
+              "group": "Titoli delle serie di misteri",
+              "text": "Coroncina della Divina Misericordia",
+              "bytes": 9165
+            },
+            {
+              "id": "m11",
+              "file": "it-florian/m11.mp3",
+              "title": "Mistero gaudioso 1",
+              "group": "Titoli dei misteri",
+              "text": "L'Annunciazione della Beata Vergine Maria",
+              "bytes": 17421
+            },
+            {
+              "id": "m21",
+              "file": "it-florian/m21.mp3",
+              "title": "Mistero gaudioso 2",
+              "group": "Titoli dei misteri",
+              "text": "La Visitazione di Santa Elisabetta",
+              "bytes": 16845
+            },
+            {
+              "id": "m31",
+              "file": "it-florian/m31.mp3",
+              "title": "Mistero gaudioso 3",
+              "group": "Titoli dei misteri",
+              "text": "La Natività del Signore",
+              "bytes": 13005
+            },
+            {
+              "id": "m41",
+              "file": "it-florian/m41.mp3",
+              "title": "Mistero gaudioso 4",
+              "group": "Titoli dei misteri",
+              "text": "La Presentazione al Tempio",
+              "bytes": 14253
+            },
+            {
+              "id": "m51",
+              "file": "it-florian/m51.mp3",
+              "title": "Mistero gaudioso 5",
+              "group": "Titoli dei misteri",
+              "text": "Il Ritrovamento di Gesù Bambino nel Tempio",
+              "bytes": 16749
+            },
+            {
+              "id": "m12",
+              "file": "it-florian/m12.mp3",
+              "title": "Mistero luminoso 1",
+              "group": "Titoli dei misteri",
+              "text": "Il Battesimo di Gesù nel Giordano",
+              "bytes": 13773
+            },
+            {
+              "id": "m22",
+              "file": "it-florian/m22.mp3",
+              "title": "Mistero luminoso 2",
+              "group": "Titoli dei misteri",
+              "text": "Le nozze di Cana",
+              "bytes": 12045
+            },
+            {
+              "id": "m32",
+              "file": "it-florian/m32.mp3",
+              "title": "Mistero luminoso 3",
+              "group": "Titoli dei misteri",
+              "text": "L'annuncio del Regno di Dio",
+              "bytes": 13773
+            },
+            {
+              "id": "m42",
+              "file": "it-florian/m42.mp3",
+              "title": "Mistero luminoso 4",
+              "group": "Titoli dei misteri",
+              "text": "La Trasfigurazione sul monte Tabor",
+              "bytes": 14637
+            },
+            {
+              "id": "m52",
+              "file": "it-florian/m52.mp3",
+              "title": "Mistero luminoso 5",
+              "group": "Titoli dei misteri",
+              "text": "L'istituzione dell'Eucaristia",
+              "bytes": 14349
+            },
+            {
+              "id": "m13",
+              "file": "it-florian/m13.mp3",
+              "title": "Mistero doloroso 1",
+              "group": "Titoli dei misteri",
+              "text": "L'orazione nell'orto del Getsemani",
+              "bytes": 14637
+            },
+            {
+              "id": "m23",
+              "file": "it-florian/m23.mp3",
+              "title": "Mistero doloroso 2",
+              "group": "Titoli dei misteri",
+              "text": "La flagellazione del Signore",
+              "bytes": 14445
+            },
+            {
+              "id": "m33",
+              "file": "it-florian/m33.mp3",
+              "title": "Mistero doloroso 3",
+              "group": "Titoli dei misteri",
+              "text": "La coronazione di spine",
+              "bytes": 12333
+            },
+            {
+              "id": "m43",
+              "file": "it-florian/m43.mp3",
+              "title": "Mistero doloroso 4",
+              "group": "Titoli dei misteri",
+              "text": "La via della Croce",
+              "bytes": 13677
+            },
+            {
+              "id": "m53",
+              "file": "it-florian/m53.mp3",
+              "title": "Mistero doloroso 5",
+              "group": "Titoli dei misteri",
+              "text": "La morte del Signore sulla Croce",
+              "bytes": 14253
+            },
+            {
+              "id": "m14",
+              "file": "it-florian/m14.mp3",
+              "title": "Mistero glorioso 1",
+              "group": "Titoli dei misteri",
+              "text": "La risurrezione del Signore Gesù",
+              "bytes": 14349
+            },
+            {
+              "id": "m24",
+              "file": "it-florian/m24.mp3",
+              "title": "Mistero glorioso 2",
+              "group": "Titoli dei misteri",
+              "text": "L'ascensione del Signore",
+              "bytes": 13965
+            },
+            {
+              "id": "m34",
+              "file": "it-florian/m34.mp3",
+              "title": "Mistero glorioso 3",
+              "group": "Titoli dei misteri",
+              "text": "La discesa dello Spirito Santo",
+              "bytes": 15309
+            },
+            {
+              "id": "m44",
+              "file": "it-florian/m44.mp3",
+              "title": "Mistero glorioso 4",
+              "group": "Titoli dei misteri",
+              "text": "L'assunzione di Maria",
+              "bytes": 12621
+            },
+            {
+              "id": "m54",
+              "file": "it-florian/m54.mp3",
+              "title": "Mistero glorioso 5",
+              "group": "Titoli dei misteri",
+              "text": "L'incoronazione della Beata Vergine Maria come Regina del Cielo e della Terra",
+              "bytes": 23373
+            }
+          ]
+        },
+        {
+          "id": "it-seraphina",
+          "voice": "Seraphina Multilingual",
+          "language": "italian",
+          "version": "1.1",
+          "clipCount": 37,
+          "clips": [
+            {
+              "id": "010",
+              "file": "it-seraphina/010.mp3",
+              "title": "Credo degli Apostoli",
+              "group": "Preghiere del rosario",
+              "text": "Io credo in Dio, Padre onnipotente, Creatore del cielo e della terra; e in Gesù Cristo, suo unico Figlio, nostro Signore, il quale fu concepito di Spirito Santo, nacque da Maria Vergine, patì sotto Ponzio Pilato, fu crocifisso, morì e fu sepolto.\nDiscese agli inferi; il terzo giorno risuscitò da morte; salì al cielo, siede alla destra di Dio Padre onnipotente.\nDi là verrà a giudicare i vivi e i morti.\nCredo nello Spirito Santo, la santa Chiesa cattolica, la comunione dei santi, la remissione dei peccati, la risurrezione della carne, la vita eterna.\nAmen.",
+              "bytes": 133965
+            },
+            {
+              "id": "020",
+              "file": "it-seraphina/020.mp3",
+              "title": "Padre nostro, prima parte",
+              "group": "Preghiere del rosario",
+              "text": "Padre nostro, che sei nei cieli, sia santificato il tuo nome, venga il tuo regno, sia fatta la tua volontà, come in cielo così in terra.",
+              "bytes": 33165
+            },
+            {
+              "id": "021",
+              "file": "it-seraphina/021.mp3",
+              "title": "Padre nostro, seconda parte",
+              "group": "Preghiere del rosario",
+              "text": "Dacci oggi il nostro pane quotidiano, e rimetti a noi i nostri debiti, come anche noi li rimettiamo ai nostri debitori, e non abbandonarci alla tentazione, ma liberaci dal male. Amen.",
+              "bytes": 42765
+            },
+            {
+              "id": "030",
+              "file": "it-seraphina/030.mp3",
+              "title": "Ave Maria, prima parte",
+              "group": "Preghiere del rosario",
+              "text": "Ave Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne, e benedetto è il frutto del tuo seno, Gesù.",
+              "bytes": 31149
+            },
+            {
+              "id": "031",
+              "file": "it-seraphina/031.mp3",
+              "title": "Ave Maria, seconda parte",
+              "group": "Preghiere del rosario",
+              "text": "Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.",
+              "bytes": 26349
+            },
+            {
+              "id": "040",
+              "file": "it-seraphina/040.mp3",
+              "title": "Gloria al Padre",
+              "group": "Preghiere del rosario",
+              "text": "Gloria al Padre e al Figlio e allo Spirito Santo. Come era nel principio, ora e sempre, nei secoli dei secoli. Amen.",
+              "bytes": 28845
+            },
+            {
+              "id": "050",
+              "file": "it-seraphina/050.mp3",
+              "title": "Preghiera di Fatima",
+              "group": "Preghiere del rosario",
+              "text": "O Gesù mio, perdona le nostre colpe, preservaci dal fuoco dell'inferno, porta in cielo tutte le anime, specialmente le più bisognose della tua misericordia.",
+              "bytes": 36045
+            },
+            {
+              "id": "060",
+              "file": "it-seraphina/060.mp3",
+              "title": "Coroncina della Divina Misericordia: preghiera dell'Eterno Padre",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Eterno Padre, ti offro il Corpo e il Sangue, l'Anima e la Divinità del tuo dilettissimo Figlio, il Signore nostro Gesù Cristo, in espiazione dei nostri peccati e di quelli del mondo intero.",
+              "bytes": 47565
+            },
+            {
+              "id": "070",
+              "file": "it-seraphina/070.mp3",
+              "title": "Coroncina della Divina Misericordia: Per la sua dolorosa Passione",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Per la sua dolorosa Passione.",
+              "bytes": 7821
+            },
+            {
+              "id": "071",
+              "file": "it-seraphina/071.mp3",
+              "title": "Coroncina della Divina Misericordia: risposta di misericordia",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Abbi misericordia di noi e del mondo intero.",
+              "bytes": 11661
+            },
+            {
+              "id": "080",
+              "file": "it-seraphina/080.mp3",
+              "title": "Coroncina della Divina Misericordia: Santo Dio",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Santo Dio, Santo Forte, Santo Immortale, abbi pietà di noi e del mondo intero.",
+              "bytes": 21261
+            },
+            {
+              "id": "090",
+              "file": "it-seraphina/090.mp3",
+              "title": "Coroncina della Divina Misericordia: Gesù, confido in Te",
+              "group": "Coroncina della Divina Misericordia",
+              "text": "Gesù, confido in Te. Gesù, confido in Te. Gesù, confido in Te.",
+              "bytes": 32517
+            },
+            {
+              "id": "mT1",
+              "file": "it-seraphina/mT1.mp3",
+              "title": "Titolo dei misteri gaudiosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri gaudiosi",
+              "bytes": 7053
+            },
+            {
+              "id": "mT2",
+              "file": "it-seraphina/mT2.mp3",
+              "title": "Titolo dei misteri luminosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri luminosi",
+              "bytes": 6093
+            },
+            {
+              "id": "mT3",
+              "file": "it-seraphina/mT3.mp3",
+              "title": "Titolo dei misteri dolorosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri dolorosi",
+              "bytes": 6765
+            },
+            {
+              "id": "mT4",
+              "file": "it-seraphina/mT4.mp3",
+              "title": "Titolo dei misteri gloriosi",
+              "group": "Titoli delle serie di misteri",
+              "text": "Misteri gloriosi",
+              "bytes": 7053
+            },
+            {
+              "id": "mT5",
+              "file": "it-seraphina/mT5.mp3",
+              "title": "Titolo della Coroncina della Divina Misericordia",
+              "group": "Titoli delle serie di misteri",
+              "text": "Coroncina della Divina Misericordia",
+              "bytes": 10221
+            },
+            {
+              "id": "m11",
+              "file": "it-seraphina/m11.mp3",
+              "title": "Mistero gaudioso 1",
+              "group": "Titoli dei misteri",
+              "text": "L'Annunciazione della Beata Vergine Maria",
+              "bytes": 17229
+            },
+            {
+              "id": "m21",
+              "file": "it-seraphina/m21.mp3",
+              "title": "Mistero gaudioso 2",
+              "group": "Titoli dei misteri",
+              "text": "La Visitazione di Santa Elisabetta",
+              "bytes": 18189
+            },
+            {
+              "id": "m31",
+              "file": "it-seraphina/m31.mp3",
+              "title": "Mistero gaudioso 3",
+              "group": "Titoli dei misteri",
+              "text": "La Natività del Signore",
+              "bytes": 14829
+            },
+            {
+              "id": "m41",
+              "file": "it-seraphina/m41.mp3",
+              "title": "Mistero gaudioso 4",
+              "group": "Titoli dei misteri",
+              "text": "La Presentazione al Tempio",
+              "bytes": 14061
+            },
+            {
+              "id": "m51",
+              "file": "it-seraphina/m51.mp3",
+              "title": "Mistero gaudioso 5",
+              "group": "Titoli dei misteri",
+              "text": "Il Ritrovamento di Gesù Bambino nel Tempio",
+              "bytes": 17421
+            },
+            {
+              "id": "m12",
+              "file": "it-seraphina/m12.mp3",
+              "title": "Mistero luminoso 1",
+              "group": "Titoli dei misteri",
+              "text": "Il Battesimo di Gesù nel Giordano",
+              "bytes": 14445
+            },
+            {
+              "id": "m22",
+              "file": "it-seraphina/m22.mp3",
+              "title": "Mistero luminoso 2",
+              "group": "Titoli dei misteri",
+              "text": "Le nozze di Cana",
+              "bytes": 13293
+            },
+            {
+              "id": "m32",
+              "file": "it-seraphina/m32.mp3",
+              "title": "Mistero luminoso 3",
+              "group": "Titoli dei misteri",
+              "text": "L'annuncio del Regno di Dio",
+              "bytes": 14061
+            },
+            {
+              "id": "m42",
+              "file": "it-seraphina/m42.mp3",
+              "title": "Mistero luminoso 4",
+              "group": "Titoli dei misteri",
+              "text": "La Trasfigurazione sul monte Tabor",
+              "bytes": 18861
+            },
+            {
+              "id": "m52",
+              "file": "it-seraphina/m52.mp3",
+              "title": "Mistero luminoso 5",
+              "group": "Titoli dei misteri",
+              "text": "L'istituzione dell'Eucaristia",
+              "bytes": 14829
+            },
+            {
+              "id": "m13",
+              "file": "it-seraphina/m13.mp3",
+              "title": "Mistero doloroso 1",
+              "group": "Titoli dei misteri",
+              "text": "L'orazione nell'orto del Getsemani",
+              "bytes": 15501
+            },
+            {
+              "id": "m23",
+              "file": "it-seraphina/m23.mp3",
+              "title": "Mistero doloroso 2",
+              "group": "Titoli dei misteri",
+              "text": "La flagellazione del Signore",
+              "bytes": 15021
+            },
+            {
+              "id": "m33",
+              "file": "it-seraphina/m33.mp3",
+              "title": "Mistero doloroso 3",
+              "group": "Titoli dei misteri",
+              "text": "La coronazione di spine",
+              "bytes": 14445
+            },
+            {
+              "id": "m43",
+              "file": "it-seraphina/m43.mp3",
+              "title": "Mistero doloroso 4",
+              "group": "Titoli dei misteri",
+              "text": "La via della Croce",
+              "bytes": 12045
+            },
+            {
+              "id": "m53",
+              "file": "it-seraphina/m53.mp3",
+              "title": "Mistero doloroso 5",
+              "group": "Titoli dei misteri",
+              "text": "La morte del Signore sulla Croce",
+              "bytes": 15501
+            },
+            {
+              "id": "m14",
+              "file": "it-seraphina/m14.mp3",
+              "title": "Mistero glorioso 1",
+              "group": "Titoli dei misteri",
+              "text": "La risurrezione del Signore Gesù",
+              "bytes": 16173
+            },
+            {
+              "id": "m24",
+              "file": "it-seraphina/m24.mp3",
+              "title": "Mistero glorioso 2",
+              "group": "Titoli dei misteri",
+              "text": "L'ascensione del Signore",
+              "bytes": 14445
+            },
+            {
+              "id": "m34",
+              "file": "it-seraphina/m34.mp3",
+              "title": "Mistero glorioso 3",
+              "group": "Titoli dei misteri",
+              "text": "La discesa dello Spirito Santo",
+              "bytes": 16461
+            },
+            {
+              "id": "m44",
+              "file": "it-seraphina/m44.mp3",
+              "title": "Mistero glorioso 4",
+              "group": "Titoli dei misteri",
+              "text": "L'assunzione di Maria",
+              "bytes": 12429
+            },
+            {
+              "id": "m54",
+              "file": "it-seraphina/m54.mp3",
+              "title": "Mistero glorioso 5",
+              "group": "Titoli dei misteri",
+              "text": "L'incoronazione della Beata Vergine Maria come Regina del Cielo e della Terra",
+              "bytes": 25965
+            }
+          ]
+        }
+      ]
+    },
+    {
       "code": "pt",
       "name": "Português",
       "variants": [

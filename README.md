@@ -18,6 +18,7 @@ audio LittleFS partition.
 - `es-florian/` and `es-seraphina/` contain generated Spanish MP3s using those same voice references.
 - `fr-florian/` and `fr-seraphina/` contain generated French MP3s using those same voice references.
 - `pt-florian/` and `pt-seraphina/` contain generated Portuguese MP3s using those same voice references.
+- `it-florian/` and `it-seraphina/` contain generated Italian MP3s using those same voice references when generated.
 
 Generated MP3 files are placed directly in each voice directory:
 
@@ -169,7 +170,7 @@ Current voice variants use the German multilingual references
 `generate_audio.py` calls the Chatterbox `/tts` endpoint and writes the returned
 MP3 bytes to `raw/<voice-variant>/`. Unless `--raw-only` is used, it then
 postprocesses that raw file into the selected final voice directory. For Polish,
-German, English, Spanish, French, and Portuguese voices, it also reads
+German, English, Spanish, French, Italian, and Portuguese voices, it also reads
 non-empty `mT1`..`mT5` and `m11`..`m55` mystery strings from
 `audio-languages/<language>.json` and generates matching MP3 files such as `mT1.mp3`
 and `m11.mp3`. That audio-only file is derived from the canonical `languages/`
@@ -187,7 +188,7 @@ prefixes before TTS. Polish uses phrases such as `pierwsza tajemnica radosna`;
 German uses phrases such as `erstes freudenreiches Geheimnis`; English uses
 phrases such as `First Joyful Mystery`; Spanish uses phrases such as `primer
 misterio gozoso`; French uses phrases such as `premier mystère joyeux`;
-Portuguese uses phrases such as `primeiro mistério gozoso`.
+Portuguese uses phrases such as `primeiro mistério gozoso`; Italian uses phrases such as `primo mistero gaudioso`.
 
 After language text is loaded and mystery prefixes are applied,
 `replace-for-audio.json` applies ordered string replacements before the text is
@@ -289,10 +290,10 @@ Add a new text set under `texts`, then add one or more voice variants that point
 to it. Use the `languages/` submodule for the matching canonical device
 language definitions, and put any spoken-only normalized strings in
 `audio-languages/` so firmware language text remains unchanged. Current
-language keys include `en`, `de`, `pl`, `es`, `fr`, and `pt`.
+language keys include `en`, `de`, `pl`, `es`, `fr`, `it`, and `pt`.
 
 The `language` field is sent to Chatterbox. Common language names such as
-`polish`, `german`, `english`, `french`, `spanish`, and `portuguese` are mapped
+`polish`, `german`, `english`, `french`, `spanish`, `italian`, and `portuguese` are mapped
 to their API codes.
 
 ## Firmware Packaging

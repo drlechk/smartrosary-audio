@@ -1,0 +1,36 @@
+{
+  "language": "it",
+  "source": "languages/fixtures/it.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "L'Annunciazione della Beata Vergine Maria",
+    "m12": "Il Battesimo di Gesù nel Giordano",
+    "m13": "L'orazione nell'orto del Getsemani",
+    "m14": "La risurrezione del Signore Gesù",
+    "m21": "La Visitazione di Santa Elisabetta",
+    "m22": "Le nozze di Cana",
+    "m23": "La flagellazione del Signore",
+    "m24": "L'ascensione del Signore",
+    "m31": "La Natività del Signore",
+    "m32": "L'annuncio del Regno di Dio",
+    "m33": "La coronazione di spine",
+    "m34": "La discesa dello Spirito Santo",
+    "m41": "La Presentazione al Tempio",
+    "m42": "La Trasfigurazione sul monte Tabor",
+    "m43": "La via della Croce",
+    "m44": "L'assunzione di Maria",
+    "m51": "Il Ritrovamento di Gesù Bambino nel Tempio",
+    "m52": "L'istituzione dell'Eucaristia",
+    "m53": "La morte del Signore sulla Croce",
+    "m54": "L'incoronazione della Beata Vergine Maria come Regina del Cielo e della Terra",
+    "mT1": "Misteri gaudiosi",
+    "mT2": "Misteri luminosi",
+    "mT3": "Misteri dolorosi",
+    "mT4": "Misteri gloriosi",
+    "mT5": "Coroncina della Divina Misericordia"
+  }
+}

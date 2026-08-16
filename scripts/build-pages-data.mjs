@@ -19,10 +19,11 @@ const languageNames = {
   de: 'Deutsch',
   fr: 'Français',
   es: 'Español',
+  it: 'Italiano',
   pt: 'Português'
 };
 
-const languageOrder = ['pl', 'en', 'de', 'fr', 'es', 'pt'];
+const languageOrder = ['pl', 'en', 'de', 'fr', 'es', 'it', 'pt'];
 
 const clipTitles = {
   en: {
@@ -120,6 +121,25 @@ const clipTitles = {
     mT4: 'Titre des mystères glorieux',
     mT5: 'Titre du Chapelet de la Divine Miséricorde'
   },
+  it: {
+    '010': 'Credo degli Apostoli',
+    '020': 'Padre nostro, prima parte',
+    '021': 'Padre nostro, seconda parte',
+    '030': 'Ave Maria, prima parte',
+    '031': 'Ave Maria, seconda parte',
+    '040': 'Gloria al Padre',
+    '050': 'Preghiera di Fatima',
+    '060': 'Coroncina della Divina Misericordia: preghiera dell\'Eterno Padre',
+    '070': 'Coroncina della Divina Misericordia: Per la sua dolorosa Passione',
+    '071': 'Coroncina della Divina Misericordia: risposta di misericordia',
+    '080': 'Coroncina della Divina Misericordia: Santo Dio',
+    '090': 'Coroncina della Divina Misericordia: Gesù, confido in Te',
+    mT1: 'Titolo dei misteri gaudiosi',
+    mT2: 'Titolo dei misteri luminosi',
+    mT3: 'Titolo dei misteri dolorosi',
+    mT4: 'Titolo dei misteri gloriosi',
+    mT5: 'Titolo della Coroncina della Divina Misericordia'
+  },
   pt: {
     '010': 'Credo dos Apóstolos',
     '020': 'Pai Nosso, primeira parte',
@@ -172,6 +192,12 @@ const mysterySetNames = {
     3: 'Mystère douloureux',
     4: 'Mystère glorieux'
   },
+  it: {
+    1: 'Mistero gaudioso',
+    2: 'Mistero luminoso',
+    3: 'Mistero doloroso',
+    4: 'Mistero glorioso'
+  },
   pt: {
     1: 'Mistério gozoso',
     2: 'Mistério luminoso',
@@ -210,6 +236,12 @@ const clipGroups = {
     chaplet: 'Chapelet de la Divine Miséricorde',
     setTitles: 'Titres des séries de mystères',
     mysteryTitles: 'Titres des mystères'
+  },
+  it: {
+    rosary: 'Preghiere del rosario',
+    chaplet: 'Coroncina della Divina Misericordia',
+    setTitles: 'Titoli delle serie di misteri',
+    mysteryTitles: 'Titoli dei misteri'
   },
   pt: {
     rosary: 'Orações do rosário',

@@ -83,6 +83,20 @@
       "071": "Tende misericórdia de nós e do mundo inteiro.",
       "080": "Deus Santo, Deus Forte, Deus Imortal, tende piedade de nós e do mundo inteiro.",
       "090": "Jesus, eu confio em vós. Jesus, eu confio em vós. Jesus, eu confio em vós."
+    },
+    "it": {
+      "010": "Io credo in Dio, Padre onnipotente, Creatore del cielo e della terra; e in Gesù Cristo, suo unico Figlio, nostro Signore, il quale fu concepito di Spirito Santo, nacque da Maria Vergine, patì sotto Ponzio Pilato, fu crocifisso, morì e fu sepolto.\nDiscese agli inferi; il terzo giorno risuscitò da morte; salì al cielo, siede alla destra di Dio Padre onnipotente.\nDi là verrà a giudicare i vivi e i morti.\nCredo nello Spirito Santo, la santa Chiesa cattolica, la comunione dei santi, la remissione dei peccati, la risurrezione della carne, la vita eterna.\nAmen.",
+      "020": "Padre nostro, che sei nei cieli, sia santificato il tuo nome, venga il tuo regno, sia fatta la tua volontà, come in cielo così in terra.",
+      "021": "Dacci oggi il nostro pane quotidiano, e rimetti a noi i nostri debiti, come anche noi li rimettiamo ai nostri debitori, e non abbandonarci alla tentazione, ma liberaci dal male. Amen.",
+      "030": "Ave Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne, e benedetto è il frutto del tuo seno, Gesù.",
+      "031": "Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.",
+      "040": "Gloria al Padre e al Figlio e allo Spirito Santo. Come era nel principio, ora e sempre, nei secoli dei secoli. Amen.",
+      "050": "O Gesù mio, perdona le nostre colpe, preservaci dal fuoco dell'inferno, porta in cielo tutte le anime, specialmente le più bisognose della tua misericordia.",
+      "060": "Eterno Padre, ti offro il Corpo e il Sangue, l'Anima e la Divinità del tuo dilettissimo Figlio, il Signore nostro Gesù Cristo, in espiazione dei nostri peccati e di quelli del mondo intero.",
+      "070": "Per la sua dolorosa Passione.",
+      "071": "Abbi misericordia di noi e del mondo intero.",
+      "080": "Santo Dio, Santo Forte, Santo Immortale, abbi pietà di noi e del mondo intero.",
+      "090": "Gesù, confido in Te. Gesù, confido in Te. Gesù, confido in Te."
     }
   },
   "voices": {
@@ -94,7 +108,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -106,7 +120,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -118,7 +132,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -130,7 +144,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -142,7 +156,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -154,7 +168,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -166,7 +180,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -178,7 +192,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -190,7 +204,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -202,7 +216,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -214,7 +228,7 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     },
@@ -226,7 +240,31 @@
       "temperature": 0.25,
       "exaggeration": 0.12,
       "cfg_weight": 0.35,
-      "speed_factor": 1.0,
+      "speed_factor": 1,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "it-florian": {
+      "texts": "it",
+      "language": "italian",
+      "voice": "Florian Multilingual",
+      "predefined_voice_id": "de-DE-FlorianMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "it-seraphina": {
+      "texts": "it",
+      "language": "italian",
+      "voice": "Seraphina Multilingual",
+      "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1,
       "chunk_size": 240,
       "output_format": "mp3"
     }

@@ -106,5 +106,23 @@
       "4": "glorioso",
       "5": "da misericórdia"
     }
+  },
+  "it": {
+    "template": "{ordinal} {noun} {set}. {title}",
+    "noun": "mistero",
+    "ordinals": {
+      "1": "primo",
+      "2": "secondo",
+      "3": "terzo",
+      "4": "quarto",
+      "5": "quinto"
+    },
+    "sets": {
+      "1": "gaudioso",
+      "2": "luminoso",
+      "3": "doloroso",
+      "4": "glorioso",
+      "5": "della misericordia"
+    }
   }
 }
