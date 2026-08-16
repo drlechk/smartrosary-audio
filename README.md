@@ -19,6 +19,7 @@ audio LittleFS partition.
 - `fr-florian/` and `fr-seraphina/` contain generated French MP3s using those same voice references.
 - `pt-florian/` and `pt-seraphina/` contain generated Portuguese MP3s using those same voice references.
 - `it-florian/` and `it-seraphina/` contain generated Italian MP3s using those same voice references when generated.
+- `la-florian/` and `la-seraphina/` contain generated Latin MP3s using those same voice references when generated.
 
 Generated MP3 files are placed directly in each voice directory:
 
@@ -188,7 +189,17 @@ prefixes before TTS. Polish uses phrases such as `pierwsza tajemnica radosna`;
 German uses phrases such as `erstes freudenreiches Geheimnis`; English uses
 phrases such as `First Joyful Mystery`; Spanish uses phrases such as `primer
 misterio gozoso`; French uses phrases such as `premier mystère joyeux`;
-Portuguese uses phrases such as `primeiro mistério gozoso`; Italian uses phrases such as `primo mistero gaudioso`.
+Portuguese uses phrases such as `primeiro mistério gozoso`; Italian uses phrases such as `primo mistero gaudioso`;
+Latin uses phrases such as `primum mysterium gaudiosum`.
+
+Latin base Rosary prayers in `basic-prayer-texts.json` use the Vatican
+Compendium's Latin forms for the Apostles' Creed, Pater Noster, Ave Maria, and
+Gloria Patri. Latin Rosary mystery titles are normalized from the
+`languages/fixtures/la.js` submodule fixture, aligned with the Vatican
+Compendium's Latin Rosary appendix. The Fatima prayer and Divine Mercy Chaplet
+clips use common ecclesial Latin devotional forms because no single
+Vatican-hosted Latin text is published in this repository as the canonical
+approved form for those private-devotion prayers.
 
 After language text is loaded and mystery prefixes are applied,
 `replace-for-audio.json` applies ordered string replacements before the text is
@@ -290,11 +301,14 @@ Add a new text set under `texts`, then add one or more voice variants that point
 to it. Use the `languages/` submodule for the matching canonical device
 language definitions, and put any spoken-only normalized strings in
 `audio-languages/` so firmware language text remains unchanged. Current
-language keys include `en`, `de`, `pl`, `es`, `fr`, `it`, and `pt`.
+language keys include `en`, `de`, `pl`, `es`, `fr`, `it`, `pt`, and `la`.
 
 The `language` field is sent to Chatterbox. Common language names such as
-`polish`, `german`, `english`, `french`, `spanish`, `italian`, and `portuguese` are mapped
-to their API codes.
+`polish`, `german`, `english`, `french`, `spanish`, `italian`, `portuguese`, and `latin` are mapped
+to their API codes. A voice variant may set `tts_language` to override only the
+Chatterbox language hint while keeping the public audio language metadata
+unchanged; Latin uses the Italian TTS hint for ecclesiastical-style
+pronunciation when the TTS service does not accept a native Latin hint.
 
 ## Firmware Packaging
 

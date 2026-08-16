@@ -97,6 +97,20 @@
       "071": "Abbi misericordia di noi e del mondo intero.",
       "080": "Santo Dio, Santo Forte, Santo Immortale, abbi pietà di noi e del mondo intero.",
       "090": "Gesù, confido in Te. Gesù, confido in Te. Gesù, confido in Te."
+    },
+    "la": {
+      "010": "Credo in Deum, Patrem omnipoténtem, Creatórem caeli et terrae, et in Iesum Christum, Filium Eius únicum, Dóminum nostrum, qui conceptus est de Spiritu Sancto, natus ex María Virgine, passus sub Póntio Piláto, crucifixus, mórtuus, et sepúltus.\nDescendit ad ínferos, tértia die resurréxit a mórtuis, ascéndit ad caelos, sedet ad déxteram Dei Patris omnipoténtis.\nInde ventúrus est iudicáre vivos et mórtuos.\nEt in Spíritum Sanctum, sanctam Ecclésiam cathólicam, sanctórum communiónem, remissiónem peccatórum, carnis resurrectiónem, vitam aetérnam.\nAmen.",
+      "020": "Pater noster, qui es in cælis:\nsanctificétur Nomen Tuum:\nadvéniat Regnum Tuum:\nfiat volúntas Tua,\nsicut in cælo, et in terra.",
+      "021": "Panem nostrum cotidiánum da nobis hódie,\net dimítte nobis débita nostra,\nsicut et nos dimíttimus debitóribus nostris.\nEt ne nos indúcas in tentatiónem;\nsed líbera nos a Malo.\nAmen.",
+      "030": "Ave, María, grátia plena, Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui, Iesus.",
+      "031": "Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.",
+      "040": "Glória Patri et Fílio et Spirítui Sancto. Sicut erat in princípio, et nunc et semper, et in sæcula sæculórum. Amen.",
+      "050": "Dómine Iesu, dimítte nobis débita nostra, salva nos ab igne inférni, perdúc in caelum omnes ánimas, praesértim eas quae misericórdiae tuae máxime indigent. Amen.",
+      "060": "Pater aetérne, óffero tibi Corpus et Sánguinem, ánimam et divinitátem dilectíssimi Fílii Tui, Dómini nostri, Iesu Christi, in propitiatióne pro peccátis nostris et totíus mundi.",
+      "070": "Pro dolorósa Eius passióne.",
+      "071": "Miserére nobis et totíus mundi.",
+      "080": "Sanctus Deus, Sanctus Fortis, Sanctus Immortális, miserére nobis et totíus mundi.",
+      "090": "Iesu, confído in Te. Iesu, confído in Te. Iesu, confído in Te."
     }
   },
   "voices": {
@@ -259,6 +273,32 @@
     "it-seraphina": {
       "texts": "it",
       "language": "italian",
+      "voice": "Seraphina Multilingual",
+      "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "la-florian": {
+      "texts": "la",
+      "language": "latin",
+      "tts_language": "italian",
+      "voice": "Florian Multilingual",
+      "predefined_voice_id": "de-DE-FlorianMultilingualNeural.wav",
+      "temperature": 0.25,
+      "exaggeration": 0.12,
+      "cfg_weight": 0.35,
+      "speed_factor": 1,
+      "chunk_size": 240,
+      "output_format": "mp3"
+    },
+    "la-seraphina": {
+      "texts": "la",
+      "language": "latin",
+      "tts_language": "italian",
       "voice": "Seraphina Multilingual",
       "predefined_voice_id": "de-DE-SeraphinaMultilingualNeural.wav",
       "temperature": 0.25,

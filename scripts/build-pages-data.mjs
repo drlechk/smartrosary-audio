@@ -20,10 +20,11 @@ const languageNames = {
   fr: 'Français',
   es: 'Español',
   it: 'Italiano',
+  la: 'Latina',
   pt: 'Português'
 };
 
-const languageOrder = ['pl', 'en', 'de', 'fr', 'es', 'it', 'pt'];
+const languageOrder = ['pl', 'en', 'de', 'fr', 'es', 'it', 'pt', 'la'];
 
 const clipTitles = {
   en: {
@@ -158,6 +159,25 @@ const clipTitles = {
     mT3: 'Título dos mistérios dolorosos',
     mT4: 'Título dos mistérios gloriosos',
     mT5: 'Título do Terço da Divina Misericórdia'
+  },
+  la: {
+    '010': 'Symbolum Apostolicum',
+    '020': 'Pater Noster, pars prima',
+    '021': 'Pater Noster, pars secunda',
+    '030': 'Ave Maria, pars prima',
+    '031': 'Ave Maria, pars secunda',
+    '040': 'Gloria Patri',
+    '050': 'Oratio Fatimae',
+    '060': 'Corona Divinae Misericordiae: Pater aeterne',
+    '070': 'Corona Divinae Misericordiae: Pro dolorosa Eius passione',
+    '071': 'Corona Divinae Misericordiae: responsum misericordiae',
+    '080': 'Corona Divinae Misericordiae: Sanctus Deus',
+    '090': 'Corona Divinae Misericordiae: Iesu, confido in Te',
+    mT1: 'Titulus mysteriorum gaudiosorum',
+    mT2: 'Titulus mysteriorum luminosorum',
+    mT3: 'Titulus mysteriorum dolorosorum',
+    mT4: 'Titulus mysteriorum gloriosorum',
+    mT5: 'Titulus Coronae Divinae Misericordiae'
   }
 };
 
@@ -203,6 +223,12 @@ const mysterySetNames = {
     2: 'Mistério luminoso',
     3: 'Mistério doloroso',
     4: 'Mistério glorioso'
+  },
+  la: {
+    1: 'Mysterium gaudiosum',
+    2: 'Mysterium luminosum',
+    3: 'Mysterium dolorosum',
+    4: 'Mysterium gloriosum'
   }
 };
 
@@ -248,6 +274,12 @@ const clipGroups = {
     chaplet: 'Terço da Divina Misericórdia',
     setTitles: 'Títulos dos conjuntos de mistérios',
     mysteryTitles: 'Títulos dos mistérios'
+  },
+  la: {
+    rosary: 'Preces Rosarii',
+    chaplet: 'Corona Divinae Misericordiae',
+    setTitles: 'Tituli ordinum mysteriorum',
+    mysteryTitles: 'Tituli mysteriorum'
   }
 };
 

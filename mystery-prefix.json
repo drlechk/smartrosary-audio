@@ -124,5 +124,23 @@
       "4": "glorioso",
       "5": "della misericordia"
     }
+  },
+  "la": {
+    "template": "{ordinal} {noun} {set}. {title}",
+    "noun": "mysterium",
+    "ordinals": {
+      "1": "primum",
+      "2": "secundum",
+      "3": "tertium",
+      "4": "quartum",
+      "5": "quintum"
+    },
+    "sets": {
+      "1": "gaudiosum",
+      "2": "luminosum",
+      "3": "dolorosum",
+      "4": "gloriosum",
+      "5": "Divinae Misericordiae"
+    }
   }
 }

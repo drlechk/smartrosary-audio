@@ -1,0 +1,36 @@
+{
+  "language": "la",
+  "source": "languages/fixtures/la.js",
+  "preprocess": [
+    "collapse whitespace",
+    "strip leading Roman numbering with a dot, for example I. or II.",
+    "strip trailing whitespace and dash characters"
+  ],
+  "texts": {
+    "m11": "Annuntiatio Beatae Mariae Virginis",
+    "m12": "Baptismus Domini Iesu in Iordane",
+    "m13": "Oratio in horto Gethsemani",
+    "m14": "Resurrectio Domini Iesu",
+    "m21": "Visitatio sanctae Elisabeth",
+    "m22": "Manifestatio sui in nuptiis Canae Galilaeae",
+    "m23": "Flagellatio",
+    "m24": "Ascensio",
+    "m31": "Nativitas Iesu",
+    "m32": "Praedicatio Regni Dei et vocatio ad conversionem",
+    "m33": "Coronatio spinis",
+    "m34": "Descensus Spiritus Sancti",
+    "m41": "Praesentatio in templo",
+    "m42": "Transfiguratio in monte Tabor",
+    "m43": "Via Crucis",
+    "m44": "Assumptio Mariae",
+    "m51": "Inventio in templo",
+    "m52": "Institutio Eucharistiae",
+    "m53": "Mors in Cruce",
+    "m54": "Coronatio Matris Dei in Reginam caeli et terrae",
+    "mT1": "Mysteria gaudiosa",
+    "mT2": "Mysteria luminosa",
+    "mT3": "Mysteria dolorosa",
+    "mT4": "Mysteria gloriosa",
+    "mT5": "Coronula Divinae Misericordiae"
+  }
+}

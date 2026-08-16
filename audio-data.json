@@ -4311,6 +4311,622 @@
           ]
         }
       ]
+    },
+    {
+      "code": "la",
+      "name": "Latina",
+      "variants": [
+        {
+          "id": "la-florian",
+          "voice": "Florian Multilingual",
+          "language": "latin",
+          "version": "1.1",
+          "clipCount": 37,
+          "clips": [
+            {
+              "id": "010",
+              "file": "la-florian/010.mp3",
+              "title": "Symbolum Apostolicum",
+              "group": "Preces Rosarii",
+              "text": "Credo in Deum, Patrem omnipoténtem, Creatórem caeli et terrae, et in Iesum Christum, Filium Eius únicum, Dóminum nostrum, qui conceptus est de Spiritu Sancto, natus ex María Virgine, passus sub Póntio Piláto, crucifixus, mórtuus, et sepúltus.\nDescendit ad ínferos, tértia die resurréxit a mórtuis, ascéndit ad caelos, sedet ad déxteram Dei Patris omnipoténtis.\nInde ventúrus est iudicáre vivos et mórtuos.\nEt in Spíritum Sanctum, sanctam Ecclésiam cathólicam, sanctórum communiónem, remissiónem peccatórum, carnis resurrectiónem, vitam aetérnam.\nAmen.",
+              "bytes": 141261
+            },
+            {
+              "id": "020",
+              "file": "la-florian/020.mp3",
+              "title": "Pater Noster, pars prima",
+              "group": "Preces Rosarii",
+              "text": "Pater noster, qui es in cælis:\nsanctificétur Nomen Tuum:\nadvéniat Regnum Tuum:\nfiat volúntas Tua,\nsicut in cælo, et in terra.",
+              "bytes": 31533
+            },
+            {
+              "id": "021",
+              "file": "la-florian/021.mp3",
+              "title": "Pater Noster, pars secunda",
+              "group": "Preces Rosarii",
+              "text": "Panem nostrum cotidiánum da nobis hódie,\net dimítte nobis débita nostra,\nsicut et nos dimíttimus debitóribus nostris.\nEt ne nos indúcas in tentatiónem;\nsed líbera nos a Malo.\nAmen.",
+              "bytes": 42189
+            },
+            {
+              "id": "030",
+              "file": "la-florian/030.mp3",
+              "title": "Ave Maria, pars prima",
+              "group": "Preces Rosarii",
+              "text": "Ave, María, grátia plena, Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui, Iesus.",
+              "bytes": 29517
+            },
+            {
+              "id": "031",
+              "file": "la-florian/031.mp3",
+              "title": "Ave Maria, pars secunda",
+              "group": "Preces Rosarii",
+              "text": "Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.",
+              "bytes": 25773
+            },
+            {
+              "id": "040",
+              "file": "la-florian/040.mp3",
+              "title": "Gloria Patri",
+              "group": "Preces Rosarii",
+              "text": "Glória Patri et Fílio et Spirítui Sancto. Sicut erat in princípio, et nunc et semper, et in sæcula sæculórum. Amen.",
+              "bytes": 29901
+            },
+            {
+              "id": "050",
+              "file": "la-florian/050.mp3",
+              "title": "Oratio Fatimae",
+              "group": "Preces Rosarii",
+              "text": "Dómine Iesu, dimítte nobis débita nostra, salva nos ab igne inférni, perdúc in caelum omnes ánimas, praesértim eas quae misericórdiae tuae máxime indigent. Amen.",
+              "bytes": 41805
+            },
+            {
+              "id": "060",
+              "file": "la-florian/060.mp3",
+              "title": "Corona Divinae Misericordiae: Pater aeterne",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Pater aetérne, óffero tibi Corpus et Sánguinem, ánimam et divinitátem dilectíssimi Fílii Tui, Dómini nostri, Iesu Christi, in propitiatióne pro peccátis nostris et totíus mundi.",
+              "bytes": 45837
+            },
+            {
+              "id": "070",
+              "file": "la-florian/070.mp3",
+              "title": "Corona Divinae Misericordiae: Pro dolorosa Eius passione",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Pro dolorósa Eius passióne.",
+              "bytes": 9165
+            },
+            {
+              "id": "071",
+              "file": "la-florian/071.mp3",
+              "title": "Corona Divinae Misericordiae: responsum misericordiae",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Miserére nobis et totíus mundi.",
+              "bytes": 10221
+            },
+            {
+              "id": "080",
+              "file": "la-florian/080.mp3",
+              "title": "Corona Divinae Misericordiae: Sanctus Deus",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Sanctus Deus, Sanctus Fortis, Sanctus Immortális, miserére nobis et totíus mundi.",
+              "bytes": 23181
+            },
+            {
+              "id": "090",
+              "file": "la-florian/090.mp3",
+              "title": "Corona Divinae Misericordiae: Iesu, confido in Te",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Iesu, confído in Te. Iesu, confído in Te. Iesu, confído in Te.",
+              "bytes": 31557
+            },
+            {
+              "id": "mT1",
+              "file": "la-florian/mT1.mp3",
+              "title": "Titulus mysteriorum gaudiosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria gaudiosa",
+              "bytes": 5901
+            },
+            {
+              "id": "mT2",
+              "file": "la-florian/mT2.mp3",
+              "title": "Titulus mysteriorum luminosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria luminosa",
+              "bytes": 9837
+            },
+            {
+              "id": "mT3",
+              "file": "la-florian/mT3.mp3",
+              "title": "Titulus mysteriorum dolorosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria dolorosa",
+              "bytes": 5805
+            },
+            {
+              "id": "mT4",
+              "file": "la-florian/mT4.mp3",
+              "title": "Titulus mysteriorum gloriosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria gloriosa",
+              "bytes": 6573
+            },
+            {
+              "id": "mT5",
+              "file": "la-florian/mT5.mp3",
+              "title": "Titulus Coronae Divinae Misericordiae",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Coronula Divinae Misericordiae",
+              "bytes": 11373
+            },
+            {
+              "id": "m11",
+              "file": "la-florian/m11.mp3",
+              "title": "Mysterium gaudiosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Annuntiatio Beatae Mariae Virginis",
+              "bytes": 18093
+            },
+            {
+              "id": "m21",
+              "file": "la-florian/m21.mp3",
+              "title": "Mysterium gaudiosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Visitatio sanctae Elisabeth",
+              "bytes": 14637
+            },
+            {
+              "id": "m31",
+              "file": "la-florian/m31.mp3",
+              "title": "Mysterium gaudiosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Nativitas Iesu",
+              "bytes": 14637
+            },
+            {
+              "id": "m41",
+              "file": "la-florian/m41.mp3",
+              "title": "Mysterium gaudiosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Praesentatio in templo",
+              "bytes": 14253
+            },
+            {
+              "id": "m51",
+              "file": "la-florian/m51.mp3",
+              "title": "Mysterium gaudiosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Inventio in templo",
+              "bytes": 13581
+            },
+            {
+              "id": "m12",
+              "file": "la-florian/m12.mp3",
+              "title": "Mysterium luminosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Baptismus Domini Iesu in Iordane",
+              "bytes": 18381
+            },
+            {
+              "id": "m22",
+              "file": "la-florian/m22.mp3",
+              "title": "Mysterium luminosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Manifestatio sui in nuptiis Canae Galilaeae",
+              "bytes": 23565
+            },
+            {
+              "id": "m32",
+              "file": "la-florian/m32.mp3",
+              "title": "Mysterium luminosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Praedicatio Regni Dei et vocatio ad conversionem",
+              "bytes": 22989
+            },
+            {
+              "id": "m42",
+              "file": "la-florian/m42.mp3",
+              "title": "Mysterium luminosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Transfiguratio in monte Tabor",
+              "bytes": 17805
+            },
+            {
+              "id": "m52",
+              "file": "la-florian/m52.mp3",
+              "title": "Mysterium luminosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Institutio Eucharistiae",
+              "bytes": 15789
+            },
+            {
+              "id": "m13",
+              "file": "la-florian/m13.mp3",
+              "title": "Mysterium dolorosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Oratio in horto Gethsemani",
+              "bytes": 16173
+            },
+            {
+              "id": "m23",
+              "file": "la-florian/m23.mp3",
+              "title": "Mysterium dolorosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Flagellatio",
+              "bytes": 14349
+            },
+            {
+              "id": "m33",
+              "file": "la-florian/m33.mp3",
+              "title": "Mysterium dolorosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Coronatio spinis",
+              "bytes": 13581
+            },
+            {
+              "id": "m43",
+              "file": "la-florian/m43.mp3",
+              "title": "Mysterium dolorosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Via Crucis",
+              "bytes": 11949
+            },
+            {
+              "id": "m53",
+              "file": "la-florian/m53.mp3",
+              "title": "Mysterium dolorosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Mors in Cruce",
+              "bytes": 13965
+            },
+            {
+              "id": "m14",
+              "file": "la-florian/m14.mp3",
+              "title": "Mysterium gloriosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Resurrectio Domini Iesu",
+              "bytes": 16077
+            },
+            {
+              "id": "m24",
+              "file": "la-florian/m24.mp3",
+              "title": "Mysterium gloriosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Ascensio",
+              "bytes": 15405
+            },
+            {
+              "id": "m34",
+              "file": "la-florian/m34.mp3",
+              "title": "Mysterium gloriosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Descensus Spiritus Sancti",
+              "bytes": 18189
+            },
+            {
+              "id": "m44",
+              "file": "la-florian/m44.mp3",
+              "title": "Mysterium gloriosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Assumptio Mariae",
+              "bytes": 13677
+            },
+            {
+              "id": "m54",
+              "file": "la-florian/m54.mp3",
+              "title": "Mysterium gloriosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Coronatio Matris Dei in Reginam caeli et terrae",
+              "bytes": 18861
+            }
+          ]
+        },
+        {
+          "id": "la-seraphina",
+          "voice": "Seraphina Multilingual",
+          "language": "latin",
+          "version": "1.1",
+          "clipCount": 37,
+          "clips": [
+            {
+              "id": "010",
+              "file": "la-seraphina/010.mp3",
+              "title": "Symbolum Apostolicum",
+              "group": "Preces Rosarii",
+              "text": "Credo in Deum, Patrem omnipoténtem, Creatórem caeli et terrae, et in Iesum Christum, Filium Eius únicum, Dóminum nostrum, qui conceptus est de Spiritu Sancto, natus ex María Virgine, passus sub Póntio Piláto, crucifixus, mórtuus, et sepúltus.\nDescendit ad ínferos, tértia die resurréxit a mórtuis, ascéndit ad caelos, sedet ad déxteram Dei Patris omnipoténtis.\nInde ventúrus est iudicáre vivos et mórtuos.\nEt in Spíritum Sanctum, sanctam Ecclésiam cathólicam, sanctórum communiónem, remissiónem peccatórum, carnis resurrectiónem, vitam aetérnam.\nAmen.",
+              "bytes": 153645
+            },
+            {
+              "id": "020",
+              "file": "la-seraphina/020.mp3",
+              "title": "Pater Noster, pars prima",
+              "group": "Preces Rosarii",
+              "text": "Pater noster, qui es in cælis:\nsanctificétur Nomen Tuum:\nadvéniat Regnum Tuum:\nfiat volúntas Tua,\nsicut in cælo, et in terra.",
+              "bytes": 38349
+            },
+            {
+              "id": "021",
+              "file": "la-seraphina/021.mp3",
+              "title": "Pater Noster, pars secunda",
+              "group": "Preces Rosarii",
+              "text": "Panem nostrum cotidiánum da nobis hódie,\net dimítte nobis débita nostra,\nsicut et nos dimíttimus debitóribus nostris.\nEt ne nos indúcas in tentatiónem;\nsed líbera nos a Malo.\nAmen.",
+              "bytes": 50349
+            },
+            {
+              "id": "030",
+              "file": "la-seraphina/030.mp3",
+              "title": "Ave Maria, pars prima",
+              "group": "Preces Rosarii",
+              "text": "Ave, María, grátia plena, Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui, Iesus.",
+              "bytes": 32493
+            },
+            {
+              "id": "031",
+              "file": "la-seraphina/031.mp3",
+              "title": "Ave Maria, pars secunda",
+              "group": "Preces Rosarii",
+              "text": "Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.",
+              "bytes": 28461
+            },
+            {
+              "id": "040",
+              "file": "la-seraphina/040.mp3",
+              "title": "Gloria Patri",
+              "group": "Preces Rosarii",
+              "text": "Glória Patri et Fílio et Spirítui Sancto. Sicut erat in princípio, et nunc et semper, et in sæcula sæculórum. Amen.",
+              "bytes": 30765
+            },
+            {
+              "id": "050",
+              "file": "la-seraphina/050.mp3",
+              "title": "Oratio Fatimae",
+              "group": "Preces Rosarii",
+              "text": "Dómine Iesu, dimítte nobis débita nostra, salva nos ab igne inférni, perdúc in caelum omnes ánimas, praesértim eas quae misericórdiae tuae máxime indigent. Amen.",
+              "bytes": 41901
+            },
+            {
+              "id": "060",
+              "file": "la-seraphina/060.mp3",
+              "title": "Corona Divinae Misericordiae: Pater aeterne",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Pater aetérne, óffero tibi Corpus et Sánguinem, ánimam et divinitátem dilectíssimi Fílii Tui, Dómini nostri, Iesu Christi, in propitiatióne pro peccátis nostris et totíus mundi.",
+              "bytes": 49677
+            },
+            {
+              "id": "070",
+              "file": "la-seraphina/070.mp3",
+              "title": "Corona Divinae Misericordiae: Pro dolorosa Eius passione",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Pro dolorósa Eius passióne.",
+              "bytes": 9645
+            },
+            {
+              "id": "071",
+              "file": "la-seraphina/071.mp3",
+              "title": "Corona Divinae Misericordiae: responsum misericordiae",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Miserére nobis et totíus mundi.",
+              "bytes": 10221
+            },
+            {
+              "id": "080",
+              "file": "la-seraphina/080.mp3",
+              "title": "Corona Divinae Misericordiae: Sanctus Deus",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Sanctus Deus, Sanctus Fortis, Sanctus Immortális, miserére nobis et totíus mundi.",
+              "bytes": 25965
+            },
+            {
+              "id": "090",
+              "file": "la-seraphina/090.mp3",
+              "title": "Corona Divinae Misericordiae: Iesu, confido in Te",
+              "group": "Corona Divinae Misericordiae",
+              "text": "Iesu, confído in Te. Iesu, confído in Te. Iesu, confído in Te.",
+              "bytes": 34341
+            },
+            {
+              "id": "mT1",
+              "file": "la-seraphina/mT1.mp3",
+              "title": "Titulus mysteriorum gaudiosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria gaudiosa",
+              "bytes": 5901
+            },
+            {
+              "id": "mT2",
+              "file": "la-seraphina/mT2.mp3",
+              "title": "Titulus mysteriorum luminosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria luminosa",
+              "bytes": 5709
+            },
+            {
+              "id": "mT3",
+              "file": "la-seraphina/mT3.mp3",
+              "title": "Titulus mysteriorum dolorosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria dolorosa",
+              "bytes": 5805
+            },
+            {
+              "id": "mT4",
+              "file": "la-seraphina/mT4.mp3",
+              "title": "Titulus mysteriorum gloriosorum",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Mysteria gloriosa",
+              "bytes": 5901
+            },
+            {
+              "id": "mT5",
+              "file": "la-seraphina/mT5.mp3",
+              "title": "Titulus Coronae Divinae Misericordiae",
+              "group": "Tituli ordinum mysteriorum",
+              "text": "Coronula Divinae Misericordiae",
+              "bytes": 8877
+            },
+            {
+              "id": "m11",
+              "file": "la-seraphina/m11.mp3",
+              "title": "Mysterium gaudiosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Annuntiatio Beatae Mariae Virginis",
+              "bytes": 19149
+            },
+            {
+              "id": "m21",
+              "file": "la-seraphina/m21.mp3",
+              "title": "Mysterium gaudiosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Visitatio sanctae Elisabeth",
+              "bytes": 19053
+            },
+            {
+              "id": "m31",
+              "file": "la-seraphina/m31.mp3",
+              "title": "Mysterium gaudiosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Nativitas Iesu",
+              "bytes": 13773
+            },
+            {
+              "id": "m41",
+              "file": "la-seraphina/m41.mp3",
+              "title": "Mysterium gaudiosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Praesentatio in templo",
+              "bytes": 14829
+            },
+            {
+              "id": "m51",
+              "file": "la-seraphina/m51.mp3",
+              "title": "Mysterium gaudiosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Inventio in templo",
+              "bytes": 14061
+            },
+            {
+              "id": "m12",
+              "file": "la-seraphina/m12.mp3",
+              "title": "Mysterium luminosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Baptismus Domini Iesu in Iordane",
+              "bytes": 18189
+            },
+            {
+              "id": "m22",
+              "file": "la-seraphina/m22.mp3",
+              "title": "Mysterium luminosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Manifestatio sui in nuptiis Canae Galilaeae",
+              "bytes": 21933
+            },
+            {
+              "id": "m32",
+              "file": "la-seraphina/m32.mp3",
+              "title": "Mysterium luminosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Praedicatio Regni Dei et vocatio ad conversionem",
+              "bytes": 23853
+            },
+            {
+              "id": "m42",
+              "file": "la-seraphina/m42.mp3",
+              "title": "Mysterium luminosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Transfiguratio in monte Tabor",
+              "bytes": 15405
+            },
+            {
+              "id": "m52",
+              "file": "la-seraphina/m52.mp3",
+              "title": "Mysterium luminosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Institutio Eucharistiae",
+              "bytes": 15981
+            },
+            {
+              "id": "m13",
+              "file": "la-seraphina/m13.mp3",
+              "title": "Mysterium dolorosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Oratio in horto Gethsemani",
+              "bytes": 15117
+            },
+            {
+              "id": "m23",
+              "file": "la-seraphina/m23.mp3",
+              "title": "Mysterium dolorosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Flagellatio",
+              "bytes": 19533
+            },
+            {
+              "id": "m33",
+              "file": "la-seraphina/m33.mp3",
+              "title": "Mysterium dolorosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Coronatio spinis",
+              "bytes": 14445
+            },
+            {
+              "id": "m43",
+              "file": "la-seraphina/m43.mp3",
+              "title": "Mysterium dolorosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Via Crucis",
+              "bytes": 12333
+            },
+            {
+              "id": "m53",
+              "file": "la-seraphina/m53.mp3",
+              "title": "Mysterium dolorosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Mors in Cruce",
+              "bytes": 13293
+            },
+            {
+              "id": "m14",
+              "file": "la-seraphina/m14.mp3",
+              "title": "Mysterium gloriosum 1",
+              "group": "Tituli mysteriorum",
+              "text": "Resurrectio Domini Iesu",
+              "bytes": 16653
+            },
+            {
+              "id": "m24",
+              "file": "la-seraphina/m24.mp3",
+              "title": "Mysterium gloriosum 2",
+              "group": "Tituli mysteriorum",
+              "text": "Ascensio",
+              "bytes": 14061
+            },
+            {
+              "id": "m34",
+              "file": "la-seraphina/m34.mp3",
+              "title": "Mysterium gloriosum 3",
+              "group": "Tituli mysteriorum",
+              "text": "Descensus Spiritus Sancti",
+              "bytes": 17805
+            },
+            {
+              "id": "m44",
+              "file": "la-seraphina/m44.mp3",
+              "title": "Mysterium gloriosum 4",
+              "group": "Tituli mysteriorum",
+              "text": "Assumptio Mariae",
+              "bytes": 13677
+            },
+            {
+              "id": "m54",
+              "file": "la-seraphina/m54.mp3",
+              "title": "Mysterium gloriosum 5",
+              "group": "Tituli mysteriorum",
+              "text": "Coronatio Matris Dei in Reginam caeli et terrae",
+              "bytes": 23373
+            }
+          ]
+        }
+      ]
     }
   ]
 }

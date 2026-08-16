@@ -33,6 +33,7 @@ LANGUAGE_ALIASES = {
     "french": "fr",
     "german": "de",
     "italian": "it",
+    "latin": "la",
     "polish": "pl",
     "portuguese": "pt",
     "spanish": "es",
@@ -55,6 +56,10 @@ LANGUAGE_AUDIO_KEYS = {
         re.compile(r"^m[1-5][1-5]$"),
     ),
     "it": (
+        re.compile(r"^mT[1-5]$"),
+        re.compile(r"^m[1-5][1-5]$"),
+    ),
+    "la": (
         re.compile(r"^mT[1-5]$"),
         re.compile(r"^m[1-5][1-5]$"),
     ),
@@ -711,7 +716,7 @@ def generate_variant(
             "exaggeration": config.get("exaggeration"),
             "cfg_weight": config.get("cfg_weight"),
             "speed_factor": config.get("speed_factor"),
-            "language": api_language(config.get("language")),
+            "language": api_language(config.get("tts_language", config.get("language"))),
             "stream": False,
         }
         payload = {key: value for key, value in payload.items() if value is not None}
