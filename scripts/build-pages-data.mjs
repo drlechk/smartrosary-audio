@@ -33,6 +33,7 @@ const clipTitles = {
     '021': 'Our Father, second part',
     '030': 'Hail Mary, first part',
     '031': 'Hail Mary, second part',
+    '032': 'We fly to Thy protection',
     '040': 'Glory Be',
     '050': 'Fatima prayer',
     '060': 'Divine Mercy Chaplet: Eternal Father prayer',
@@ -52,6 +53,7 @@ const clipTitles = {
     '021': 'Ojcze nasz, druga część',
     '030': 'Zdrowaś Maryjo, pierwsza część',
     '031': 'Zdrowaś Maryjo, druga część',
+    '032': 'Pod Twoją obronę',
     '040': 'Chwała Ojcu',
     '050': 'Modlitwa fatimska',
     '060': 'Koronka do Miłosierdzia Bożego: modlitwa Ojcze Przedwieczny',
@@ -71,6 +73,7 @@ const clipTitles = {
     '021': 'Vaterunser, zweiter Teil',
     '030': 'Gegrüßet seist du, Maria, erster Teil',
     '031': 'Gegrüßet seist du, Maria, zweiter Teil',
+    '032': 'Unter deinen Schutz',
     '040': 'Ehre sei dem Vater',
     '050': 'Fatima-Gebet',
     '060': 'Barmherzigkeitsrosenkranz: Ewiger Vater',
@@ -90,6 +93,7 @@ const clipTitles = {
     '021': 'Padre nuestro, segunda parte',
     '030': 'Ave María, primera parte',
     '031': 'Ave María, segunda parte',
+    '032': 'Bajo tu amparo',
     '040': 'Gloria al Padre',
     '050': 'Oración de Fátima',
     '060': 'Coronilla de la Divina Misericordia: oración del Padre Eterno',
@@ -109,6 +113,7 @@ const clipTitles = {
     '021': 'Notre Père, deuxième partie',
     '030': 'Je vous salue Marie, première partie',
     '031': 'Je vous salue Marie, deuxième partie',
+    '032': 'Sous l’abri de ta miséricorde',
     '040': 'Gloire au Père',
     '050': 'Prière de Fatima',
     '060': 'Chapelet de la Divine Miséricorde : prière du Père Éternel',
@@ -128,6 +133,7 @@ const clipTitles = {
     '021': 'Padre nostro, seconda parte',
     '030': 'Ave Maria, prima parte',
     '031': 'Ave Maria, seconda parte',
+    '032': 'Sotto la tua protezione',
     '040': 'Gloria al Padre',
     '050': 'Preghiera di Fatima',
     '060': 'Coroncina della Divina Misericordia: preghiera dell\'Eterno Padre',
@@ -147,6 +153,7 @@ const clipTitles = {
     '021': 'Pai Nosso, segunda parte',
     '030': 'Avé Maria, primeira parte',
     '031': 'Avé Maria, segunda parte',
+    '032': 'À Vossa Proteção',
     '040': 'Glória ao Pai',
     '050': 'Oração de Fátima',
     '060': 'Terço da Divina Misericórdia: oração do Pai Eterno',
@@ -166,6 +173,7 @@ const clipTitles = {
     '021': 'Pater Noster, pars secunda',
     '030': 'Ave Maria, pars prima',
     '031': 'Ave Maria, pars secunda',
+    '032': 'Sub tuum praesidium',
     '040': 'Gloria Patri',
     '050': 'Oratio Fatimae',
     '060': 'Corona Divinae Misericordiae: Pater aeterne',
@@ -284,7 +292,7 @@ const clipGroups = {
 };
 
 const fixedOrder = [
-  '010', '020', '021', '030', '031', '040', '050',
+  '010', '020', '021', '030', '031', '032', '040', '050',
   '060', '070', '071', '080', '090',
   'mT1', 'mT2', 'mT3', 'mT4', 'mT5'
 ];

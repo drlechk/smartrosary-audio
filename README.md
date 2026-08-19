@@ -45,6 +45,7 @@ inspected and reused for another cleanup pass without calling Chatterbox again.
 | `021.mp3` | Our Father, second part | `basic-prayer-texts.json`, key `021` |
 | `030.mp3` | Hail Mary, first part | `basic-prayer-texts.json`, key `030` |
 | `031.mp3` | Hail Mary, second part | `basic-prayer-texts.json`, key `031` |
+| `032.mp3` | Sub tuum praesidium / Pod Twoją obronę | `basic-prayer-texts.json`, key `032` |
 | `040.mp3` | Glory Be | `basic-prayer-texts.json`, key `040` |
 | `050.mp3` | Fatima prayer | `basic-prayer-texts.json`, key `050` |
 | `060.mp3` | Divine Mercy Chaplet: Eternal Father prayer | `basic-prayer-texts.json`, key `060` |
@@ -58,6 +59,11 @@ inspected and reused for another cleanup pass without calling Chatterbox again.
 | `mT4.mp3` | Glorious Mysteries set title | `audio-languages/<language>.json`, key `mT4` |
 | `mT5.mp3` | Divine Mercy Chaplet title | `audio-languages/<language>.json`, key `mT5` |
 | `mXY.mp3` | Rosary mystery title, where `X` is mystery number `1`-`5` and `Y` is set `1` Joyful, `2` Luminous, `3` Sorrowful, or `4` Glorious | `audio-languages/<language>.json`, key `mXY`, with spoken prefixes from `mystery-prefix.json` |
+
+The `032.mp3` Sub tuum praesidium texts follow the Vatican News prayer pages
+for English, German, Spanish, French, Italian, and Portuguese; the Polish text
+uses the form unified by the Polish Bishops' Conference on 2020-08-28; the
+Latin text uses the Roman liturgical form.
 
 ## Generate Audio
 

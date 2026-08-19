@@ -9,7 +9,7 @@
           "voice": "Florian Multilingual",
           "language": "polish",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -50,6 +50,14 @@
               "group": "Modlitwy różańcowe",
               "text": "Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej, Amen.",
               "bytes": 24429
+            },
+            {
+              "id": "032",
+              "file": "pl-florian/032.mp3",
+              "title": "Pod Twoją obronę",
+              "group": "Modlitwy różańcowe",
+              "text": "Pod Twoją obronę uciekamy się, Święta Boża Rodzicielko, naszymi prośbami racz nie gardzić w potrzebach naszych, ale od wszelakich złych przygód racz nas zawsze wybawiać, Panno chwalebna i błogosławiona. O Pani nasza, Orędowniczko nasza, Pośredniczko nasza, Pocieszycielko nasza. Z Synem swoim nas pojednaj, Synowi swojemu nas polecaj, swojemu Synowi nas oddawaj.",
+              "bytes": 80781
             },
             {
               "id": "040",
@@ -314,7 +322,7 @@
           "voice": "Seraphina Multilingual",
           "language": "polish",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -355,6 +363,14 @@
               "group": "Modlitwy różańcowe",
               "text": "Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej, Amen.",
               "bytes": 25677
+            },
+            {
+              "id": "032",
+              "file": "pl-seraphina/032.mp3",
+              "title": "Pod Twoją obronę",
+              "group": "Modlitwy różańcowe",
+              "text": "Pod Twoją obronę uciekamy się, Święta Boża Rodzicielko, naszymi prośbami racz nie gardzić w potrzebach naszych, ale od wszelakich złych przygód racz nas zawsze wybawiać, Panno chwalebna i błogosławiona. O Pani nasza, Orędowniczko nasza, Pośredniczko nasza, Pocieszycielko nasza. Z Synem swoim nas pojednaj, Synowi swojemu nas polecaj, swojemu Synowi nas oddawaj.",
+              "bytes": 91917
             },
             {
               "id": "040",
@@ -625,7 +641,7 @@
           "voice": "Florian Multilingual",
           "language": "english",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -666,6 +682,14 @@
               "group": "Rosary prayers",
               "text": "Holy Mary, Mother of God, pray for us sinners now and at the hour of our death. Amen.",
               "bytes": 20205
+            },
+            {
+              "id": "032",
+              "file": "en-florian/032.mp3",
+              "title": "We fly to Thy protection",
+              "group": "Rosary prayers",
+              "text": "We fly to Thy protection, O Holy Mother of God. Do not despise our petitions in our necessities, but deliver us always from all dangers, O Glorious and Blessed Virgin.",
+              "bytes": 37293
             },
             {
               "id": "040",
@@ -930,7 +954,7 @@
           "voice": "Seraphina Multilingual",
           "language": "english",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -971,6 +995,14 @@
               "group": "Rosary prayers",
               "text": "Holy Mary, Mother of God, pray for us sinners now and at the hour of our death. Amen.",
               "bytes": 22893
+            },
+            {
+              "id": "032",
+              "file": "en-seraphina/032.mp3",
+              "title": "We fly to Thy protection",
+              "group": "Rosary prayers",
+              "text": "We fly to Thy protection, O Holy Mother of God. Do not despise our petitions in our necessities, but deliver us always from all dangers, O Glorious and Blessed Virgin.",
+              "bytes": 44205
             },
             {
               "id": "040",
@@ -1241,7 +1273,7 @@
           "voice": "Florian Multilingual",
           "language": "german",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -1282,6 +1314,14 @@
               "group": "Rosenkranzgebete",
               "text": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.",
               "bytes": 24621
+            },
+            {
+              "id": "032",
+              "file": "de-florian/032.mp3",
+              "title": "Unter deinen Schutz",
+              "group": "Rosenkranzgebete",
+              "text": "Unter deinen Schutz und Schirm fliehen wir, o heilige Gottesgebärerin. Verschmähe nicht unser Gebet in unsern Nöten, sondern erlöse uns jederzeit von allen Gefahren, o du glorreiche und gebenedeite Jungfrau.",
+              "bytes": 43917
             },
             {
               "id": "040",
@@ -1546,7 +1586,7 @@
           "voice": "Seraphina Multilingual",
           "language": "german",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -1587,6 +1627,14 @@
               "group": "Rosenkranzgebete",
               "text": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.",
               "bytes": 27789
+            },
+            {
+              "id": "032",
+              "file": "de-seraphina/032.mp3",
+              "title": "Unter deinen Schutz",
+              "group": "Rosenkranzgebete",
+              "text": "Unter deinen Schutz und Schirm fliehen wir, o heilige Gottesgebärerin. Verschmähe nicht unser Gebet in unsern Nöten, sondern erlöse uns jederzeit von allen Gefahren, o du glorreiche und gebenedeite Jungfrau.",
+              "bytes": 49773
             },
             {
               "id": "040",
@@ -1857,7 +1905,7 @@
           "voice": "Florian Multilingual",
           "language": "french",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -1898,6 +1946,14 @@
               "group": "Prières du chapelet",
               "text": "Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.",
               "bytes": 23373
+            },
+            {
+              "id": "032",
+              "file": "fr-florian/032.mp3",
+              "title": "Sous l’abri de ta miséricorde",
+              "group": "Prières du chapelet",
+              "text": "Sous l’abri de ta miséricorde, nous nous réfugions, Sainte Mère de Dieu. Ne méprise pas nos prières quand nous sommes dans l’épreuve, mais de tous les dangers délivre-nous toujours, Vierge glorieuse et bénie.",
+              "bytes": 41421
             },
             {
               "id": "040",
@@ -2162,7 +2218,7 @@
           "voice": "Seraphina Multilingual",
           "language": "french",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -2203,6 +2259,14 @@
               "group": "Prières du chapelet",
               "text": "Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.",
               "bytes": 28461
+            },
+            {
+              "id": "032",
+              "file": "fr-seraphina/032.mp3",
+              "title": "Sous l’abri de ta miséricorde",
+              "group": "Prières du chapelet",
+              "text": "Sous l’abri de ta miséricorde, nous nous réfugions, Sainte Mère de Dieu. Ne méprise pas nos prières quand nous sommes dans l’épreuve, mais de tous les dangers délivre-nous toujours, Vierge glorieuse et bénie.",
+              "bytes": 42189
             },
             {
               "id": "040",
@@ -2473,7 +2537,7 @@
           "voice": "Florian Multilingual",
           "language": "spanish",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -2514,6 +2578,14 @@
               "group": "Oraciones del rosario",
               "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
               "bytes": 27789
+            },
+            {
+              "id": "032",
+              "file": "es-florian/032.mp3",
+              "title": "Bajo tu amparo",
+              "group": "Oraciones del rosario",
+              "text": "Bajo tu amparo nos acogemos, santa Madre de Dios; no deseches las súplicas que te dirigimos en nuestras necesidades, antes bien, líbranos de todo peligro, ¡oh siempre Virgen, gloriosa y bendita!",
+              "bytes": 44493
             },
             {
               "id": "040",
@@ -2778,7 +2850,7 @@
           "voice": "Seraphina Multilingual",
           "language": "spanish",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -2819,6 +2891,14 @@
               "group": "Oraciones del rosario",
               "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
               "bytes": 29133
+            },
+            {
+              "id": "032",
+              "file": "es-seraphina/032.mp3",
+              "title": "Bajo tu amparo",
+              "group": "Oraciones del rosario",
+              "text": "Bajo tu amparo nos acogemos, santa Madre de Dios; no deseches las súplicas que te dirigimos en nuestras necesidades, antes bien, líbranos de todo peligro, ¡oh siempre Virgen, gloriosa y bendita!",
+              "bytes": 50733
             },
             {
               "id": "040",
@@ -3089,7 +3169,7 @@
           "voice": "Florian Multilingual",
           "language": "italian",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -3130,6 +3210,14 @@
               "group": "Preghiere del rosario",
               "text": "Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.",
               "bytes": 21837
+            },
+            {
+              "id": "032",
+              "file": "it-florian/032.mp3",
+              "title": "Sotto la tua protezione",
+              "group": "Preghiere del rosario",
+              "text": "Sotto la tua protezione cerchiamo rifugio, Santa Madre di Dio. Non disprezzare le suppliche di noi che siamo nella prova, ma liberaci da ogni pericolo, o Vergine gloriosa e benedetta.",
+              "bytes": 39405
             },
             {
               "id": "040",
@@ -3394,7 +3482,7 @@
           "voice": "Seraphina Multilingual",
           "language": "italian",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -3435,6 +3523,14 @@
               "group": "Preghiere del rosario",
               "text": "Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.",
               "bytes": 26349
+            },
+            {
+              "id": "032",
+              "file": "it-seraphina/032.mp3",
+              "title": "Sotto la tua protezione",
+              "group": "Preghiere del rosario",
+              "text": "Sotto la tua protezione cerchiamo rifugio, Santa Madre di Dio. Non disprezzare le suppliche di noi che siamo nella prova, ma liberaci da ogni pericolo, o Vergine gloriosa e benedetta.",
+              "bytes": 43917
             },
             {
               "id": "040",
@@ -3705,7 +3801,7 @@
           "voice": "Florian Multilingual",
           "language": "portuguese",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -3746,6 +3842,14 @@
               "group": "Orações do rosário",
               "text": "Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Ámen.",
               "bytes": 23181
+            },
+            {
+              "id": "032",
+              "file": "pt-florian/032.mp3",
+              "title": "À Vossa Proteção",
+              "group": "Orações do rosário",
+              "text": "À Vossa Proteção recorremos, Santa Mãe de Deus. Não desprezeis as nossas súplicas em nossas necessidades, mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita.",
+              "bytes": 41229
             },
             {
               "id": "040",
@@ -4010,7 +4114,7 @@
           "voice": "Seraphina Multilingual",
           "language": "portuguese",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -4051,6 +4155,14 @@
               "group": "Orações do rosário",
               "text": "Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Ámen.",
               "bytes": 25293
+            },
+            {
+              "id": "032",
+              "file": "pt-seraphina/032.mp3",
+              "title": "À Vossa Proteção",
+              "group": "Orações do rosário",
+              "text": "À Vossa Proteção recorremos, Santa Mãe de Deus. Não desprezeis as nossas súplicas em nossas necessidades, mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita.",
+              "bytes": 43917
             },
             {
               "id": "040",
@@ -4321,7 +4433,7 @@
           "voice": "Florian Multilingual",
           "language": "latin",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -4362,6 +4474,14 @@
               "group": "Preces Rosarii",
               "text": "Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.",
               "bytes": 25773
+            },
+            {
+              "id": "032",
+              "file": "la-florian/032.mp3",
+              "title": "Sub tuum praesidium",
+              "group": "Preces Rosarii",
+              "text": "Sub tuum praesídium confúgimus, sancta Dei Génetrix; nostras deprecatiónes ne despícias in necessitátibus, sed a perículis cunctis líbera nos semper, Virgo gloriósa et benedícta.",
+              "bytes": 43917
             },
             {
               "id": "040",
@@ -4626,7 +4746,7 @@
           "voice": "Seraphina Multilingual",
           "language": "latin",
           "version": "1.1",
-          "clipCount": 37,
+          "clipCount": 38,
           "clips": [
             {
               "id": "010",
@@ -4667,6 +4787,14 @@
               "group": "Preces Rosarii",
               "text": "Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.",
               "bytes": 28461
+            },
+            {
+              "id": "032",
+              "file": "la-seraphina/032.mp3",
+              "title": "Sub tuum praesidium",
+              "group": "Preces Rosarii",
+              "text": "Sub tuum praesídium confúgimus, sancta Dei Génetrix; nostras deprecatiónes ne despícias in necessitátibus, sed a perículis cunctis líbera nos semper, Virgo gloriósa et benedícta.",
+              "bytes": 47949
             },
             {
               "id": "040",
