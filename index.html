@@ -291,6 +291,24 @@
     .clip-text.hidden {
       display: none;
     }
+    .clip-sources {
+      margin: 0.45rem 0 0;
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.4;
+    }
+    .clip-sources.hidden {
+      display: none;
+    }
+    .clip-sources a {
+      color: var(--accent-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .clip-sources a:hover,
+    .clip-sources a:focus {
+      text-decoration: underline;
+    }
     .clip audio {
       width: 100%;
       min-width: 0;
@@ -452,6 +470,7 @@
           filterAudio: 'Filter audio files',
           searchPlaceholder: 'Search by file, title, or text',
           textLabel: 'Text',
+          sourceLabel: 'Sources',
           hideAllText: 'Hide all text',
           showAllText: 'Show all text',
           hideText: 'Hide text',
@@ -476,6 +495,7 @@
           filterAudio: 'Filtruj pliki audio',
           searchPlaceholder: 'Szukaj po pliku, tytule lub tekście',
           textLabel: 'Tekst',
+          sourceLabel: 'Źródła',
           hideAllText: 'Ukryj cały tekst',
           showAllText: 'Pokaż cały tekst',
           hideText: 'Ukryj tekst',
@@ -500,6 +520,7 @@
           filterAudio: 'Audiodateien filtern',
           searchPlaceholder: 'Nach Datei, Titel oder Text suchen',
           textLabel: 'Text',
+          sourceLabel: 'Quellen',
           hideAllText: 'Gesamten Text ausblenden',
           showAllText: 'Gesamten Text anzeigen',
           hideText: 'Text ausblenden',
@@ -524,6 +545,7 @@
           filterAudio: 'Filtrer les fichiers audio',
           searchPlaceholder: 'Rechercher par fichier, titre ou texte',
           textLabel: 'Texte',
+          sourceLabel: 'Sources',
           hideAllText: 'Masquer tout le texte',
           showAllText: 'Afficher tout le texte',
           hideText: 'Masquer le texte',
@@ -548,6 +570,7 @@
           filterAudio: 'Filtrar archivos de audio',
           searchPlaceholder: 'Buscar por archivo, título o texto',
           textLabel: 'Texto',
+          sourceLabel: 'Fuentes',
           hideAllText: 'Ocultar todo el texto',
           showAllText: 'Mostrar todo el texto',
           hideText: 'Ocultar texto',
@@ -572,6 +595,7 @@
           filterAudio: 'Filtrar ficheiros de áudio',
           searchPlaceholder: 'Procurar por ficheiro, título ou texto',
           textLabel: 'Texto',
+          sourceLabel: 'Fontes',
           hideAllText: 'Ocultar todo o texto',
           showAllText: 'Mostrar todo o texto',
           hideText: 'Ocultar texto',
@@ -699,6 +723,23 @@
         return state.textOverrides.has(key) ? state.textOverrides.get(key) : state.showAllText;
       }
 
+      function getSearchText(clip) {
+        const sources = Array.isArray(clip.sources)
+          ? clip.sources.map((source) => `${source.label || ''} ${source.url || ''}`)
+          : [];
+        return [clip.id, clip.file, clip.title, clip.group, clip.text, ...sources].join(' ');
+      }
+
+      function renderClipSources(clip, textVisible, dict) {
+        if (!Array.isArray(clip.sources) || !clip.sources.length) return '';
+        const links = clip.sources.map((source) => {
+          const label = source.label || source.url || '';
+          if (!source.url) return escapeHtml(label);
+          return `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
+        }).join(' · ');
+        return `<p class="clip-sources${textVisible ? '' : ' hidden'}"><strong>${escapeHtml(dict.sourceLabel)}:</strong> ${links}</p>`;
+      }
+
       function updateTextControl() {
         const dict = getStrings();
         els.textControl.textContent = state.showAllText ? dict.hideAllText : dict.showAllText;
@@ -753,7 +794,7 @@
         const query = state.query.trim().toLowerCase();
         const clips = query
           ? variant.clips.filter((clip) =>
-              [clip.id, clip.file, clip.title, clip.group, clip.text].join(' ').toLowerCase().includes(query)
+              getSearchText(clip).toLowerCase().includes(query)
             )
           : variant.clips;
 
@@ -784,6 +825,7 @@
               </div>
               <p class="clip-group">${escapeHtml(clip.group)}</p>
               ${hasText ? `<p class="clip-text expanded${textVisible ? '' : ' hidden'}">${escapeHtml(clip.text)}</p>` : ''}
+              ${hasText ? renderClipSources(clip, textVisible, dict) : ''}
             </div>
             <div>
               <audio controls preload="metadata" src="${encodeURI(clip.file)}" data-bytes="${clip.bytes}"></audio>

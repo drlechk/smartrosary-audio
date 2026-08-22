@@ -297,6 +297,94 @@ const fixedOrder = [
   'mT1', 'mT2', 'mT3', 'mT4', 'mT5'
 ];
 
+const compendiumUrls = {
+  en: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html',
+  de: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_ge.html',
+  es: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_sp.html',
+  fr: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_fr.html',
+  it: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_it.html',
+  pt: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_po.html'
+};
+
+const migrantRosaryUrls = {
+  en: 'https://www.vatican.va/roman_curia/pontifical_councils/migrants/Rosario/rc_pc_migrants_rosario_en.html',
+  de: 'https://www.vatican.va/roman_curia/pontifical_councils/migrants/Rosario/rc_pc_migrants_rosario_ge.html',
+  es: 'https://www.vatican.va/roman_curia/pontifical_councils/migrants/Rosario/rc_pc_migrants_rosario_sp.html',
+  fr: 'https://www.vatican.va/roman_curia/pontifical_councils/migrants/Rosario/rc_pc_migrants_rosario_fr.html',
+  it: 'https://www.vatican.va/roman_curia/pontifical_councils/migrants/Rosario/rc_pc_migrants_rosario_it.html',
+  pt: 'https://www.vatican.va/roman_curia/pontifical_councils/migrants/Rosario/rc_pc_migrants_rosario_po.html'
+};
+
+const divineMercyUrls = {
+  en: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_en.html',
+  de: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_ge.html',
+  es: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_sp.html',
+  fr: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_fr.html',
+  it: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_it.html',
+  pl: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_pl.html',
+  pt: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_po.html',
+  la: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_lt.html'
+};
+
+const sourceRefs = {
+  commonPrayers: {
+    label: 'Vatican: Compendium of the Catechism of the Catholic Church, Appendix A - Common Prayers',
+    urls: compendiumUrls,
+    fallbackLanguage: 'en'
+  },
+  rosaryMysteries: {
+    label: 'Vatican: Compendium of the Catechism of the Catholic Church, The Rosary',
+    urls: {
+      ...compendiumUrls,
+      pl: 'https://www.vatican.va/content/john-paul-ii/pl/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html',
+      la: 'https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html'
+    },
+    fallbackLanguage: 'en'
+  },
+  subTuum: {
+    label: 'Vatican: Enchiridion Indulgentiarum, Sub tuum praesidium',
+    urls: {
+      la: 'https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020826_enchiridion-indulgentiarum_lt.html'
+    },
+    fallbackLanguage: 'la'
+  },
+  fatimaPrayer: {
+    label: 'Vatican: Rosary of Migrants and Itinerants, O My Jesus',
+    urls: migrantRosaryUrls,
+    fallbackLanguage: 'en'
+  },
+  divineMercy: {
+    label: 'Vatican: Apostolic Penitentiary Decree on Divine Mercy devotions',
+    urls: divineMercyUrls,
+    fallbackLanguage: 'en'
+  }
+};
+
+function getSourceRef(sourceKey, languageCode) {
+  const source = sourceRefs[sourceKey];
+  const sourceLanguage = source.urls[languageCode] ? languageCode : source.fallbackLanguage;
+  const fallbackNote = sourceLanguage === languageCode ? '' : ` (${languageNames[sourceLanguage] || sourceLanguage.toUpperCase()})`;
+  return {
+    label: `${source.label}${fallbackNote}`,
+    url: source.urls[sourceLanguage]
+  };
+}
+
+function getClipSources(id, languageCode) {
+  if (['010', '020', '021', '030', '031', '040'].includes(id)) {
+    return [getSourceRef('commonPrayers', languageCode)];
+  }
+  if (id === '032') return [getSourceRef('subTuum', languageCode)];
+  if (id === '050') return [getSourceRef('fatimaPrayer', languageCode)];
+  if (['060', '070', '071', '080', '090', 'mT5'].includes(id)) {
+    return [getSourceRef('divineMercy', languageCode)];
+  }
+  if (/^mT[1-4]$/.test(id) || /^m[1-5][1-4]$/.test(id)) {
+    return [getSourceRef('rosaryMysteries', languageCode)];
+  }
+  return [];
+}
+
 function clipSortKey(id) {
   const fixedIndex = fixedOrder.indexOf(id);
   if (fixedIndex !== -1) return fixedIndex;
@@ -413,6 +501,7 @@ async function build() {
         title: getClipTitle(id, languageCode),
         group: getClipGroup(id, languageCode),
         text: basic.texts?.[languageCode]?.[id] || audioTexts[id] || '',
+        sources: getClipSources(id, languageCode),
         bytes: stat.size
       };
     }));
